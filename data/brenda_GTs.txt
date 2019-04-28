@@ -580,7 +580,7 @@ KM	#20# 7.56 {UDP-N-acetyl-D-glucosamine}  (#20# mutant Lec1A <22>) <22>
 KM	#24# 0.5
 	{Manalpha(1-6)[Manalpha(1-3)]Manalpha(1-6)[Manalpha(1-3)]Manbeta(1
 	4)GlcNAcbeta(1-4)GlcNAc-pyridylaminoside}  (#24# recombinant enzyme, pH
-	not specified in the publication, at 25°C <46>) <46>
+	not specified in the publication, at 25Â°C <46>) <46>
 KM	#5# 0.483 {Man5GlcNAc2}  (#5# recombinant fusion protein <21>) <21>
 KM	#6# 0.3 {6-O-methyl-Manalpha6(Manalpha3)Man-beta-octyl}  <31>
 KM	#6# 0.6 {2-deoxy-Manalpha6(Manalpha3)Man-beta-octyl}  <31>
@@ -717,8 +717,8 @@ TO	#6,7,8,9,12,14,15,25# 37 (#6,7,8,9,12,14,15,25# assay at
 TEMPERATURE_RANGE
 TR	#24# 0-45 (#24# the activity decreases with increasing reaction
 	temperature and is completely abolished at temperatures higher than
-	45°C. On the other hand, substantial GnTI activity is detected at low
-	temperatures, even at 0°C (approximately 50% of the maximum) <46>) <46>
+	45Â°C. On the other hand, substantial GnTI activity is detected at low
+	temperatures, even at 0Â°C (approximately 50% of the maximum) <46>) <46>
 TR	#5# 0-70 (#5# recombinant fusion protein <21>) <21>
 
 ACTIVATING_COMPOUND
@@ -1144,20 +1144,20 @@ PHS	#24# 5-10 (#24# the enzymatic activity is maintained after a 90-min
 	values 5.0 and 10.0 <46>) <46>
 
 STORAGE_STABILITY
-SS	#7# (-20°C, at least 6 months) <7>
-SS	#7# (3°C, at least a month) <4>
-SS	#8# (4°C, in dilute solution, t1/2: 1 day) <5>
-SS	#8# (4°C, in the presence of albumin, at least a month) <5>
-SS	#9# (-20°C, 20% glycerol v/v, up to a year) <3>
-SS	#9# (4°C, in 20% glycerol, 0.1% Triton X-100, 25 mM MES-buffer, pH
+SS	#7# (-20Â°C, at least 6 months) <7>
+SS	#7# (3Â°C, at least a month) <4>
+SS	#8# (4Â°C, in dilute solution, t1/2: 1 day) <5>
+SS	#8# (4Â°C, in the presence of albumin, at least a month) <5>
+SS	#9# (-20Â°C, 20% glycerol v/v, up to a year) <3>
+SS	#9# (4Â°C, in 20% glycerol, 0.1% Triton X-100, 25 mM MES-buffer, pH
 	6.5, 10 mM MnCl2, 1 mM PMSF, 0.1 mM 6-aminocaproic acid and 0.02% NaN3,
 	several months) <12>
 
 TEMPERATURE_STABILITY
 TS	#24# 25-45 (#24# the activity is stable after a 2 h incubation at a
-	temperature lower than 25°C, but it significantly decreases after
-	incubation at 35°C and is completely abolished at temperatures higher
-	than 45°C <46>) <46>
+	temperature lower than 25Â°C, but it significantly decreases after
+	incubation at 35Â°C and is completely abolished at temperatures higher
+	than 45Â°C <46>) <46>
 
 REFERENCE
 RF	<1> Tezuka, K.; Hayashi, M.; Ishihara, H.; Akazawa, T.; Takahashi, N.:
@@ -1165,7 +1165,7 @@ RF	<1> Tezuka, K.; Hayashi, M.; Ishihara, H.; Akazawa, T.; Takahashi, N.:
 	oligosaccharides deduced from substrate specificities of the processing
 	enzymes in sycamore cells (Acer pseudoplatanus L.). Eur. J. Biochem.
 	(1992) 203, 401-413. {Pubmed:1531192}
-RF	<2> Möller, G.; Reck, F.; Paulsen, H.; Kaur, K.J.; Sarkar, M.;
+RF	<2> MÃ¶ller, G.; Reck, F.; Paulsen, H.; Kaur, K.J.; Sarkar, M.;
 	Schachter, H.; Brockhausen, I.: Control of glycoprotein synthesis:
 	substrate specificity of rat liver UDP-GlcNAc:
 	Man-alpha-3R-beta-2-N-acetylglucosaminyltransferase I using synthetic
@@ -1725,10 +1725,10 @@ SP	#6,10# UDP-N-acetyl-D-glucosamine +
 KM_VALUE
 KM	#13# 0.19
 	{alpha-D-mannosyl-1,6-(N-acetyl-D-glucosaminyl-1,2-alpha-D-mannosyl-1
-	3)-beta-D-mannosyl-1,4-N-acetylglucosaminyl-R}  (#13# pH 6.5, 37°C
+	3)-beta-D-mannosyl-1,4-N-acetylglucosaminyl-R}  (#13# pH 6.5, 37Â°C
 	<5>) <5>
-KM	#13# 0.96 {UDP-N-acetylglucosamine}  (#13# pH 6.5, 37°C <5>) <5>
-KM	#15# 0.23 {UDP-N-acetylglucosamine}  (#15# pH 6.5, 37°C <6>) <6>
+KM	#13# 0.96 {UDP-N-acetylglucosamine}  (#13# pH 6.5, 37Â°C <5>) <5>
+KM	#15# 0.23 {UDP-N-acetylglucosamine}  (#15# pH 6.5, 37Â°C <6>) <6>
 KM	#2# 0.018 {UDP-N-acetylglucosamine}  (#2# pH 6.5 <11>) <11>
 KM	#2# 0.0166
 	{alpha-D-mannosyl-1,6-(N-acetyl-D-glucosaminyl-1,2-alpha-D-mannosyl-1
@@ -1761,17 +1761,17 @@ KM	#5# 0.48
 	<28>
 KM	#6# 0.16
 	{4-O-methyl-alpha-D-mannosyl-1,6-(N-acetyl-beta-D-glucosaminyl-1
-	2-alpha-D-mannosyl-1,3)-beta-D-mannosyl-O-octyl}  (#6# 37°C <20>) <20>
+	2-alpha-D-mannosyl-1,3)-beta-D-mannosyl-O-octyl}  (#6# 37Â°C <20>) <20>
 KM	#6# 0.55
 	{alpha-D-mannosyl-1,6-(N-acetyl-beta-D-glucosaminyl-1
-	2-6-deoxy-alpha-D-mannosyl-1,3)-beta-D-mannosyl-O-octyl}  (#6# 37°C
+	2-6-deoxy-alpha-D-mannosyl-1,3)-beta-D-mannosyl-O-octyl}  (#6# 37Â°C
 	<20>) <20>
 KM	#6# 0.13
 	{alpha-D-mannosyl-1,6-(N-acetyl-beta-D-glucosaminyl-1
-	2-alpha-D-mannosyl-1,3)-beta-D-mannosyl-O-octyl}  (#6# 37°C <20>) <20>
+	2-alpha-D-mannosyl-1,3)-beta-D-mannosyl-O-octyl}  (#6# 37Â°C <20>) <20>
 KM	#8# 0.1
 	{alpha-D-mannosyl-1,6-(N-acetyl-D-glucosaminyl-1,2-alpha-D-mannosyl-1
-	3)-beta-D-mannosyl-1,4-N-acetylglucosaminyl-R}  (#8# 37°C <2>) <2>
+	3)-beta-D-mannosyl-1,4-N-acetylglucosaminyl-R}  (#8# 37Â°C <2>) <2>
 
 PH_OPTIMUM
 PHO	#15# 5-8 <6>
@@ -1942,10 +1942,10 @@ GS	#6# (Triton X-100 stabilizes) <9>
 GS	#7# (acetone precipitation, unstable to) <3>
 
 STORAGE_STABILITY
-SS	#2# (0°C, at least 1 week) <11>
-SS	#2# (-20°C, several weeks in 20% glycerol, 0.0005 mM DTT and 0.1%
+SS	#2# (0Â°C, at least 1 week) <11>
+SS	#2# (-20Â°C, several weeks in 20% glycerol, 0.0005 mM DTT and 0.1%
 	Triton X-100) <11>
-SS	#6# (4°C, at least 6 months in 20% glycerol, 10 mM EDTA and 0.1%
+SS	#6# (4Â°C, at least 6 months in 20% glycerol, 10 mM EDTA and 0.1%
 	Triton X-100) <9>
 
 REFERENCE
@@ -1995,7 +1995,7 @@ RF	<11> Szumilo, T.; Kaushal, G.P.; Elbein, A.D.: Purification and
 	N-acetylglucosaminyltransferase II from plants. Biochemistry (1987) 26,
 	5498-5505. {Pubmed:2960375}
 RF	<12> Strasser, R.; Steinkellner, H.; Boren, M.; Altmann, F.; Mach, L.;
-	GlÖssl, J.; Mucha, J.: Molecular cloning of cDNA encoding
+	GlÃ–ssl, J.; Mucha, J.: Molecular cloning of cDNA encoding
 	N-acetylglucosaminyltransferase II from Arabidopsis thaliana.
 	Glycoconj. J. (2000) 16, 787-791. {Pubmed:11229321}
 RF	<13> Tan, J.; D'Agostaro, G.A.F.; Bendiak, B.; Reck, F.; Sarkar, M.;
@@ -3119,7 +3119,7 @@ PU	#8# <11>
 PU	#8# (primary structure) <4,16>
 
 STORAGE_STABILITY
-SS	#1# (-20°C, chicken oviduct microsomal preparation, several months in
+SS	#1# (-20Â°C, chicken oviduct microsomal preparation, several months in
 	detergent-free buffer) <1>
 
 REFERENCE
@@ -3688,43 +3688,43 @@ SP	#3# UDP-N-acetyl-D-glucosamine + biantennary N-glycan = ? (#3# the
 KM_VALUE
 KM	#3# 10.5
 	{GlcNAcbeta1-2Manalpha1-3(Manalpha1-6)Manbeta1-4GlcNAcbeta1-4GlcNAc-2
-	aminopyridine}  (#3# 37°C, pH 7.5, recombinant full-length
+	aminopyridine}  (#3# 37Â°C, pH 7.5, recombinant full-length
 	N-acetylglucosaminyltransferase-IVb <15>) <15>
-KM	#3# 0.118 {UDP-N-acetyl-D-glucosamine}  (#3# 37°C, pH 7.5, recombinant
+KM	#3# 0.118 {UDP-N-acetyl-D-glucosamine}  (#3# 37Â°C, pH 7.5, recombinant
 	full-length N-acetylglucosaminyltransferase-IVa <15>) <15>
 KM	#3# 3.19
 	{GlcNAcbeta1-2Manalpha1-3(Manalpha1-6)Manbeta1-4GlcNAcbeta1-4GlcNAc-2
-	aminopyridine}  (#3# 37°C, pH 7.5, recombinant full-length
+	aminopyridine}  (#3# 37Â°C, pH 7.5, recombinant full-length
 	N-acetylglucosaminyltransferase-IVa <15>) <15>
 KM	#3# 3.35
 	{GlcNAcbeta1-2(GlcNAcbeta1-6)Manalpha1-6(GlcNAcbeta1-2Manalpha1
-	3)Manbeta1-4GlcNAcbeta1-4GlcNAc-2-aminopyridine}  (#3# 37°C, pH 7.5,
+	3)Manbeta1-4GlcNAcbeta1-4GlcNAc-2-aminopyridine}  (#3# 37Â°C, pH 7.5,
 	recombinant full-length N-acetylglucosaminyltransferase-IVb <15>) <15>
 KM	#3# 1.04
 	{GlcNAcbeta1-2Man1-3(GlcNAcbeta1-2Manalpha1-6)Manbeta1-4GlcNAcbeta1
-	4GlcNAc-2-aminopyridine}  (#3# 37°C, pH 7.5, recombinant soluble human
+	4GlcNAc-2-aminopyridine}  (#3# 37Â°C, pH 7.5, recombinant soluble human
 	flag-GnTIVa <15>) <15>
-KM	#3# 0.242 {UDP-N-acetyl-D-glucosamine}  (#3# 37°C, pH 7.5, recombinant
+KM	#3# 0.242 {UDP-N-acetyl-D-glucosamine}  (#3# 37Â°C, pH 7.5, recombinant
 	full-length N-acetylglucosaminyltransferase-IVb <15>) <15>
-KM	#3# 0.358 {UDP-N-acetyl-D-glucosamine}  (#3# 37°C, pH 7.5, recombinant
+KM	#3# 0.358 {UDP-N-acetyl-D-glucosamine}  (#3# 37Â°C, pH 7.5, recombinant
 	soluble human flag-GnTIVa <15>) <15>
-KM	#3# 0.341 {UDP-N-acetyl-D-glucosamine}  (#3# 37°C, pH 7.5, recombinant
+KM	#3# 0.341 {UDP-N-acetyl-D-glucosamine}  (#3# 37Â°C, pH 7.5, recombinant
 	soluble human flag-GnTIVa <15>) <15>
 KM	#3# 0.532
 	{GlcNAcbeta1-2(GlcNAcbeta1-6)Manalpha1-6(GlcNAcbeta1-2Manalpha1
-	3)Manbeta1-4GlcNAcbeta1-4GlcNAc-2-aminopyridine}  (#3# 37°C, pH 7.5,
+	3)Manbeta1-4GlcNAcbeta1-4GlcNAc-2-aminopyridine}  (#3# 37Â°C, pH 7.5,
 	recombinant full-length N-acetylglucosaminyltransferase-IVa <15>) <15>
 KM	#3# 5.72
 	{GlcNAcbeta1-2Manalpha1-3(GlcNAcbeta1-2Manalpha1-6)Manbeta1
-	4GlcNAcbeta1-4GlcNAc-2-aminopyridine}  (#3# 37°C, pH 7.5, recombinant
+	4GlcNAcbeta1-4GlcNAc-2-aminopyridine}  (#3# 37Â°C, pH 7.5, recombinant
 	full-length N-acetylglucosaminyltransferase-IVb <15>) <15>
 KM	#3# 6.94
 	{GlcNAcbeta1-2Man1-3(GlcNAcbeta1-2Manalpha1-6)Manbeta1-4GlcNAcbeta1
-	4GlcNAc-2-aminopyridine}  (#3# 37°C, pH 7.5, recombinant soluble human
+	4GlcNAc-2-aminopyridine}  (#3# 37Â°C, pH 7.5, recombinant soluble human
 	flag-GnTIVa <15>) <15>
 KM	#3# 0.971
 	{GlcNAcbeta1-2Manalpha1-3(GlcNAcbeta1-2Manalpha1-6)Manbeta1
-	4GlcNAcbeta1-4GlcNAc-2-aminopyridine}  (#3# 37°C, pH 7.5, recombinant
+	4GlcNAcbeta1-4GlcNAc-2-aminopyridine}  (#3# 37Â°C, pH 7.5, recombinant
 	full-length N-acetylglucosaminyltransferase-IVa <15>) <15>
 KM	#4# 8.3 {UDP-N-acetylglucosamine}  (#4# pyridylaminated acceptor
 	substrate <3>) <3>
@@ -3823,7 +3823,7 @@ PU	#6# (Q-Sepharose and Cu2+ Sepharose chromatography, followed by
 	UDP-hexanolamine-agarose affinity chomatography) <4>
 
 STORAGE_STABILITY
-SS	#1# (-20°C, crude microsomal preparation, several months in
+SS	#1# (-20Â°C, crude microsomal preparation, several months in
 	detergent-free buffer) <1>
 
 REFERENCE
@@ -4274,7 +4274,7 @@ SP	#3# UDP-N-acetyl-D-glucosamine + Galbeta(1-4)GlcNAcbeta-p-nitrophenol =
 	UDP + GlcNAcbeta(1-3)Galbeta(1-4)GlcNAcbeta-p-nitrophenol <7>
 SP	#3# UDP-N-acetyl-D-glucosamine + GalNAcbeta(1-4)GlcNAcbeta1-OR = UDP +
 	GlcNAcbeta(1-3)GalNAcbeta(1-4)GlcNAcbeta1-OR (#3# i.e.
-	N,N’-diacetyllactosediamine-OR <11>) |#3# only 12.5% of the substrate
+	N,Nâ€™-diacetyllactosediamine-OR <11>) |#3# only 12.5% of the substrate
 	is converted into the product, which is unusually resistant towards
 	jackbean beta-N-acetylhexosaminidase <11>| <11>
 SP	#3# UDP-N-acetyl-D-glucosamine +
@@ -4540,7 +4540,7 @@ KM	#3# 7 {N-acetyllactosamine}  <3>
 KM	#3# 0.19 {lactoneotetraosylceramide}  <4>
 KM	#3# 0.19 {lactonorhexaosylceramide}  <4>
 KM	#3# 0.36 {Galbeta1,4(SO3-,6)-GlcNAcbeta1,3-Galbeta1,4(SO3-,6)-GlcNAc} 
-	(#3# recombinant enzyme, pH 7.2, 37°C <14>) <14>
+	(#3# recombinant enzyme, pH 7.2, 37Â°C <14>) <14>
 KM	#3# 29.8 {lactose}  <3>
 KM	#4# -999 {more}  <5>
 KM	#4# 0.6 {asialo-alpha1-acid glycoprotein}  <5>
@@ -4557,16 +4557,16 @@ KM	#5# 0.129 {UDP-N-acetyl-D-glucosamine}  <6>
 KM	#5# 19.6 {N-acetyllactosamine}  <6>
 KM	#6# 1.487 {UDP-N-acetyl-D-glucosamine}  (#6# using
 	Galbeta(1->4)GlcNAcbeta-O(CH2)3N3 as acceptor, in cacodylate buffer
-	(100 mM, pH 7.5), at 37°C <18>) <18>
+	(100 mM, pH 7.5), at 37Â°C <18>) <18>
 KM	#6# 15.97 {UDP-N-acetyl-D-glucosamine}  (#6# using
 	Galbeta(1->3)GlcNAcbeta-O(CH2)3N3 as acceptor, in cacodylate buffer
-	(100 mM, pH 7.5), at 37°C <18>) <18>
+	(100 mM, pH 7.5), at 37Â°C <18>) <18>
 KM	#6# 2.082 {UDP-N-acetyl-D-glucosamine}  (#6# using
 	Galbeta(1->3)GalNAcalpha-OCH(CH3)CH(NH2)CO2H as acceptor, in cacodylate
-	buffer (100 mM, pH 7.5), at 37°C <18>) <18>
+	buffer (100 mM, pH 7.5), at 37Â°C <18>) <18>
 KM	#6# 1.445 {UDP-N-acetyl-D-glucosamine}  (#6# using
 	Galbeta(1->3)[GlcNAcbeta(1->6)]GalNAcalpha-OCH(CH3)CH(NH2)CO2H as
-	acceptor, in cacodylate buffer (100 mM, pH 7.5), at 37°C <18>) <18>
+	acceptor, in cacodylate buffer (100 mM, pH 7.5), at 37Â°C <18>) <18>
 
 PH_OPTIMUM
 PHO	#2# 7-8 <13>
@@ -4591,7 +4591,7 @@ SA	#5# 0.118 <6>
 TEMPERATURE_OPTIMUM
 TO	#3,4,5# 37 (#3,4,5# assay at <1,2,3,4,5,6,7,8,10,14>)
 	<1,2,3,4,5,6,7,8,10,14>
-TO	#5# 42 (#5# 112% of activity compared with that at 37°C <6>) <6>
+TO	#5# 42 (#5# 112% of activity compared with that at 37Â°C <6>) <6>
 
 ACTIVATING_COMPOUND
 AC	#2# detergent (#2# activates, reaction rate is optimal at
@@ -4698,18 +4698,18 @@ PU	#4# (partial, 178fold, from Novikoff tumor cell ascites fluid) <5>
 PU	#5# (125000fold) <6>
 
 STORAGE_STABILITY
-SS	#4# (0-4°C, lyophilized enzyme form, over 6 months, stable) <5>
-SS	#5# (4°C, purified enzyme, at least 2 weeks, stable) <6>
+SS	#4# (0-4Â°C, lyophilized enzyme form, over 6 months, stable) <5>
+SS	#5# (4Â°C, purified enzyme, at least 2 weeks, stable) <6>
 
 TEMPERATURE_STABILITY
-TS	#5# 42 (#5# 112% of activity compared with that at 37°C <6>) <6>
-TS	#5# 50 (#5# 10% of activity compared with that at 37°C <6>) <6>
-TS	#5# 55 (#5# 2% of activity compared with that at 37°C <6>) <6>
-TS	#5# 20 (#5# 28% of activity compared with that at 37°C <6>) <6>
-TS	#5# 30 (#5# 63% of activity compared with that at 37°C <6>) <6>
-TS	#5# 45 (#5# 88% of activity compared with that at 37°C <6>) <6>
-TS	#5# 4 (#5# 4% of activity compared with that at 37°C <6>) <6>
-TS	#5# 12 (#5# 9% of activity compared with that at 37°C <6>) <6>
+TS	#5# 42 (#5# 112% of activity compared with that at 37Â°C <6>) <6>
+TS	#5# 50 (#5# 10% of activity compared with that at 37Â°C <6>) <6>
+TS	#5# 55 (#5# 2% of activity compared with that at 37Â°C <6>) <6>
+TS	#5# 20 (#5# 28% of activity compared with that at 37Â°C <6>) <6>
+TS	#5# 30 (#5# 63% of activity compared with that at 37Â°C <6>) <6>
+TS	#5# 45 (#5# 88% of activity compared with that at 37Â°C <6>) <6>
+TS	#5# 4 (#5# 4% of activity compared with that at 37Â°C <6>) <6>
+TS	#5# 12 (#5# 9% of activity compared with that at 37Â°C <6>) <6>
 
 REFERENCE
 RF	<1> Van den Eijnden, D.H.; Winterwerp, H.; Smeeman, P.; Schiphorst,
@@ -4755,7 +4755,7 @@ RF	<10> Sasaki, K.; Kurata-Miura, K.; Ujita, M.; Angata, K.; Nakagawa, S.;
 	poly-N-acetyllactosamine synthesis. Proc. Natl. Acad. Sci. USA (1997)
 	94, 14294-14299. {Pubmed:9405606}
 RF	<11> Salo, H.; Aitio, O.; Ilves, K.; Bencomo, E.; Toivonen, S.;
-	Penttilä, L.; Niemelä, R.; Salminen, H.; Grabenhorst, E.; Renkonen,
+	PenttilÃ¤, L.; NiemelÃ¤, R.; Salminen, H.; Grabenhorst, E.; Renkonen,
 	R.; Renkonen, O.: Several polylactosamine-modifying
 	glycosyltransferases also use internal GalNAcbeta1-4GlcNAc units of
 	synthetic saccharides as acceptors. Glycobiology (2002) 12, 217-228.
@@ -5405,7 +5405,7 @@ KM	#3# 0.18
 KM	#3# 4.6 {UDP-N-acetylglucosamine}  (#3# BVVdelta73 mutant <15>) <15>
 KM	#3# 2.4
 	{GlcNAc-beta(1-2)Man-alpha(1-3)(GlcNAc-beta(1-2)Man-alpha(1-4))Man
-	beta(1-4)GlcNAc-2-amino pyridine}  (#3# Hep3B cell, pH 7.0, 37°C <21>)
+	beta(1-4)GlcNAc-2-amino pyridine}  (#3# Hep3B cell, pH 7.0, 37Â°C <21>)
 	<21>
 KM	#3# 0.23
 	{N-acetyl-D-glucosaminyl-1,2-alpha-D-mannosyl-1
@@ -5419,14 +5419,14 @@ KM	#3# 0.15
 	UDP-N-acetylglucosamine <15>) <15>
 KM	#3# 0.56 {UDP-N-acetyl-D-glucosamine}  <45>
 KM	#3# 4 {UDP-N-acetylglucosamine}  (#3# BVVdelta188 mutant <15>) <15>
-KM	#3# 5.8 {UDP-GlcNAc}  (#3# Hep2G cell, pH 7.0, 37°C <21>) <21>
+KM	#3# 5.8 {UDP-GlcNAc}  (#3# Hep2G cell, pH 7.0, 37Â°C <21>) <21>
 KM	#3# 5.8 {UDP-N-acetylglucosamine}  <12>
 KM	#3# 0.13
 	{N-acetyl-D-glucosaminyl-1,2-alpha-D-mannosyl-1
 	3(6)-(N-acetyl-D-glucosaminyl-1,2-alpha-D-mannosyl-1
 	6(3))-beta-D-mannosyl-1,4-N-acetyl-D-glucosaminyl-R}  (#3# with
 	TDP-glucose <15>) <15>
-KM	#3# 4.5 {UDP-GlcNAc}  (#3# Hep3B cell, pH 7.0, 37°C <21>) <21>
+KM	#3# 4.5 {UDP-GlcNAc}  (#3# Hep3B cell, pH 7.0, 37Â°C <21>) <21>
 KM	#3# 0.53 {GlcNAcbeta(1-2)Manalpha(1-2)Glc-O-octyl}  <45>
 KM	#3# 3.5 {UDP-N-acetylglucosamine}  <4>
 KM	#3# 0.61 {GlcNAcbeta(1-2)Manalpha1-O-benzyl}  <45>
@@ -5436,7 +5436,7 @@ KM	#3# 6 {UDP-N-acetylglucosamine}  <14>
 KM	#3# 0.88 {GlcNAcbeta(1-2)Manalpha1-O-benzyl}  <45>
 KM	#3# 1.28
 	{GlcNAc-beta(1-2)Man-alpha(1-3)(GlcNAc-beta(1-2)Man-alpha(1-4))Man
-	beta(1-4)GlcNAc-2-amino pyridine}  (#3# Hep2G cell, pH 7.0, 37°C <21>)
+	beta(1-4)GlcNAc-2-amino pyridine}  (#3# Hep2G cell, pH 7.0, 37Â°C <21>)
 	<21>
 KM	#3# 1.11 {Ac-Val-Glu-Pro-(GlcNAcbeta(1-2)Manalpha1-O-)Thr-Ala-Val-NH2} 
 	<45>
@@ -5503,7 +5503,7 @@ SA	#4# 1.22 <8>
 TEMPERATURE_OPTIMUM
 TO	#1,2,3,4,5,6,7,8# 37 (#1,2,3,4,5,6,7,8# assay at <1,2,3,5,6,7,66,67>)
 	<1,2,3,5,6,7,45,66,67>
-TO	#2# 42 (#2# 2fold increase as compared to 37°C <11>) <11>
+TO	#2# 42 (#2# 2fold increase as compared to 37Â°C <11>) <11>
 TO	#3# 50 <12,21>
 TO	#6# 30 (#6# assay at <62>) <62>
 
@@ -5763,11 +5763,11 @@ GS	#4# (immunoglobulin G, 0.5 mg/ml, stabilizes and enhances activity) <8>
 GS	#4# (NaCl, 0.2 M, stabilizes and enhances activity) <8>
 
 PH_STABILITY
-PHS	#3# 4.5-10.5 (#3# stable for 24 h at 4°C <12>) <12>
+PHS	#3# 4.5-10.5 (#3# stable for 24 h at 4Â°C <12>) <12>
 
 STORAGE_STABILITY
-SS	#2# (-20°C stable for 2 months) <11>
-SS	#4# (4°C, several months in 20% glycerol) <8>
+SS	#2# (-20Â°C stable for 2 months) <11>
+SS	#4# (4Â°C, several months in 20% glycerol) <8>
 
 TEMPERATURE_STABILITY
 TS	#2# 4 (#2# stable for 2 months <11>) <11>
@@ -7482,66 +7482,66 @@ TN	#15# 1.74 {GlcNAcbeta1,2-Manalpha1,6 (GlcNAcbeta1,2-Manalpha1,3)Man}
 	<80>
 TN	#15# 4.81 {chitotriose}  <80>
 TN	#19# 0.5 {UDP-alpha-D-galactose}  (#19# mutant enzyme Y196F, at pH 7.0
-	and 37°C <121>) <121>
+	and 37Â°C <121>) <121>
 TN	#19# 0.5 {4-methylumbelliferyl-beta-D-xylopyranoside}  (#19# mutant
-	enzyme Y196F, at pH 7.0 and 37°C <121>) <121>
+	enzyme Y196F, at pH 7.0 and 37Â°C <121>) <121>
 TN	#19# 0.82 {UDP-alpha-D-galactose}  (#19# mutant enzyme R270K, at pH 7.0
-	and 37°C <121>) <121>
+	and 37Â°C <121>) <121>
 TN	#19# 0.82 {4-methylumbelliferyl-beta-D-xylopyranoside}  (#19# mutant
-	enzyme R270K, at pH 7.0 and 37°C <121>) <121>
+	enzyme R270K, at pH 7.0 and 37Â°C <121>) <121>
 TN	#19# 0.77 {UDP-alpha-D-galactose}  (#19# mutant enzyme R270A, at pH 7.0
-	and 37°C <121>) <121>
+	and 37Â°C <121>) <121>
 TN	#19# 0.77 {4-methylumbelliferyl-beta-D-xylopyranoside}  (#19# mutant
-	enzyme R270A, at pH 7.0 and 37°C <121>) <121>
+	enzyme R270A, at pH 7.0 and 37Â°C <121>) <121>
 TN	#19# 1.35 {UDP-alpha-D-galactose}  (#19# mutant enzyme R226K, at pH 7.0
-	and 37°C <121>) <121>
+	and 37Â°C <121>) <121>
 TN	#19# 1.35 {4-methylumbelliferyl-beta-D-xylopyranoside}  (#19# mutant
-	enzyme R226K, at pH 7.0 and 37°C <121>) <121>
+	enzyme R226K, at pH 7.0 and 37Â°C <121>) <121>
 TN	#19# 1.2 {UDP-alpha-D-galactose}  (#19# mutant enzyme Y199F, at pH 7.0
-	and 37°C <121>) <121>
+	and 37Â°C <121>) <121>
 TN	#19# 1.2 {4-methylumbelliferyl-beta-D-xylopyranoside}  (#19# mutant
-	enzyme Y199F, at pH 7.0 and 37°C <121>) <121>
+	enzyme Y199F, at pH 7.0 and 37Â°C <121>) <121>
 TN	#19# 1.51 {UDP-alpha-D-galactose}  (#19# recombinant wild type enzyme,
-	at pH 7.0 and 37°C <121>) <121>
+	at pH 7.0 and 37Â°C <121>) <121>
 TN	#19# 1.51 {4-methylumbelliferyl-beta-D-xylopyranoside}  (#19#
-	recombinant wild type enzyme, at pH 7.0 and 37°C <121>) <121>
+	recombinant wild type enzyme, at pH 7.0 and 37Â°C <121>) <121>
 TN	#19# 1.93 {UDP-alpha-D-galactose}  (#19# mutant enzyme H195A, at pH 7.0
-	and 37°C <121>) <121>
+	and 37Â°C <121>) <121>
 TN	#19# 1.93 {4-methylumbelliferyl-beta-D-xylopyranoside}  (#19# mutant
-	enzyme H195A, at pH 7.0 and 37°C <121>) <121>
+	enzyme H195A, at pH 7.0 and 37Â°C <121>) <121>
 TN	#19# 0.89 {UDP-alpha-D-galactose}  (#19# mutant enzyme R226A, at pH 7.0
-	and 37°C <121>) <121>
+	and 37Â°C <121>) <121>
 TN	#19# 0.89 {4-methylumbelliferyl-beta-D-xylopyranoside}  (#19# mutant
-	enzyme R226A, at pH 7.0 and 37°C <121>) <121>
+	enzyme R226A, at pH 7.0 and 37Â°C <121>) <121>
 TN	#19# 1.49 {UDP-alpha-D-galactose}  (#19# mutant enzyme H195R, at pH 7.0
-	and 37°C <121>) <121>
+	and 37Â°C <121>) <121>
 TN	#19# 1.49 {4-methylumbelliferyl-beta-D-xylopyranoside}  (#19# mutant
-	enzyme H195R, at pH 7.0 and 37°C <121>) <121>
+	enzyme H195R, at pH 7.0 and 37Â°C <121>) <121>
 TN	#19# 1.62 {UDP-alpha-D-galactose}  (#19# mutant enzyme H195Q, at pH 7.0
-	and 37°C <121>) <121>
+	and 37Â°C <121>) <121>
 TN	#19# 1.62 {4-methylumbelliferyl-beta-D-xylopyranoside}  (#19# mutant
-	enzyme H195Q, at pH 7.0 and 37°C <121>) <121>
+	enzyme H195Q, at pH 7.0 and 37Â°C <121>) <121>
 TN	#3# 0.01 {UDP-xylose}  (#3# purified maltose-binding
 	protein-beta1,4-GalT7, in 100 mM cacodylate buffer (pH 7.0) containing
-	10 mM MnCl2, at 37°C <98>) <98>
+	10 mM MnCl2, at 37Â°C <98>) <98>
 TN	#3# 1.13 {4-methylumbelliferyl beta-D-xylopyranoside}  (#3# purified
 	maltose-binding protein-beta1,4-GalT7, in 100 mM cacodylate buffer (pH
-	7.0) containing 10 mM MnCl2, at 37°C <98>) <98>
+	7.0) containing 10 mM MnCl2, at 37Â°C <98>) <98>
 TN	#3# 0.02 {UDP-glucose}  (#3# purified maltose-binding
 	protein-beta1,4-GalT7, in 100 mM cacodylate buffer (pH 7.0) containing
-	10 mM MnCl2, at 37°C <98>) <98>
+	10 mM MnCl2, at 37Â°C <98>) <98>
 TN	#3# 1.14 {UDP-galactose}  (#3# Km above 0.003 mM, purified
 	maltose-binding protein-beta1,4-GalT7, in 100 mM cacodylate buffer (pH
-	7.0) containing 10 mM MnCl2, at 37°C <98>) <98>
+	7.0) containing 10 mM MnCl2, at 37Â°C <98>) <98>
 TN	#3# 0.003 {UDP-glucuronic acid}  (#3# Km above 0.003 mM, purified
 	maltose-binding protein-beta1,4-GalT7, in 100 mM cacodylate buffer (pH
-	7.0) containing 10 mM MnCl2, at 37°C <98>) <98>
+	7.0) containing 10 mM MnCl2, at 37Â°C <98>) <98>
 TN	#3# 0.003 {UDP-N-acetyl-beta-D-glucosamine}  (#3# Km above 0.003 mM,
 	purified maltose-binding protein-beta1,4-GalT7, in 100 mM cacodylate
-	buffer (pH 7.0) containing 10 mM MnCl2, at 37°C <98>) <98>
+	buffer (pH 7.0) containing 10 mM MnCl2, at 37Â°C <98>) <98>
 TN	#3# 1.52 {4-nitrophenyl beta-D-xylopyranoside}  (#3# purified
 	maltose-binding protein-beta1,4-GalT7, in 100 mM cacodylate buffer (pH
-	7.0) containing 10 mM MnCl2, at 37°C <98>) <98>
+	7.0) containing 10 mM MnCl2, at 37Â°C <98>) <98>
 TN	#6# -999 {more}  (#6# turnover number for UDPglucose in absence of
 	alpha-lactalbumin is 3.48 and 14.8 in presence of alpha-lactalbumin
 	<47>) <47,55>
@@ -7594,42 +7594,42 @@ KM	#15# 0.96 {chitotriose}  <80>
 KM	#15# 1.23 {GlcNAcbeta1,2-Manalpha1,6 (GlcNAcbeta1,2-Manalpha1,3)Man} 
 	<80>
 KM	#19# 0.55 {4-methylumbelliferyl-beta-D-xylopyranoside}  (#19# mutant
-	enzyme H195Q, at pH 7.0 and 37°C <121>) <121>
+	enzyme H195Q, at pH 7.0 and 37Â°C <121>) <121>
 KM	#19# 0.6 {4-methylumbelliferyl-beta-D-xylopyranoside}  (#19# mutant
-	enzyme R270A, at pH 7.0 and 37°C <121>) <121>
+	enzyme R270A, at pH 7.0 and 37Â°C <121>) <121>
 KM	#19# 0.4 {UDP-alpha-D-galactose}  (#19# mutant enzyme H195A, at pH 7.0
-	and 37°C <121>) <121>
+	and 37Â°C <121>) <121>
 KM	#19# 0.37 {UDP-alpha-D-galactose}  (#19# mutant enzyme R270K, at pH 7.0
-	and 37°C <121>) <121>
+	and 37Â°C <121>) <121>
 KM	#19# 0.22 {UDP-alpha-D-galactose}  (#19# recombinant wild type enzyme,
-	at pH 7.0 and 37°C <121>) <121>
+	at pH 7.0 and 37Â°C <121>) <121>
 KM	#19# 0.29 {UDP-alpha-D-galactose}  (#19# mutant enzyme R226K, at pH 7.0
-	and 37°C <121>) <121>
+	and 37Â°C <121>) <121>
 KM	#19# 0.32 {UDP-alpha-D-galactose}  (#19# mutant enzyme H195R, at pH 7.0
-	and 37°C <121>; #19# mutant enzyme Y199F, at pH 7.0 and 37°C <121>)
+	and 37Â°C <121>; #19# mutant enzyme Y199F, at pH 7.0 and 37Â°C <121>)
 	<121>
 KM	#19# 0.54 {4-methylumbelliferyl-beta-D-xylopyranoside}  (#19# mutant
-	enzyme R270K, at pH 7.0 and 37°C <121>) <121>
+	enzyme R270K, at pH 7.0 and 37Â°C <121>) <121>
 KM	#19# 0.33 {UDP-alpha-D-galactose}  (#19# mutant enzyme H195Q, at pH 7.0
-	and 37°C <121>) <121>
+	and 37Â°C <121>) <121>
 KM	#19# 0.35 {4-methylumbelliferyl-beta-D-xylopyranoside}  (#19# mutant
-	enzyme H195R, at pH 7.0 and 37°C <121>; #19# recombinant wild type
-	enzyme, at pH 7.0 and 37°C <121>) <121>
+	enzyme H195R, at pH 7.0 and 37Â°C <121>; #19# recombinant wild type
+	enzyme, at pH 7.0 and 37Â°C <121>) <121>
 KM	#19# 0.59 {4-methylumbelliferyl-beta-D-xylopyranoside}  (#19# mutant
-	enzyme Y199F, at pH 7.0 and 37°C <121>) <121>
+	enzyme Y199F, at pH 7.0 and 37Â°C <121>) <121>
 KM	#19# 0.34 {UDP-alpha-D-galactose}  (#19# mutant enzyme R226A, at pH 7.0
-	and 37°C <121>; #19# mutant enzyme Y196F, at pH 7.0 and 37°C <121>)
+	and 37Â°C <121>; #19# mutant enzyme Y196F, at pH 7.0 and 37Â°C <121>)
 	<121>
 KM	#19# 0.27 {UDP-alpha-D-galactose}  (#19# mutant enzyme R270A, at pH 7.0
-	and 37°C <121>) <121>
+	and 37Â°C <121>) <121>
 KM	#19# 0.44 {4-methylumbelliferyl-beta-D-xylopyranoside}  (#19# mutant
-	enzyme R226A, at pH 7.0 and 37°C <121>) <121>
+	enzyme R226A, at pH 7.0 and 37Â°C <121>) <121>
 KM	#19# 0.46 {4-methylumbelliferyl-beta-D-xylopyranoside}  (#19# mutant
-	enzyme R226K, at pH 7.0 and 37°C <121>) <121>
+	enzyme R226K, at pH 7.0 and 37Â°C <121>) <121>
 KM	#19# 1.06 {4-methylumbelliferyl-beta-D-xylopyranoside}  (#19# mutant
-	enzyme Y196F, at pH 7.0 and 37°C <121>) <121>
+	enzyme Y196F, at pH 7.0 and 37Â°C <121>) <121>
 KM	#19# 0.64 {4-methylumbelliferyl-beta-D-xylopyranoside}  (#19# mutant
-	enzyme H195A, at pH 7.0 and 37°C <121>) <121>
+	enzyme H195A, at pH 7.0 and 37Â°C <121>) <121>
 KM	#2# 1 {N-acetylglucosamine}  <5>
 KM	#2# 0.25 {UDPgalactose}  <5>
 KM	#2# 4.6 {N-acetylglucosamine}  <35>
@@ -7645,13 +7645,13 @@ KM	#2,6# 1.9 {N-acetylglucosamine}  (#2# enzyme in pCMGT1-transfected
 	cells <8>; #6# N-acetylglucosaminyl-beta-1,3-galactose <28>) <8,28>
 KM	#3# 0.16 {UDP-xylose}  (#3# purified maltose-binding
 	protein-beta1,4-GalT7, in 100 mM cacodylate buffer (pH 7.0) containing
-	10 mM MnCl2, at 37°C <98>) <98>
+	10 mM MnCl2, at 37Â°C <98>) <98>
 KM	#3# 0.16 {4-methylumbelliferyl beta-D-xylopyranoside}  (#3# purified
 	beta1,4-GalT7, in 100 mM cacodylate buffer (pH 7.0) containing 10 mM
-	MnCl2, at 37°C <98>) <98>
+	MnCl2, at 37Â°C <98>) <98>
 KM	#3# 0.17 {agalacto-poly-N-acetyllactosamine}  <49>
 KM	#3# 0.31 {UDP-galactose}  (#3# purified beta1,4-GalT7, in 100 mM
-	cacodylate buffer (pH 7.0) containing 10 mM MnCl2, at 37°C <98>) <98>
+	cacodylate buffer (pH 7.0) containing 10 mM MnCl2, at 37Â°C <98>) <98>
 KM	#3# 0.21 {UDPgalactose}  (#3# reaction with glucose, recombinant enzyme
 	<63>) <63>
 KM	#3# 0.025 {UDPgalactose}  (#3# recombinant enzyme <49>) <49>
@@ -7662,22 +7662,22 @@ KM	#3# 1 {D-glucose}  (#3# recombinant enzyme <63>) <63>
 KM	#3# 2 {D-glucose}  <63>
 KM	#3# 0.28 {UDP-glucose}  (#3# purified maltose-binding
 	protein-beta1,4-GalT7, in 100 mM cacodylate buffer (pH 7.0) containing
-	10 mM MnCl2, at 37°C <98>) <98>
+	10 mM MnCl2, at 37Â°C <98>) <98>
 KM	#3# 0.19 {lacto-N-triose II}  <49>
 KM	#3# 0.8 {N-acetylgalactosamine}  <29>
 KM	#3# 10 {N-acetylglucosamine}  (#3# recombinant enzyme <63>) <63>
 KM	#3# 10 {UDP-N-acetyl-beta-D-glucosamine}  (#3# Km above 10 mM, purified
 	maltose-binding protein-beta1,4-GalT7, in 100 mM cacodylate buffer (pH
-	7.0) containing 10 mM MnCl2, at 37°C <98>) <98>
+	7.0) containing 10 mM MnCl2, at 37Â°C <98>) <98>
 KM	#3# 0.23 {UDP-galactose}  (#3# purified maltose-binding
 	protein-beta1,4-GalT7, in 100 mM cacodylate buffer (pH 7.0) containing
-	10 mM MnCl2, at 37°C <98>) <98>
+	10 mM MnCl2, at 37Â°C <98>) <98>
 KM	#3# 0.028 {UDPgalactose}  (#3# recombinant enzyme <20>) <20>
 KM	#3# 2.5 {N-acetylglucosamine}  (#3# recombinant enzyme <49>) <49>
 KM	#3# 3.3 {N-acetylglucosamine}  <63>
 KM	#3# 4 {UDP-glucuronic acid}  (#3# Km above 4 mM, purified
 	maltose-binding protein-beta1,4-GalT7, in 100 mM cacodylate buffer (pH
-	7.0) containing 10 mM MnCl2, at 37°C <98>) <98>
+	7.0) containing 10 mM MnCl2, at 37Â°C <98>) <98>
 KM	#3# 2.3 {N-acetylglucosamine}  <29>
 KM	#3# 8.3 {N-acetylglucosamine}  (#3# recombinant N-deglycosylated enzyme
 	<63>) <63>
@@ -7686,11 +7686,11 @@ KM	#3# 1.1 {D-glucose}  (#3# recombinant N-deglycosylated enzyme <63>) <63>
 KM	#3# 0.27 {ovalbumin}  <30>
 KM	#3# 0.27 {4-methylumbelliferyl beta-D-xylopyranoside}  (#3# purified
 	maltose-binding protein-beta1,4-GalT7, in 100 mM cacodylate buffer (pH
-	7.0) containing 10 mM MnCl2, at 37°C <98>) <98>
+	7.0) containing 10 mM MnCl2, at 37Â°C <98>) <98>
 KM	#3# 0.091 {UDPgalactose}  (#3# recombinant enzyme <63>) <63>
 KM	#3# 0.85 {4-nitrophenyl beta-D-xylopyranoside}  (#3# purified
 	beta1,4-GalT7, in 100 mM cacodylate buffer (pH 7.0) containing 10 mM
-	MnCl2, at 37°C <98>) <98>
+	MnCl2, at 37Â°C <98>) <98>
 KM	#3# 0.83 {lacto-N-triaosylceramide}  <49>
 KM	#3# 0.0039 {N-acetylglucosamine}  <39>
 KM	#3# 0.019 {UDPgalactose}  <30>
@@ -7698,7 +7698,7 @@ KM	#3# 0.064 {asialo-agalacto-transferrin}  (#3# recombinant enzyme <49>)
 	<49>
 KM	#3# 1.27 {4-nitrophenyl beta-D-xylopyranoside}  (#3# purified
 	maltose-binding protein-beta1,4-GalT7, in 100 mM cacodylate buffer (pH
-	7.0) containing 10 mM MnCl2, at 37°C <98>) <98>
+	7.0) containing 10 mM MnCl2, at 37Â°C <98>) <98>
 KM	#3# 0.082 {UDPgalactose}  <20>
 KM	#3# 3.6 {N-acetylglucosamine}  (#3# recombinant enzyme <20>) <20>
 KM	#3# 0.143 {UDPgalactose}  (#3# recombinant N-deglycosylated enzyme
@@ -7825,8 +7825,8 @@ TO	#3# 30 (#3# assay at <74>; #3# reaction with N-acetylglucosamine and
 	UDPgalactose, reaction with alpha1-acid glycoprotein and UDPgalactose
 	<39>) <39,74>
 TO	#3# 42 <20>
-TO	#3,5,13# 37 (#3,13# assay at <73,79>; #5# activity at 37°C is faster
-	than at 31°C or at 27°C <32>) <32,43,73,79>
+TO	#3,5,13# 37 (#3,13# assay at <73,79>; #5# activity at 37Â°C is faster
+	than at 31Â°C or at 27Â°C <32>) <32,43,73,79>
 TO	#6# 30-37 (#6# assay at <83>) <83>
 
 TEMPERATURE_RANGE
@@ -8015,17 +8015,17 @@ IN	#8,9# Cu2+ (#8,9# complete inhibition in presence of Mn2+ <64>) <64>
 
 KI_VALUE
 KI	#19# 0.06 {4-methylumbelliferyl 4-deoxy-4-fluoro-beta-D-xylopyranoside}
-	 (#19# recombinant wild type enzyme, at pH 7.0 and 37°C <121>) <121>
+	 (#19# recombinant wild type enzyme, at pH 7.0 and 37Â°C <121>) <121>
 KI	#19# 1.28 {4-methylumbelliferyl 4-deoxy-beta-D-xylopyranoside}  (#19#
-	recombinant wild type enzyme, at pH 7.0 and 37°C <121>) <121>
+	recombinant wild type enzyme, at pH 7.0 and 37Â°C <121>) <121>
 KI	#3# 1.65 {UTP}  (#3# purified maltose-binding protein-beta1,4-GalT7, in
-	100 mM cacodylate buffer (pH 7.0) containing 10 mM MnCl2, at 37°C
+	100 mM cacodylate buffer (pH 7.0) containing 10 mM MnCl2, at 37Â°C
 	<98>) <98>
 KI	#3# 0.61 {UDP}  (#3# purified maltose-binding protein-beta1,4-GalT7, in
-	100 mM cacodylate buffer (pH 7.0) containing 10 mM MnCl2, at 37°C
+	100 mM cacodylate buffer (pH 7.0) containing 10 mM MnCl2, at 37Â°C
 	<98>) <98>
 KI	#3# 1.93 {TDP}  (#3# purified maltose-binding protein-beta1,4-GalT7, in
-	100 mM cacodylate buffer (pH 7.0) containing 10 mM MnCl2, at 37°C
+	100 mM cacodylate buffer (pH 7.0) containing 10 mM MnCl2, at 37Â°C
 	<98>) <98>
 KI	#3# 0.0223 {uridine
 	5'-(6-amino-(2-[(7-methyl-2
@@ -8413,7 +8413,7 @@ CR	#3# (purified recombinant M340H-Gal-T1 mutant in the open conformation
 	pH 5.5, and 10% w/v PEG-4000, the crystals of the Mn2+ complex are
 	grown in the droplet containing 10 mM MnCl2, while the crystals
 	containing UDP-Gal and Mn2+ are grown in the presence of 17 mM each of
-	MnCl2 and UDP–Gal, X-ray diffraction structure determination and
+	MnCl2 and UDPâ€“Gal, X-ray diffraction structure determination and
 	analysis at 1.7-2.0 A resolution) <81>
 CR	#6# <55>
 CR	#6# (crystal structures of the beta4galactosyltransferase catalytic
@@ -8427,7 +8427,7 @@ CR	#6# (catalytic domain of R228K-Gal-T1 and mouse recombinant
 	alpha-lactalbumin are cocrystallized in the presence of UDP-galactose
 	and MnCl2. Crystals are grown at room temperature by the hanging drop
 	method. Crystal structure of R228K-Gal-T1 complexed with
-	alpha-lactalbumin, UDP-galactose, and Mn2+, determined at 1.9 Å
+	alpha-lactalbumin, UDP-galactose, and Mn2+, determined at 1.9 Ã…
 	resolution shows that the Asp318 side chain exhibits a minor alternate
 	conformation, compared to that in the wild type) <67>
 CR	#6# (purified recombinant pentenary complex of bovine M344H-Gal-T1
@@ -8488,20 +8488,20 @@ PH_STABILITY
 PHS	#2# 5-9 <5>
 
 STORAGE_STABILITY
-SS	#3# (-20°C, stable for at least 2 months) <43>
-SS	#3# (-20°C, stable fo at least 1 month) <20>
-SS	#4# (-20°C, stable for 3 weeks) <44>
-SS	#4# (-20°C, partially purified enzyme stable for several weeks,
+SS	#3# (-20Â°C, stable for at least 2 months) <43>
+SS	#3# (-20Â°C, stable fo at least 1 month) <20>
+SS	#4# (-20Â°C, stable for 3 weeks) <44>
+SS	#4# (-20Â°C, partially purified enzyme stable for several weeks,
 	purified enzyme stable for 1 week) <24>
-SS	#4# (-20°C, bovine serum albumin, stable for up to 60 d) <31>
-SS	#4# (4°C, concentrated enzyme) <25>
-SS	#4# (4°C, purified and concentrated enzyme is stable for 4 weeks) <1>
-SS	#4# (4°C, more than 50% loss of activity after 1 week) <45>
-SS	#5# (-20°C, 0.02 M Tris/HCl buffer, pH 7.5, stable for several months)
+SS	#4# (-20Â°C, bovine serum albumin, stable for up to 60 d) <31>
+SS	#4# (4Â°C, concentrated enzyme) <25>
+SS	#4# (4Â°C, purified and concentrated enzyme is stable for 4 weeks) <1>
+SS	#4# (4Â°C, more than 50% loss of activity after 1 week) <45>
+SS	#5# (-20Â°C, 0.02 M Tris/HCl buffer, pH 7.5, stable for several months)
 	<41>
-SS	#6# (-20°C, 1 mg/ml bovine serum albumin) <33>
-SS	#6# (4°C, immobilized, 5 weeks, stable) <83>
-SS	#7# (4°C, 0.1% bovine serum albumin, stable for 3 months) <4>
+SS	#6# (-20Â°C, 1 mg/ml bovine serum albumin) <33>
+SS	#6# (4Â°C, immobilized, 5 weeks, stable) <83>
+SS	#7# (4Â°C, 0.1% bovine serum albumin, stable for 3 months) <4>
 
 TEMPERATURE_STABILITY
 TS	#3# 50 (#3# 1 h, complete loss of activity <63>) <63>
@@ -9077,17 +9077,17 @@ AC	#8,9# Triton X-100 (#8,9# 0.1-5%, 1.5fold stimulation <64>) <64>
 
 KI_VALUE
 KI	#19# 0.06 {4-methylumbelliferyl 4-deoxy-4-fluoro-beta-D-xylopyranoside}
-	 (#19# recombinant wild type enzyme, at pH 7.0 and 37°C <121>) <121>
+	 (#19# recombinant wild type enzyme, at pH 7.0 and 37Â°C <121>) <121>
 KI	#19# 1.28 {4-methylumbelliferyl 4-deoxy-beta-D-xylopyranoside}  (#19#
-	recombinant wild type enzyme, at pH 7.0 and 37°C <121>) <121>
+	recombinant wild type enzyme, at pH 7.0 and 37Â°C <121>) <121>
 KI	#3# 1.65 {UTP}  (#3# purified maltose-binding protein-beta1,4-GalT7, in
-	100 mM cacodylate buffer (pH 7.0) containing 10 mM MnCl2, at 37°C
+	100 mM cacodylate buffer (pH 7.0) containing 10 mM MnCl2, at 37Â°C
 	<98>) <98>
 KI	#3# 0.61 {UDP}  (#3# purified maltose-binding protein-beta1,4-GalT7, in
-	100 mM cacodylate buffer (pH 7.0) containing 10 mM MnCl2, at 37°C
+	100 mM cacodylate buffer (pH 7.0) containing 10 mM MnCl2, at 37Â°C
 	<98>) <98>
 KI	#3# 1.93 {TDP}  (#3# purified maltose-binding protein-beta1,4-GalT7, in
-	100 mM cacodylate buffer (pH 7.0) containing 10 mM MnCl2, at 37°C
+	100 mM cacodylate buffer (pH 7.0) containing 10 mM MnCl2, at 37Â°C
 	<98>) <98>
 KI	#3# 0.0223 {uridine
 	5'-(6-amino-(2-[(7-methyl-2
@@ -9102,9 +9102,9 @@ KI	#6# 0.01 {1-thio-N-butyryl-GlcNbeta-(2-naphthyl)}  (#6# pH 7.0 <77>)
 
 IC50_VALUE
 IC50	#19# 0.03 {4-methylumbelliferyl 4-deoxy-4-fluoro-beta-D-xylopyranoside}
-	 (#19# recombinant wild type enzyme, at pH 7.0 and 37°C <121>) <121>
+	 (#19# recombinant wild type enzyme, at pH 7.0 and 37Â°C <121>) <121>
 IC50	#19# 0.53 {4-methylumbelliferyl 4-deoxy-beta-D-xylopyranoside}  (#19#
-	recombinant wild type enzyme, at pH 7.0 and 37°C <121>) <121>
+	recombinant wild type enzyme, at pH 7.0 and 37Â°C <121>) <121>
 IC50	#3# 0.012 {5-(5-formylthien-2-yl)-UDP-alpha-D-galactose}  (#3# pH and
 	temperature not specified in the publication <118>) <118>
 IC50	#3# 1 {5-(5-formylthien-2-yl)-uridine}  (#3# IC50 above 1.0 mM, pH and
@@ -9112,17 +9112,17 @@ IC50	#3# 1 {5-(5-formylthien-2-yl)-uridine}  (#3# IC50 above 1.0 mM, pH and
 
 KI_VALUE
 KI	#19# 0.06 {4-methylumbelliferyl 4-deoxy-4-fluoro-beta-D-xylopyranoside}
-	 (#19# recombinant wild type enzyme, at pH 7.0 and 37°C <121>) <121>
+	 (#19# recombinant wild type enzyme, at pH 7.0 and 37Â°C <121>) <121>
 KI	#19# 1.28 {4-methylumbelliferyl 4-deoxy-beta-D-xylopyranoside}  (#19#
-	recombinant wild type enzyme, at pH 7.0 and 37°C <121>) <121>
+	recombinant wild type enzyme, at pH 7.0 and 37Â°C <121>) <121>
 KI	#3# 1.65 {UTP}  (#3# purified maltose-binding protein-beta1,4-GalT7, in
-	100 mM cacodylate buffer (pH 7.0) containing 10 mM MnCl2, at 37°C
+	100 mM cacodylate buffer (pH 7.0) containing 10 mM MnCl2, at 37Â°C
 	<98>) <98>
 KI	#3# 0.61 {UDP}  (#3# purified maltose-binding protein-beta1,4-GalT7, in
-	100 mM cacodylate buffer (pH 7.0) containing 10 mM MnCl2, at 37°C
+	100 mM cacodylate buffer (pH 7.0) containing 10 mM MnCl2, at 37Â°C
 	<98>) <98>
 KI	#3# 1.93 {TDP}  (#3# purified maltose-binding protein-beta1,4-GalT7, in
-	100 mM cacodylate buffer (pH 7.0) containing 10 mM MnCl2, at 37°C
+	100 mM cacodylate buffer (pH 7.0) containing 10 mM MnCl2, at 37Â°C
 	<98>) <98>
 KI	#3# 0.0223 {uridine
 	5'-(6-amino-(2-[(7-methyl-2
@@ -9136,36 +9136,36 @@ KI	#6# 0.01 {1-thio-N-butyryl-GlcNbeta-(2-naphthyl)}  (#6# pH 7.0 <77>)
 	<77>
 
 KCAT_KM_VALUE
-KKM	#19# 1.2 (#19# mutant enzyme R270A, at pH 7.0 and 37°C <121>) <121>
-KKM	#19# 1.42 (#19# mutant enzyme R270K, at pH 7.0 and 37°C <121>) <121>
-KKM	#19# 4.05 (#19# mutant enzyme Y199F, at pH 7.0 and 37°C <121>) <121>
-KKM	#19# 4.7 (#19# mutant enzyme R226K, at pH 7.0 and 37°C <121>) <121>
-KKM	#19# 1.47 (#19# mutant enzyme Y196F, at pH 7.0 and 37°C <121>) <121>
-KKM	#19# 3 (#19# mutant enzyme H195A, at pH 7.0 and 37°C <121>) <121>
-KKM	#19# 2.95 (#19# mutant enzyme H195Q, at pH 7.0 and 37°C <121>) <121>
-KKM	#19# 4.85 (#19# mutant enzyme H195A, at pH 7.0 and 37°C <121>) <121>
-KKM	#19# 2.92 (#19# mutant enzyme R226K, at pH 7.0 and 37°C <121>) <121>
-KKM	#19# 0.47 (#19# mutant enzyme Y196F, at pH 7.0 and 37°C <121>) <121>
-KKM	#19# 2.85 (#19# mutant enzyme R226A, at pH 7.0 and 37°C <121>) <121>
-KKM	#19# 4.17 (#19# recombinant wild type enzyme, at pH 7.0 and 37°C
+KKM	#19# 1.2 (#19# mutant enzyme R270A, at pH 7.0 and 37Â°C <121>) <121>
+KKM	#19# 1.42 (#19# mutant enzyme R270K, at pH 7.0 and 37Â°C <121>) <121>
+KKM	#19# 4.05 (#19# mutant enzyme Y199F, at pH 7.0 and 37Â°C <121>) <121>
+KKM	#19# 4.7 (#19# mutant enzyme R226K, at pH 7.0 and 37Â°C <121>) <121>
+KKM	#19# 1.47 (#19# mutant enzyme Y196F, at pH 7.0 and 37Â°C <121>) <121>
+KKM	#19# 3 (#19# mutant enzyme H195A, at pH 7.0 and 37Â°C <121>) <121>
+KKM	#19# 2.95 (#19# mutant enzyme H195Q, at pH 7.0 and 37Â°C <121>) <121>
+KKM	#19# 4.85 (#19# mutant enzyme H195A, at pH 7.0 and 37Â°C <121>) <121>
+KKM	#19# 2.92 (#19# mutant enzyme R226K, at pH 7.0 and 37Â°C <121>) <121>
+KKM	#19# 0.47 (#19# mutant enzyme Y196F, at pH 7.0 and 37Â°C <121>) <121>
+KKM	#19# 2.85 (#19# mutant enzyme R226A, at pH 7.0 and 37Â°C <121>) <121>
+KKM	#19# 4.17 (#19# recombinant wild type enzyme, at pH 7.0 and 37Â°C
 	<121>) <121>
-KKM	#19# 1.88 (#19# mutant enzyme Y199F, at pH 7.0 and 37°C <121>) <121>
-KKM	#19# 1.87 (#19# mutant enzyme R226A, at pH 7.0 and 37°C <121>) <121>
-KKM	#19# 3.07 (#19# mutant enzyme R270A, at pH 7.0 and 37°C <121>) <121>
-KKM	#19# 4.03 (#19# mutant enzyme H195R, at pH 7.0 and 37°C <121>) <121>
-KKM	#19# 7.08 (#19# recombinant wild type enzyme, at pH 7.0 and 37°C
+KKM	#19# 1.88 (#19# mutant enzyme Y199F, at pH 7.0 and 37Â°C <121>) <121>
+KKM	#19# 1.87 (#19# mutant enzyme R226A, at pH 7.0 and 37Â°C <121>) <121>
+KKM	#19# 3.07 (#19# mutant enzyme R270A, at pH 7.0 and 37Â°C <121>) <121>
+KKM	#19# 4.03 (#19# mutant enzyme H195R, at pH 7.0 and 37Â°C <121>) <121>
+KKM	#19# 7.08 (#19# recombinant wild type enzyme, at pH 7.0 and 37Â°C
 	<121>) <121>
-KKM	#19# 4.92 (#19# mutant enzyme H195Q, at pH 7.0 and 37°C <121>; #19#
-	mutant enzyme H195R, at pH 7.0 and 37°C <121>) <121>
-KKM	#19# 2.32 (#19# mutant enzyme R270K, at pH 7.0 and 37°C <121>) <121>
+KKM	#19# 4.92 (#19# mutant enzyme H195Q, at pH 7.0 and 37Â°C <121>; #19#
+	mutant enzyme H195R, at pH 7.0 and 37Â°C <121>) <121>
+KKM	#19# 2.32 (#19# mutant enzyme R270K, at pH 7.0 and 37Â°C <121>) <121>
 KKM	#3# 0.07 (#3# purified maltose-binding protein-beta1,4-GalT7, in 100 mM
-	cacodylate buffer (pH 7.0) containing 10 mM MnCl2, at 37°C <98>) <98>
+	cacodylate buffer (pH 7.0) containing 10 mM MnCl2, at 37Â°C <98>) <98>
 KKM	#3# 0.065 (#3# purified maltose-binding protein-beta1,4-GalT7, in 100
-	mM cacodylate buffer (pH 7.0) containing 10 mM MnCl2, at 37°C <98>)
+	mM cacodylate buffer (pH 7.0) containing 10 mM MnCl2, at 37Â°C <98>)
 	<98>
 KKM	#3# 4.93 (#3# Km above 0.003 mM, purified maltose-binding
 	protein-beta1,4-GalT7, in 100 mM cacodylate buffer (pH 7.0) containing
-	10 mM MnCl2, at 37°C <98>) <98>
+	10 mM MnCl2, at 37Â°C <98>) <98>
 
 EXPRESSION
 EXP	#2,3,4# up (#4# beta-1,4-GalT-I mRNA is significant increased 2 h after
@@ -9643,17 +9643,17 @@ SP	#8,12# UDP-N-acetyl-alpha-D-galactosamine + ganglioside GM3 = UDP +
 	>4)-beta-D-glucopyranosyl]-ceramideganglioside <46>) <43,46>
 
 KM_VALUE
-KM	#10# 0.38 {p-nitrophenyl-GlcNAc}  (#10# pH 7.0, 37°C <24>) <24>
-KM	#10# 1.64 {UDP-N-acetylgalactosamine}  (#10# pH 7.0, 37°C <24>) <24>
-KM	#12# 0.152 {ganglioside GD3}  (#12# pH 7.35, 37°C <47>) <47>
-KM	#12# 0.385 {ganglioside GM3}  (#12# pH 7.35, 37°C <47>) <47>
+KM	#10# 0.38 {p-nitrophenyl-GlcNAc}  (#10# pH 7.0, 37Â°C <24>) <24>
+KM	#10# 1.64 {UDP-N-acetylgalactosamine}  (#10# pH 7.0, 37Â°C <24>) <24>
+KM	#12# 0.152 {ganglioside GD3}  (#12# pH 7.35, 37Â°C <47>) <47>
+KM	#12# 0.385 {ganglioside GM3}  (#12# pH 7.35, 37Â°C <47>) <47>
 KM	#3# 0.16 {GM3(N-glycolylneuraminic acid)}  <5>
 KM	#3# 0.027 {GD3(N-glycolylneuraminic acid)}  <5>
-KM	#3# 0.19 {UDP-GalNAc}  (#3# pH 7.3, 37°C, membrane-bound complete
+KM	#3# 0.19 {UDP-GalNAc}  (#3# pH 7.3, 37Â°C, membrane-bound complete
 	enzyme <26>) <26>
 KM	#3# 0.007 {UDP-N-acetyl-D-galactosamine}  <5>
 KM	#3# 0.35 {GD3(N-acetylneuraminic acid)}  <5>
-KM	#3# 0.097 {UDP-GalNAc}  (#3# pH 7.3, 37°C, soluble domain <26>) <26>
+KM	#3# 0.097 {UDP-GalNAc}  (#3# pH 7.3, 37Â°C, soluble domain <26>) <26>
 KM	#3,5# -999 {more}  (#3# assay method <26>; #5# kinetic study <6>) <6,26>
 KM	#5# 0.057 {UDP-N-acetyl-D-galactosamine}  <2>
 KM	#5# 0.1 {GM3}  <3>
@@ -9681,8 +9681,8 @@ PHR	#5# 6.2-8.5 (#5# about half-maximal activity at pH 6.2 and about 85% of
 SPECIFIC_ACTIVITY
 SA	#2# -999.0 <27>
 SA	#3# 3.6 <5>
-SA	#3# 53.3 (#3# pH 7.3, 37°C, soluble domain <26>) <26>
-SA	#3# 4566.0 (#3# pH 7.3, 37°C, membrane-bound complete enzyme <26>) <26>
+SA	#3# 53.3 (#3# pH 7.3, 37Â°C, soluble domain <26>) <26>
+SA	#3# 4566.0 (#3# pH 7.3, 37Â°C, membrane-bound complete enzyme <26>) <26>
 SA	#5# 0.000149 <8>
 SA	#5# 0.0004 <3>
 
@@ -9730,9 +9730,9 @@ IN	#5# ganglioside GQ1b (#5# not in detergent-solubilized enzyme assays,
 
 KI_VALUE
 KI	#12# 0.12 {ganglioside GM3}  (#12# inhibition of GD2 synthesis, pH
-	7.35, 37°C <47>) <47>
+	7.35, 37Â°C <47>) <47>
 KI	#12# 0.066 {ganglioside GD3}  (#12# inhibition of GM2 synthesis, pH
-	7.35, 37°C <47>) <47>
+	7.35, 37Â°C <47>) <47>
 
 METALS_IONS
 ME	#2,3,5# Mn2+ (#3# requirement, 2.5-10 mM <5>; #5# can replace Ni2+ to
@@ -9837,7 +9837,7 @@ EN	#8# D356N/D357N/D358N (#8# variation of DXD motif, activity almost
 
 CLONED
 CL	#2# (enzyme expression analysis in larvae, expression of the
-	FLAG-tagged catalytic domain, comprisisng residues 62–403, in the
+	FLAG-tagged catalytic domain, comprisisng residues 62â€“403, in the
 	Spodoptera frugiperda Sf21 cell baculovirus expression system) <27>
 CL	#4# <4>
 CL	#7# (expression in Escherichia coli strain AD202) <30>
@@ -9861,12 +9861,12 @@ GS	#3# (glycerol, 20% v/v, stabilizes) <5>
 GS	#5# (detergents stabilize) <8>
 
 STORAGE_STABILITY
-SS	#3# (-70°C, 3 months, crude) <5>
-SS	#3# (4°C, purified enzyme, at least 6 days in 20% v/v glycerol, 1% w/v
+SS	#3# (-70Â°C, 3 months, crude) <5>
+SS	#3# (4Â°C, purified enzyme, at least 6 days in 20% v/v glycerol, 1% w/v
 	heptylthioglucoside, 1 M sucrose, 0.2 M NaCl and 1 mM EDTA in 0.03 M
 	cacodylate buffer, pH 6.9) <5>
-SS	#5# (-80°C, several months, crude Triton X-100 extract) <7>
-SS	#5# (-80°C, stable in 20% v/v glycerol, 1% v/v Triton X-100) <8>
+SS	#5# (-80Â°C, several months, crude Triton X-100 extract) <7>
+SS	#5# (-80Â°C, stable in 20% v/v glycerol, 1% v/v Triton X-100) <8>
 
 REFERENCE
 RF	<1> Scheideler, M.A.; Dawson, G.: Direct demonstration of the
@@ -10096,15 +10096,15 @@ AC	#5,12# phosphatidylglycerol (#5# activation, detergent-free assay
 
 KI_VALUE
 KI	#12# 0.12 {ganglioside GM3}  (#12# inhibition of GD2 synthesis, pH
-	7.35, 37°C <47>) <47>
+	7.35, 37Â°C <47>) <47>
 KI	#12# 0.066 {ganglioside GD3}  (#12# inhibition of GM2 synthesis, pH
-	7.35, 37°C <47>) <47>
+	7.35, 37Â°C <47>) <47>
 
 KI_VALUE
 KI	#12# 0.12 {ganglioside GM3}  (#12# inhibition of GD2 synthesis, pH
-	7.35, 37°C <47>) <47>
+	7.35, 37Â°C <47>) <47>
 KI	#12# 0.066 {ganglioside GD3}  (#12# inhibition of GM2 synthesis, pH
-	7.35, 37°C <47>) <47>
+	7.35, 37Â°C <47>) <47>
 
 EXPRESSION
 EXP	#4,8# up (#4# the transcriptional activity of GM3 synthase induced by
@@ -10699,7 +10699,7 @@ SP	#2,4,5,6,7,8,9,14,16,26,37,39# more = ? (#6# thyroglobin is no
 	than the type II (Galbeta1-4GlcNAc) disaccharide. The enzymes
 	efficiency is improved when the acceptor substrate is provided as a
 	free oligosaccharide rather than as a protein-bound oligosaccharide. No
-	activity with alpha1-acidglycoprotein and Galbeta1–3GlcNAc-octyl
+	activity with alpha1-acidglycoprotein and Galbeta1â€“3GlcNAc-octyl
 	<60>; #39# no activity with Gal-beta1,3-GlcNAc, T-antigen
 	Gal-beta1,3-GalNAc-alpha, and NeuAc-alpha2,3-Gal-beta1,4-Glc <69>; #16#
 	the enzyme cannot transfer a N-acetylneuraminate residue to
@@ -10811,7 +10811,7 @@ SP	#2,4,5,6,7,8,9,14,16,26,37,39# more = ? (#6# thyroglobin is no
 	than the type II (Galbeta1-4GlcNAc) disaccharide. The enzymes
 	efficiency is improved when the acceptor substrate is provided as a
 	free oligosaccharide rather than as a protein-bound oligosaccharide. No
-	activity with alpha1-acidglycoprotein and Galbeta1–3GlcNAc-octyl
+	activity with alpha1-acidglycoprotein and Galbeta1â€“3GlcNAc-octyl
 	<60>; #39# no activity with Gal-beta1,3-GlcNAc, T-antigen
 	Gal-beta1,3-GalNAc-alpha, and NeuAc-alpha2,3-Gal-beta1,4-Glc <69>; #16#
 	the enzyme cannot transfer a N-acetylneuraminate residue to
@@ -11149,80 +11149,80 @@ SP	#9# CMP-Neu5Ac + N-acetyllactosamine = CMP + Neu5Acalpha(2-6)LacNAc
 	(#9# alpha2,6-sialyltransferase activity <62>) <62>
 
 TURNOVER_NUMBER
-TN	#14# 1.1 {4-methylumbelliferyl beta-D-lactoside}  (#14# pH 8.5, 37°C,
+TN	#14# 1.1 {4-methylumbelliferyl beta-D-lactoside}  (#14# pH 8.5, 37Â°C,
 	enzyme form DELTA112Pd2,6ST(N) <45>) <45>
 TN	#14# 16.9 {CMP-N-acetylneuraminate}  (#14# mutant enzyme I411T/L433S,
-	at pH 8.0 and 22°C <79>) <79>
-TN	#14# 2.3 {4-methylumbelliferyl beta-D-lactoside}  (#14# pH 8.5, 37°C,
+	at pH 8.0 and 22Â°C <79>) <79>
+TN	#14# 2.3 {4-methylumbelliferyl beta-D-lactoside}  (#14# pH 8.5, 37Â°C,
 	enzyme form DELTA15Pd2,6ST(N) <45>) <45>
-TN	#14# 2.7 {CMP-N-acetylneuraminate}  (#14# pH 8.5, 37°C, enzyme form
+TN	#14# 2.7 {CMP-N-acetylneuraminate}  (#14# pH 8.5, 37Â°C, enzyme form
 	DELTA15Pd2,6ST(N) <45>) <45>
-TN	#14# 1.4 {CMP-N-acetylneuraminate}  (#14# pH 8.5, 37°C, enzyme form
+TN	#14# 1.4 {CMP-N-acetylneuraminate}  (#14# pH 8.5, 37Â°C, enzyme form
 	DELTA112Pd2,6ST(N) <45>) <45>
 TN	#14# 110 {lactose}  (#14# mutant enzyme I411T/L433T, at pH 8.0 and
-	22°C <79>) <79>
-TN	#14# 4.3 {lactose}  (#14# wild type enzyme, at pH 8.0 and 22°C <79>)
+	22Â°C <79>) <79>
+TN	#14# 4.3 {lactose}  (#14# wild type enzyme, at pH 8.0 and 22Â°C <79>)
 	<79>
 TN	#14# 10.9 {CMP-N-acetylneuraminate}  (#14# mutant enzyme I411T, at pH
-	8.0 and 22°C <79>) <79>
+	8.0 and 22Â°C <79>) <79>
 TN	#14# 10.7 {CMP-N-acetylneuraminate}  (#14# mutant enzyme L433T, at pH
-	8.0 and 22°C <79>) <79>
-TN	#14# 85 {lactose}  (#14# mutant enzyme L433S, at pH 8.0 and 22°C <79>)
+	8.0 and 22Â°C <79>) <79>
+TN	#14# 85 {lactose}  (#14# mutant enzyme L433S, at pH 8.0 and 22Â°C <79>)
 	<79>
 TN	#14# 102 {lactose}  (#14# mutant enzyme I411T/L433S, at pH 8.0 and
-	22°C <79>) <79>
+	22Â°C <79>) <79>
 TN	#14# 0.883 {Neu5Acalpha-4-nitrophenyl}  (#14# alpha2,6-trans-sialidase
 	activity of DELTA15Pd2,6ST <63>) <63>
-TN	#14# 25.4 {lactose}  (#14# mutant enzyme I411T, at pH 8.0 and 22°C
+TN	#14# 25.4 {lactose}  (#14# mutant enzyme I411T, at pH 8.0 and 22Â°C
 	<79>) <79>
 TN	#14# 18.8 {CMP-N-acetylneuraminate}  (#14# mutant enzyme I411T/L433T,
-	at pH 8.0 and 22°C <79>) <79>
+	at pH 8.0 and 22Â°C <79>) <79>
 TN	#14# 20.3 {CMP-N-acetylneuraminate}  (#14# mutant enzyme L433S, at pH
-	8.0 and 22°C <79>) <79>
+	8.0 and 22Â°C <79>) <79>
 TN	#14# 4.32 {CMP-N-acetylneuraminate}  (#14# wild type enzyme, at pH 8.0
-	and 22°C <79>) <79>
-TN	#14# 76.5 {lactose}  (#14# mutant enzyme L433T, at pH 8.0 and 22°C
+	and 22Â°C <79>) <79>
+TN	#14# 76.5 {lactose}  (#14# mutant enzyme L433T, at pH 8.0 and 22Â°C
 	<79>) <79>
 TN	#15# 0.1 {CMP-N-acetylneuraminate}  (#15# mutant enzyme Q232A, at pH
-	6.5 and 37°C <83>) <83>
+	6.5 and 37Â°C <83>) <83>
 TN	#15# 0.19 {CMP-N-acetylneuraminate}  (#15# mutant enzyme F208A, at pH
-	6.5 and 37°C <83>) <83>
+	6.5 and 37Â°C <83>) <83>
 TN	#15# 0.64 {beta-D-galactosyl-(1->4)-N-acetyl-beta-D-glucosamine}  (#15#
-	mutant enzyme Q354A, at pH 6.5 and 37°C <83>) <83>
+	mutant enzyme Q354A, at pH 6.5 and 37Â°C <83>) <83>
 TN	#15# 0.05 {CMP-N-acetylneuraminate}  (#15# mutant enzyme D271A, at pH
-	6.5 and 37°C <83>; #15# mutant enzyme Y272A, at pH 6.5 and 37°C <83>)
+	6.5 and 37Â°C <83>; #15# mutant enzyme Y272A, at pH 6.5 and 37Â°C <83>)
 	<83>
 TN	#15# 0.59 {CMP-N-acetylneuraminate}  (#15# recombinant wild type enzyme
-	from 293-F cells, at pH 6.5 and 37°C <83>) <83>
+	from 293-F cells, at pH 6.5 and 37Â°C <83>) <83>
 TN	#15# 0.69 {CMP-N-acetylneuraminate}  (#15# mutant enzyme K355A, at pH
-	6.5 and 37°C <83>) <83>
+	6.5 and 37Â°C <83>) <83>
 TN	#15# 1.13
 	{5-(5-dimethylaminonaphthalene-1-sulfonyl-2-(2-aminoethoxy))ethyl
 	beta-N-acetyllactosamine}  <59>
 TN	#15# 0.07 {beta-D-galactosyl-(1->4)-N-acetyl-beta-D-glucosamine}  (#15#
-	mutant enzyme Y272A, at pH 6.5 and 37°C <83>) <83>
+	mutant enzyme Y272A, at pH 6.5 and 37Â°C <83>) <83>
 TN	#15# 0.35 {beta-D-galactosyl-(1->4)-N-acetyl-beta-D-glucosamine}  (#15#
-	recombinant wild type enzyme from HEK-293 cells, at pH 6.5 and 37°C
+	recombinant wild type enzyme from HEK-293 cells, at pH 6.5 and 37Â°C
 	<83>) <83>
 TN	#15# 0.14 {beta-D-galactosyl-(1->4)-N-acetyl-beta-D-glucosamine}  (#15#
-	mutant enzyme Q232A, at pH 6.5 and 37°C <83>) <83>
+	mutant enzyme Q232A, at pH 6.5 and 37Â°C <83>) <83>
 TN	#15# 0.39 {CMP-N-acetylneuraminate}  (#15# mutant enzyme Y119F, at pH
-	6.5 and 37°C <83>) <83>
+	6.5 and 37Â°C <83>) <83>
 TN	#15# 0.39 {beta-D-galactosyl-(1->4)-N-acetyl-beta-D-glucosamine}  (#15#
-	mutant enzyme K355A, at pH 6.5 and 37°C <83>) <83>
+	mutant enzyme K355A, at pH 6.5 and 37Â°C <83>) <83>
 TN	#15# 0.42 {CMP-N-acetylneuraminate}  (#15# mutant enzyme Q354A, at pH
-	6.5 and 37°C <83>) <83>
+	6.5 and 37Â°C <83>) <83>
 TN	#15# 0.67 {beta-D-galactosyl-(1->4)-N-acetyl-beta-D-glucosamine}  (#15#
-	recombinant wild type enzyme from 293-F cells, at pH 6.5 and 37°C
+	recombinant wild type enzyme from 293-F cells, at pH 6.5 and 37Â°C
 	<83>) <83>
 TN	#15# 0.43 {beta-D-galactosyl-(1->4)-N-acetyl-beta-D-glucosamine}  (#15#
-	mutant enzyme F208A, at pH 6.5 and 37°C <83>) <83>
+	mutant enzyme F208A, at pH 6.5 and 37Â°C <83>) <83>
 TN	#15# 0.31 {beta-D-galactosyl-(1->4)-N-acetyl-beta-D-glucosamine}  (#15#
-	mutant enzyme Y119F, at pH 6.5 and 37°C <83>) <83>
+	mutant enzyme Y119F, at pH 6.5 and 37Â°C <83>) <83>
 TN	#15# 0.09 {beta-D-galactosyl-(1->4)-N-acetyl-beta-D-glucosamine}  (#15#
-	mutant enzyme D271A, at pH 6.5 and 37°C <83>) <83>
+	mutant enzyme D271A, at pH 6.5 and 37Â°C <83>) <83>
 TN	#15# 0.49 {CMP-N-acetylneuraminate}  (#15# recombinant wild type enzyme
-	from HEK-293 cells, at pH 6.5 and 37°C <83>) <83>
+	from HEK-293 cells, at pH 6.5 and 37Â°C <83>) <83>
 TN	#15# 0.087
 	{5-(5-dimethylaminonaphthalene-1-sulfonyl-2-(2-aminoethoxy))ethyl
 	beta-lactose}  <59>
@@ -11231,115 +11231,115 @@ KM_VALUE
 KM	#11# 0.3 {CMP-N-acetylneuraminate}  (#11# with N-acetyllactosamine
 	<15>) <15>
 KM	#11# 0.08 {CMP-N-acetylneuraminate}  (#11# with lactose <15>) <15>
-KM	#12# 0.11 {CMP-9''-benzamido-Neu5Ac}  (#12# pH 5.0, 37°C <46>) <46>
-KM	#12# 0.11 {CMP-9''-phenylpropionamido-Neu5Ac}  (#12# pH 5.0, 37°C
+KM	#12# 0.11 {CMP-9''-benzamido-Neu5Ac}  (#12# pH 5.0, 37Â°C <46>) <46>
+KM	#12# 0.11 {CMP-9''-phenylpropionamido-Neu5Ac}  (#12# pH 5.0, 37Â°C
 	<46>) <46>
-KM	#12# 0.14 {cytidine-5'-monophospho-sialic acid}  (#12# pH 5.0, 37°C
+KM	#12# 0.14 {cytidine-5'-monophospho-sialic acid}  (#12# pH 5.0, 37Â°C
 	<46>) <46>
-KM	#12# 1.8 {lactose}  (#12# pH 5.0, 37°C, cosubstrate:
+KM	#12# 1.8 {lactose}  (#12# pH 5.0, 37Â°C, cosubstrate:
 	CMP-9-benzamido-Neu5Ac <46>) <46>
-KM	#12# 2.5 {lactose}  (#12# pH 5.0, 37°C, cosubstrate:
-	CMP-9-phenylacetamido-Neu5Ac <46>; #12# pH 5.0, 37°C, cosubstrate:
+KM	#12# 2.5 {lactose}  (#12# pH 5.0, 37Â°C, cosubstrate:
+	CMP-9-phenylacetamido-Neu5Ac <46>; #12# pH 5.0, 37Â°C, cosubstrate:
 	CMP-phenylhexanamido-Neu5Ac <46>) <46>
-KM	#12# 0.34 {CMP-9''-phenylacetamido-Neu5Ac}  (#12# pH 5.0, 37°C <46>)
+KM	#12# 0.34 {CMP-9''-phenylacetamido-Neu5Ac}  (#12# pH 5.0, 37Â°C <46>)
 	<46>
-KM	#12# 0.53 {CMP-9''-phenylhexanamido-Neu5Ac}  (#12# pH 5.0, 37°C <46>)
+KM	#12# 0.53 {CMP-9''-phenylhexanamido-Neu5Ac}  (#12# pH 5.0, 37Â°C <46>)
 	<46>
-KM	#12# 2.6 {lactose}  (#12# pH 5.0, 37°C, cosubstrate:
+KM	#12# 2.6 {lactose}  (#12# pH 5.0, 37Â°C, cosubstrate:
 	CMP-phenylpropionamido-Neu5Ac <46>) <46>
-KM	#12# 3.6 {lactose}  (#12# pH 5.0, 37°C, cosubstrate:
+KM	#12# 3.6 {lactose}  (#12# pH 5.0, 37Â°C, cosubstrate:
 	cytidine-5-monophospho-sialic acid <46>) <46>
-KM	#14# 0.6 {4-methylumbelliferyl beta-D-lactoside}  (#14# pH 8.5, 37°C,
+KM	#14# 0.6 {4-methylumbelliferyl beta-D-lactoside}  (#14# pH 8.5, 37Â°C,
 	enzyme form DELTA112Pd2,6ST(N) <45>) <45>
-KM	#14# 0.9 {CMP-N-acetylneuraminate}  (#14# pH 8.5, 37°C, enzyme form
-	DELTA112Pd2,6ST(N) <45>; #14# pH 8.5, 37°C, enzyme form
+KM	#14# 0.9 {CMP-N-acetylneuraminate}  (#14# pH 8.5, 37Â°C, enzyme form
+	DELTA112Pd2,6ST(N) <45>; #14# pH 8.5, 37Â°C, enzyme form
 	DELTA15Pd2,6ST(N) <45>) <45>
-KM	#14# 0.8 {4-methylumbelliferyl beta-D-lactoside}  (#14# pH 8.5, 37°C,
+KM	#14# 0.8 {4-methylumbelliferyl beta-D-lactoside}  (#14# pH 8.5, 37Â°C,
 	enzyme form DELTA15Pd2,6ST(N) <45>) <45>
 KM	#14# 0.32 {CMP-N-acetylneuraminate}  <25>
-KM	#14# 62 {lactose}  (#14# mutant enzyme I411T/L433T, at pH 8.0 and 22°C
+KM	#14# 62 {lactose}  (#14# mutant enzyme I411T/L433T, at pH 8.0 and 22Â°C
 	<79>) <79>
 KM	#14# 53 {Neu5Acalpha-4-nitrophenyl}  (#14# alpha2,6-trans-sialidase
 	activity of DELTA15Pd2,6ST <63>) <63>
 KM	#14# 10.7 {CMP-N-acetylneuraminate}  (#14# mutant enzyme I411T/L433S,
-	at pH 8.0 and 22°C <79>) <79>
+	at pH 8.0 and 22Â°C <79>) <79>
 KM	#14# 6.06 {CMP-N-acetylneuraminate}  (#14# mutant enzyme I411T, at pH
-	8.0 and 22°C <79>) <79>
+	8.0 and 22Â°C <79>) <79>
 KM	#14# 8.1 {Neu5Acalpha-2,3-Galbeta-1,4-Glc}  <26>
-KM	#14# 27.3 {lactose}  (#14# mutant enzyme I411T, at pH 8.0 and 22°C
+KM	#14# 27.3 {lactose}  (#14# mutant enzyme I411T, at pH 8.0 and 22Â°C
 	<79>) <79>
 KM	#14# 3.37 {CMP-N-acetylneuraminate}  (#14# mutant enzyme I411T/L433T,
-	at pH 8.0 and 22°C <79>) <79>
+	at pH 8.0 and 22Â°C <79>) <79>
 KM	#14# 2.27 {CMP-N-acetylneuraminate}  (#14# mutant enzyme L433T, at pH
-	8.0 and 22°C <79>) <79>
+	8.0 and 22Â°C <79>) <79>
 KM	#14# 13.6 {fucosyl-alpha-1,2-D-galactosyl-beta-1,4-D-glucose}  <26>
 KM	#14# 8.15 {CMP-N-acetylneuraminate}  (#14# mutant enzyme L433S, at pH
-	8.0 and 22°C <79>) <79>
+	8.0 and 22Â°C <79>) <79>
 KM	#14# 174 {methyl-beta-D-galactopyranoside}  <25>
-KM	#14# 59.7 {lactose}  (#14# mutant enzyme L433S, at pH 8.0 and 22°C
+KM	#14# 59.7 {lactose}  (#14# mutant enzyme L433S, at pH 8.0 and 22Â°C
 	<79>) <79>
 KM	#14# 8.95 {N-acetyllactosaminide}  <25>
 KM	#14# 6.82 {lactose}  <25>
-KM	#14# 61.1 {lactose}  (#14# mutant enzyme L433T, at pH 8.0 and 22°C
+KM	#14# 61.1 {lactose}  (#14# mutant enzyme L433T, at pH 8.0 and 22Â°C
 	<79>) <79>
 KM	#14# 5.87 {CMP-N-acetylneuraminate}  (#14# wild type enzyme, at pH 8.0
-	and 22°C <79>) <79>
-KM	#14# 7.62 {lactose}  (#14# wild type enzyme, at pH 8.0 and 22°C <79>)
+	and 22Â°C <79>) <79>
+KM	#14# 7.62 {lactose}  (#14# wild type enzyme, at pH 8.0 and 22Â°C <79>)
 	<79>
 KM	#14# 75.7 {lactose}  (#14# mutant enzyme I411T/L433S, at pH 8.0 and
-	22°C <79>) <79>
+	22Â°C <79>) <79>
 KM	#15# 0.095 {CMP-N-acetylneuraminate}  (#15# mutant enzyme K355A, at pH
-	6.5 and 37°C <83>) <83>
+	6.5 and 37Â°C <83>) <83>
 KM	#15# 0.133 {CMP-N-acetylneuraminate}  (#15# mutant enzyme Q232A, at pH
-	6.5 and 37°C <83>) <83>
+	6.5 and 37Â°C <83>) <83>
 KM	#15# 0.078 {CMP-N-acetylneuraminate}  (#15# mutant enzyme Y119F, at pH
-	6.5 and 37°C <83>) <83>
+	6.5 and 37Â°C <83>) <83>
 KM	#15# 0.4 {CMP-N-acetylneuraminate}  (#15# mutant enzyme F208A, at pH
-	6.5 and 37°C <83>) <83>
+	6.5 and 37Â°C <83>) <83>
 KM	#15# 1 {beta-D-galactosyl-(1->4)-N-acetyl-beta-D-glucosamine}  (#15#
-	mutant enzyme F208A, at pH 6.5 and 37°C <83>) <83>
+	mutant enzyme F208A, at pH 6.5 and 37Â°C <83>) <83>
 KM	#15# 0.22 {CMP-N-acetylneuraminate}  (#15# mutant enzyme Y272A, at pH
-	6.5 and 37°C <83>) <83>
+	6.5 and 37Â°C <83>) <83>
 KM	#15# 1.4 {beta-D-galactosyl-(1->4)-N-acetyl-beta-D-glucosamine}  (#15#
-	recombinant wild type enzyme from HEK-293 cells, at pH 6.5 and 37°C
+	recombinant wild type enzyme from HEK-293 cells, at pH 6.5 and 37Â°C
 	<83>) <83>
 KM	#15# 1.8 {beta-D-galactosyl-(1->4)-N-acetyl-beta-D-glucosamine}  (#15#
-	mutant enzyme Q354A, at pH 6.5 and 37°C <83>; #15# mutant enzyme
-	Y119F, at pH 6.5 and 37°C <83>; #15# recombinant wild type enzyme from
-	293-F cells, at pH 6.5 and 37°C <83>) <83>
+	mutant enzyme Q354A, at pH 6.5 and 37Â°C <83>; #15# mutant enzyme
+	Y119F, at pH 6.5 and 37Â°C <83>; #15# recombinant wild type enzyme from
+	293-F cells, at pH 6.5 and 37Â°C <83>) <83>
 KM	#15# 0.33 {asialo-alpha1-acid glycoprotein}  (#15# wild-type enzyme
 	<23>) <23>
 KM	#15# 2.8
 	{5-(5-dimethylaminonaphthalene-1-sulfonyl-2-(2-aminoethoxy))ethyl
 	beta-lactose}  <59>
 KM	#15# 1.1 {beta-D-galactosyl-(1->4)-N-acetyl-beta-D-glucosamine}  (#15#
-	mutant enzyme K355A, at pH 6.5 and 37°C <83>) <83>
+	mutant enzyme K355A, at pH 6.5 and 37Â°C <83>) <83>
 KM	#15# 3.5 {beta-D-galactosyl-(1->4)-N-acetyl-beta-D-glucosamine}  (#15#
-	mutant enzyme Y272A, at pH 6.5 and 37°C <83>) <83>
+	mutant enzyme Y272A, at pH 6.5 and 37Â°C <83>) <83>
 KM	#15# 0.093 {CMP-N-acetylneuraminate}  (#15# recombinant wild type
-	enzyme from HEK-293 cells, at pH 6.5 and 37°C <83>) <83>
+	enzyme from HEK-293 cells, at pH 6.5 and 37Â°C <83>) <83>
 KM	#15# 2.6 {beta-D-galactosyl-(1->4)-N-acetyl-beta-D-glucosamine}  (#15#
-	mutant enzyme Q232A, at pH 6.5 and 37°C <83>) <83>
+	mutant enzyme Q232A, at pH 6.5 and 37Â°C <83>) <83>
 KM	#15# 0.092 {CMP-N-acetylneuraminate}  (#15# recombinant wild type
-	enzyme from 293-F cells, at pH 6.5 and 37°C <83>) <83>
+	enzyme from 293-F cells, at pH 6.5 and 37Â°C <83>) <83>
 KM	#15# 0.92
 	{5-(5-dimethylaminonaphthalene-1-sulfonyl-2-(2-aminoethoxy))ethyl
 	beta-N-acetyllactosamine}  <59>
 KM	#15# 6.5 {beta-D-galactosyl-(1->4)-N-acetyl-beta-D-glucosamine}  (#15#
-	mutant enzyme D271A, at pH 6.5 and 37°C <83>) <83>
+	mutant enzyme D271A, at pH 6.5 and 37Â°C <83>) <83>
 KM	#15# 0.365 {CMP-N-acetylneuraminate}  (#15# mutant enzyme D271A, at pH
-	6.5 and 37°C <83>) <83>
+	6.5 and 37Â°C <83>) <83>
 KM	#15,16# 0.1 {CMP-N-acetylneuraminate}  (#16# apparent value,
 	recombinant enzyme, using pyridylamine-type 2H as cosubstrate, in 50 mM
-	MES-NaOH buffer (pH 6.0), 1 mM MnCl2, at 37°C <70>; #15# mutant enzyme
-	Q354A, at pH 6.5 and 37°C <83>) <70,83>
+	MES-NaOH buffer (pH 6.0), 1 mM MnCl2, at 37Â°C <70>; #15# mutant enzyme
+	Q354A, at pH 6.5 and 37Â°C <83>) <70,83>
 KM	#16# 0.11 {CMP-N-acetylneuraminate}  (#16# apparent value, recombinant
 	enzyme, using pyridylaminyl-lacto-N-neotetraose as cosubstrate, in 50
-	mM MES-NaOH buffer (pH 6.0), 1 mM MnCl2, at 37°C <70>) <70>
+	mM MES-NaOH buffer (pH 6.0), 1 mM MnCl2, at 37Â°C <70>) <70>
 KM	#16# 0.9 {pyridylaminyl-lacto-N-neotetraose}  (#16# recombinant enzyme,
-	in 50 mM MES-NaOH buffer (pH 6.0), 1 mM MnCl2, at 37°C <70>) <70>
+	in 50 mM MES-NaOH buffer (pH 6.0), 1 mM MnCl2, at 37Â°C <70>) <70>
 KM	#16# 3.5 {pyridylamine-type 2H}  (#16# recombinant enzyme, in 50 mM
-	MES-NaOH buffer (pH 6.0), 1 mM MnCl2, at 37°C <70>) <70>
+	MES-NaOH buffer (pH 6.0), 1 mM MnCl2, at 37Â°C <70>) <70>
 KM	#2# 0.003 {CMP-N-acetylneuraminate}  <14>
 KM	#2# 0.035 {asialo-fetuin}  <14>
 KM	#2,3,5,6,7,11# -999 {more}  (#2,6# kinetic data <11,14>; #7# kinetic
@@ -11348,21 +11348,21 @@ KM	#2,3,5,6,7,11# -999 {more}  (#2,6# kinetic data <11,14>; #7# kinetic
 	Km-values for synthetic CMP-N-acetylneuraminate analogues <29>)
 	<11,14,15,17,21,27,29,32,39>
 KM	#26# 1.09 {GalNAcbeta(1,4)GlcNAc-octyl}  (#26# membrane-bound protein,
-	at 37°C <60>) <60>
+	at 37Â°C <60>) <60>
 KM	#26# 0.97 {GalNAcbeta(1,4)GlcNAc-octyl}  (#26# soluble protein, at
-	37°C <60>) <60>
-KM	#26# 2.04 {Galbeta(1,4)GlcNAc-octyl}  (#26# soluble protein, at 37°C
+	37Â°C <60>) <60>
+KM	#26# 2.04 {Galbeta(1,4)GlcNAc-octyl}  (#26# soluble protein, at 37Â°C
 	<60>) <60>
 KM	#26# 2.12 {Galbeta(1,4)GlcNAc-octyl}  (#26# membrane-bound protein, at
-	37°C <60>) <60>
+	37Â°C <60>) <60>
 KM	#3# 1.4 {Galbeta(1-4)GlcNAc}  (#3# non-reducing terminus of
 	asialofetuin glycans <39>) <39>
-KM	#37# 0.0047 {AA-labeled G2 glycan}  (#37# at pH 8.0 and 30°C <86>) <86>
+KM	#37# 0.0047 {AA-labeled G2 glycan}  (#37# at pH 8.0 and 30Â°C <86>) <86>
 KM	#37# 31 {lactose}  <51>
 KM	#37# 99 {methyl-beta-D-galactopyranoside}  <51>
 KM	#4# 1.25 {beta-D-galactosyl-1,4-N-acetyl-beta-D-glucosamine}  <37>
-KM	#40# 0.0278 {AA-labeled G2 glycan}  (#40# at pH 8.0 and 30°C <86>) <86>
-KM	#41# 0.0361 {AA-labeled G2 glycan}  (#41# at pH 8.0 and 30°C <86>) <86>
+KM	#40# 0.0278 {AA-labeled G2 glycan}  (#40# at pH 8.0 and 30Â°C <86>) <86>
+KM	#41# 0.0361 {AA-labeled G2 glycan}  (#41# at pH 8.0 and 30Â°C <86>) <86>
 KM	#5# 0.16 {asialo-transferrin}  (#5# recombinant enzyme <27>) <27>
 KM	#5# 1.3 {pyridylamino-N-acetyllactosamine}  (#5# recombinant enzyme
 	<27>) <27>
@@ -11383,20 +11383,20 @@ KM	#5,6# 0.15 {CMP-N-acetylneuraminate}  (#5# recombinant enzyme <28>)
 KM	#5,6,15# 0.05 {CMP-N-acetylneuraminate}  (#15# wild-type enzyme <23>;
 	#6,15# with asialo-alpha1-acid glycoprotein <3,23>) <3,23,27>
 KM	#6# 0.03 {CMP-9-benzamido-N-acetylneuraminate}  <3>
-KM	#6# 0.05 {CMP-9''-phenylacetamido-Neu5Ac}  (#6# pH 5.0, 37°C <46>) <46>
+KM	#6# 0.05 {CMP-9''-phenylacetamido-Neu5Ac}  (#6# pH 5.0, 37Â°C <46>) <46>
 KM	#6# 0.147 {asialo-alpha1-acid glycoprotein}  <36>
 KM	#6# 0.21 {asialo-transferrin}  <11>
-KM	#6# 1.7 {Galbeta(1-3)GlcNAcbeta-O-Me}  (#6# pH 6.5, 37°C <34>) <34,35>
+KM	#6# 1.7 {Galbeta(1-3)GlcNAcbeta-O-Me}  (#6# pH 6.5, 37Â°C <34>) <34,35>
 KM	#6# 0.078 {asialo-ceruloplasmin}  (#6# expressed as concentration of
 	acceptor sites <9>) <9>
 KM	#6# 1
 	{N-((1R,3R,5R,6R,7S,8R,14R,16R,17R,18R)-6,7
 	18-trihydroxy-5-hydroxymethyl-16-methoxy-11-oxo-2,4,9
 	15-tetraoxa-12-aza-tricyclo[12.3.1.03,8]octadec-17-yl)-acetamide}  (#6#
-	pH 6.5, 37°C <34>) <34>
-KM	#6# 2 {N-acetyllactosamine}  (#6# pH 5.0, 37°C, cosubstrate:
+	pH 6.5, 37Â°C <34>) <34>
+KM	#6# 2 {N-acetyllactosamine}  (#6# pH 5.0, 37Â°C, cosubstrate:
 	CMP-9-phenylacetamido-Neu5Ac <46>) <46>
-KM	#6# 0.12 {cytidine-5'-monophospho-sialic acid}  (#6# pH 5.0, 37°C
+KM	#6# 0.12 {cytidine-5'-monophospho-sialic acid}  (#6# pH 5.0, 37Â°C
 	<46>) <46>
 KM	#6# 0.12 {CMP-9-acetamido-N-acetylneuraminate}  <3>
 KM	#6# 0.14 {CMP-N-acetylneuraminate}  (#6# with stimulation by the
@@ -11423,7 +11423,7 @@ KM	#6# 3.1
 	5-Dihydroxy-6-hydroxymethyl-3-methoxy-tetrahydro-pyran-2-yloxy)-6
 	formylaminomethyl-4-hydroxy-2-methoxy-tetrahydro-pyran-3-yl]-acetamide}
 	 <35>
-KM	#6# 10 {N-acetyllactosamine}  (#6# pH 5.0, 37°C, cosubstrate:
+KM	#6# 10 {N-acetyllactosamine}  (#6# pH 5.0, 37Â°C, cosubstrate:
 	CMP-9-phenylpropionamido-Neu5Ac <46>) <46>
 KM	#6# 0.23 {asialo-alpha1-acid glycoprotein}  (#6# with stimulation by
 	the natural cytosolic crat colon factor <24>) <24>
@@ -11431,8 +11431,8 @@ KM	#6# 3.3 {Formic acid
 	(2R,3R,4S,5R,6R)-2-((2R,3R,4R,5R
 	6R)-3-acetylamino-5-hydroxy-2-methoxy-6-methylaminomethyl-tetrahydro
 	pyran-4-yloxy)-4,5-dihydroxy-6-hydroxymethyl-tetrahydro-pyran-3-yl
-	ester}  (#6# pH 6.5, 37°C <34>) <34>
-KM	#6# 4.3 {N-acetyllactosamine}  (#6# pH 5.0, 37°C, cosubstrate:
+	ester}  (#6# pH 6.5, 37Â°C <34>) <34>
+KM	#6# 4.3 {N-acetyllactosamine}  (#6# pH 5.0, 37Â°C, cosubstrate:
 	cytidine-5-monophospho-sialic acid <46>) <46>
 KM	#6# 4.3 {Galbeta(1-3)(GlcNAc-6-O-Me)beta-O-Me}  <35>
 KM	#6# 0.7 {Methanesulfonic acid
@@ -11447,14 +11447,14 @@ KM	#6# 5.8
 	5-trihydroxy-6-hydroxymethyl-tetrahydro-pyran-2-yloxy)-tetrahydro-pyran
 	3-yl]-acetamide}  <35>
 KM	#6# 0.035 {CMP-N-acetylneuraminate}  <30>
-KM	#6# 6.8 {N-acetyllactosamine}  (#6# pH 5.0, 37°C, cosubstrate:
+KM	#6# 6.8 {N-acetyllactosamine}  (#6# pH 5.0, 37Â°C, cosubstrate:
 	CMP-9-benzamido-Neu5Ac <46>) <46>
 KM	#6# 0.38 {CMP-N-acetylneuraminate}  <33>
 KM	#6# 1.1
 	{N-((1R,3R,5R,6R,7S,8R,14R,16R,17R,18S)-6,7
 	18-Trihydroxy-5-hydroxymethyl-16-methoxy-2,4,9,12
 	15-pentaoxa-tricyclo[12.3.1.03,8]octadec-17-yl)-acetamide}  (#6# pH
-	6.5, 37°C <34>) <34>
+	6.5, 37Â°C <34>) <34>
 KM	#6# 1.1
 	{(2S,3S,4R,5R,6R)-5-Acetylamino-4-hydroxy-6-methoxy-3-((2S,3R,4S,5R
 	6R)-3,4
@@ -11467,40 +11467,40 @@ KM	#6# 0.53 {asialo-alpha1-acid glycoprotein}  (#6# without stimulation by
 	the natural cytosolic crat colon factor <24>) <24>
 KM	#6# 0.047 {CMP-N-acetylneuraminate}  <9>
 KM	#6# 0.163 {asialo-alpha1-acid glycoprotein}  <36>
-KM	#6# 0.051 {CMP-9''-benzamido-Neu5Ac}  (#6# pH 5.0, 37°C <46>) <46>
+KM	#6# 0.051 {CMP-9''-benzamido-Neu5Ac}  (#6# pH 5.0, 37Â°C <46>) <46>
 KM	#6# 1.67 {lacto-N-neotetraose}  <11>
-KM	#6# 5.2 {N-acetyllactosamine}  (#6# pH 5.0, 37°C, cosubstrate:
+KM	#6# 5.2 {N-acetyllactosamine}  (#6# pH 5.0, 37Â°C, cosubstrate:
 	CMP-9-phenylhexanamido-Neu5Ac <46>) <46>
-KM	#6# 0.098 {CMP-9''-phenylhexanamido-Neu5Ac}  (#6# pH 5.0, 37°C <46>)
+KM	#6# 0.098 {CMP-9''-phenylhexanamido-Neu5Ac}  (#6# pH 5.0, 37Â°C <46>)
 	<46>
 KM	#6# 11.2 {(Gal-3-O-Me)beta(1-3)(GlcNAc-6-O-Me)beta-O-Me}  (#6# pH 6.5,
-	37°C <34>) <34,35>
+	37Â°C <34>) <34,35>
 KM	#6# 11.6
 	{N-((1R,3R,5R,6R,7S,8R,13R,15R,16R,17S)-6,7
 	17-Trihydroxy-5-hydroxymethyl-15-methoxy-2,4,9,11
 	14-pentaoxa-tricyclo[11.3.1.03,8]heptadec-16-yl)-acetamide}  (#6# pH
-	6.5, 37°C <34>) <34>
+	6.5, 37Â°C <34>) <34>
 KM	#6# 0.72 {CMP-9-amino-N-acetylneuraminate}  <3>
 KM	#6# 1.62 {N-acetyllactosamine}  <11>
-KM	#6# 0.165 {CMP-9''-phenylpropionamido-Neu5Ac}  (#6# pH 5.0, 37°C <46>)
+KM	#6# 0.165 {CMP-9''-phenylpropionamido-Neu5Ac}  (#6# pH 5.0, 37Â°C <46>)
 	<46>
 KM	#6# 129 {lactose}  <11>
 KM	#6,8# 0.24 {CMP-N-acetylneuraminate}  (#6# without stimulation by the
 	natural cytosolic crat colon factor <24>; #8# wild type enzyme, at pH
-	6.0 and 37°C <80>) <24,80>
+	6.0 and 37Â°C <80>) <24,80>
 KM	#7# 0.59 {asialo-thyroglobulin glycopeptides}  <10>
 KM	#7# 12 {N-acetyllactosamine}  <17>
 KM	#7# 0.27 {CMP-N-acetylneuraminate}  <10>
 KM	#8# 35.7 {Galbeta(1,4)-GlcNAcbeta-4-nitrophenyl}  (#8# mutant enzyme
-	N284Q, at pH 6.0 and 37°C <80>) <80>
+	N284Q, at pH 6.0 and 37Â°C <80>) <80>
 KM	#8# 1.18 {CMP-N-acetylneuraminate}  (#8# mutant enzyme N284Q, at pH 6.0
-	and 37°C <80>) <80>
+	and 37Â°C <80>) <80>
 KM	#8# 2.02 {CMP-N-acetylneuraminate}  (#8# mutant enzyme N284A, at pH 6.0
-	and 37°C <80>) <80>
+	and 37Â°C <80>) <80>
 KM	#8# 40.2 {Galbeta(1,4)-GlcNAcbeta-4-nitrophenyl}  (#8# wild type
-	enzyme, at pH 6.0 and 37°C <80>) <80>
+	enzyme, at pH 6.0 and 37Â°C <80>) <80>
 KM	#8# 52.8 {Galbeta(1,4)-GlcNAcbeta-4-nitrophenyl}  (#8# mutant enzyme
-	N284A, at pH 6.0 and 37°C <80>) <80>
+	N284A, at pH 6.0 and 37Â°C <80>) <80>
 KM	#9# 0.3 {CMP-Neu5Ac}  (#9# alpha2,6-sialyltransferase activity of the
 	truncated recombinant enzyme <62>) <62>
 KM	#9# 15.4 {N-acetyllactosamine}  (#9# alpha2,6-sialyltransferase
@@ -11580,7 +11580,7 @@ TO	#9# 35 (#9# alpha2,6-sialyltransferase activity and neuraminidase
 	activity of the truncated recombinant enzyme <62>) <62>
 
 TEMPERATURE_RANGE
-TR	#3# 25-37 (#3# activity at 25°C is about 75% of the activity at 100°C
+TR	#3# 25-37 (#3# activity at 25Â°C is about 75% of the activity at 100Â°C
 	<39>) <39>
 TR	#8# 25-35 <80>
 
@@ -11594,7 +11594,7 @@ AC	#14,37,40,41# CMP (#14# cytidine 5-monophosphate, the product of
 AC	#37,40,41# CMP-N-acetylneuraminate <86>
 AC	#5,15# more (#5# the enzyme is induced by phorbol 12-myristate
 	13-acetate via a PKC/ERK/CREB-dependent pathway in K562 human leukemia
-	cells, the induction is inhibited by Gö6976, a specific inhibitor of
+	cells, the induction is inhibited by GÃ¶6976, a specific inhibitor of
 	PKC, and U0126, an inhibitor of the extracellular signal-regulated
 	kinase, but not by wortmannin, overview <42>; #15# in the
 	sialyltransferase activity assay, FLAG-tagged ST6Gal1 has the highest
@@ -11671,9 +11671,9 @@ KI	#15# 0.0047 {CDP}  (#15# wild-type enzyme <23>) <23>
 KI	#2# -999 {more}  <14>
 KI	#5# 0.18 {CMP}  <18>
 KI	#6# 0.79 {CMP-4-O-[4-carboxy-2,2,6,6-tetramethylpiperidinine-1-oxyl]} 
-	(#6# pH 6.5, 37°C <47>) <47>
+	(#6# pH 6.5, 37Â°C <47>) <47>
 KI	#6# 4.07 {CMP-4-O-[2,2,6,6-tetramethylpiperidine-1-oxyl]}  (#6# pH 6.5,
-	37°C <47>) <47>
+	37Â°C <47>) <47>
 
 METALS_IONS
 ME	#15# MnCl2 <59>
@@ -12100,7 +12100,7 @@ CL	#40# (expressed in Escherichia coli BL21 cells) <86>
 CL	#41# (expressed in Escherichia coli BL21 cells) <86>
 
 CRYSTALLIZATION
-CR	#12# (hanging-drop vapour-diffusion method at 20°C. The crystal
+CR	#12# (hanging-drop vapour-diffusion method at 20Â°C. The crystal
 	belongs to space group P3(1)2(1) or P3(2)2(1), with unit-cell
 	parameters a = b = 90.29, c = 204.33 A. X-ray diffraction data are
 	collected to 2.5 A resolution) <43>
@@ -12112,7 +12112,7 @@ CR	#16# (sitting drop vapor diffusion, method truncated enzyme DELTA89 in
 	using 0.1 M MES-NaOH pH 5.8, 20% (w/v) PEG 2000 MME, 0.01 M CaCl2, 0.01
 	M MgCl2) <78>
 CR	#37# (single crystals are grown by the hanging-drop vapor diffusion
-	method at 20°C. Crystal structure of DELTA16psp26ST, the N-terminal
+	method at 20Â°C. Crystal structure of DELTA16psp26ST, the N-terminal
 	truncated form of alpha2,6-sialyltransferase from Photobacterium sp.
 	JT-ISH-224, complexed with a donor productCMPand an acceptor substrate
 	lactose) <49>
@@ -12174,7 +12174,7 @@ GS	#7# (glycerol, 50%, stabilizes during storage) <16>
 GS	#7# (use of plastic containers instead of glass stabilizes) <16>
 
 ORGANIC_SOLVENT_STABILITY
-OSS	#6# Methanol (#6# stable at 10%, 37°C <19>) <19>
+OSS	#6# Methanol (#6# stable at 10%, 37Â°C <19>) <19>
 
 PH_STABILITY
 PHS	#15# 5-9 (#15# purified enzyme is relatively stable over a wide range
@@ -12185,26 +12185,26 @@ PHS	#6# 5.3 (#6# and below, storage stability decreases with t1/2: about 3
 PHS	#7# 5.2-5.5 (#7# most stable <16>) <16>
 
 STORAGE_STABILITY
-SS	#14# (-80°C, 20 mM sodium cacodylate, pH 5.0, stable at least 3
+SS	#14# (-80Â°C, 20 mM sodium cacodylate, pH 5.0, stable at least 3
 	months) <25>
-SS	#5# (-20°C, crude enzyme preparation, at least 3 months) <18>
-SS	#5# (4°C, partially purified enzyme preparation in 20% glycerol, v/v,
+SS	#5# (-20Â°C, crude enzyme preparation, at least 3 months) <18>
+SS	#5# (4Â°C, partially purified enzyme preparation in 20% glycerol, v/v,
 	at least 1 week) <7>
-SS	#6# (3°C, microsomal fraction, 2 weeks) <9>
-SS	#6# (-20°C, in 50% glycerol, 35 mM cacodylate, pH 6, 0.45 M NaCl,
+SS	#6# (3Â°C, microsomal fraction, 2 weeks) <9>
+SS	#6# (-20Â°C, in 50% glycerol, 35 mM cacodylate, pH 6, 0.45 M NaCl,
 	0.08% Triton CF-54, at least 1 year) <12>
 SS	#7# (frozen, crude, solubilized enzyme preparation, several months) <10>
-SS	#7# (-20°C, in 50% glycerol, 12 mM cacodylate, pH 5.3, 2 months) <16>
-SS	#7,11# (0-4°C, partially purified enzyme preparation, 2-4 weeks) <15>
+SS	#7# (-20Â°C, in 50% glycerol, 12 mM cacodylate, pH 5.3, 2 months) <16>
+SS	#7,11# (0-4Â°C, partially purified enzyme preparation, 2-4 weeks) <15>
 
 TEMPERATURE_STABILITY
 TS	#14# 55 (#14# 5 min, 5% remaining activity <25>) <25>
 TS	#14# 40 (#14# 5 min, 80% remaining activity <25>) <25>
-TS	#15# 20 (#15# purified enzyme is stable below 20°C but is rapidly
-	inactivated at temperatures above 20°C <59>) <59>
+TS	#15# 20 (#15# purified enzyme is stable below 20Â°C but is rapidly
+	inactivated at temperatures above 20Â°C <59>) <59>
 TS	#6# 67 (#6# 30 s, 90% loss of activity <11>) <11>
 TS	#7# 100 (#7# 5 min, complete inactivation <10>) <10>
-TS	#8# 0-30 (#8# the enzyme is stable below 30°C for 1 h but shows
+TS	#8# 0-30 (#8# the enzyme is stable below 30Â°C for 1 h but shows
 	significantly decreased activities at higher temperatures <80>) <80>
 
 REFERENCE
@@ -12590,7 +12590,7 @@ AC	#14,37,40,41# CMP (#14# cytidine 5-monophosphate, the product of
 AC	#37,40,41# CMP-N-acetylneuraminate <86>
 AC	#5,15# more (#5# the enzyme is induced by phorbol 12-myristate
 	13-acetate via a PKC/ERK/CREB-dependent pathway in K562 human leukemia
-	cells, the induction is inhibited by Gö6976, a specific inhibitor of
+	cells, the induction is inhibited by GÃ¶6976, a specific inhibitor of
 	PKC, and U0126, an inhibitor of the extracellular signal-regulated
 	kinase, but not by wortmannin, overview <42>; #15# in the
 	sialyltransferase activity assay, FLAG-tagged ST6Gal1 has the highest
@@ -12616,15 +12616,15 @@ KI	#15# 0.0047 {CDP}  (#15# wild-type enzyme <23>) <23>
 KI	#2# -999 {more}  <14>
 KI	#5# 0.18 {CMP}  <18>
 KI	#6# 0.79 {CMP-4-O-[4-carboxy-2,2,6,6-tetramethylpiperidinine-1-oxyl]} 
-	(#6# pH 6.5, 37°C <47>) <47>
+	(#6# pH 6.5, 37Â°C <47>) <47>
 KI	#6# 4.07 {CMP-4-O-[2,2,6,6-tetramethylpiperidine-1-oxyl]}  (#6# pH 6.5,
-	37°C <47>) <47>
+	37Â°C <47>) <47>
 
 IC50_VALUE
 IC50	#6# 1.7 {CMP-4-O-[4-carboxy-2,2,6,6-tetramethylpiperidinine-1-oxyl]} 
-	(#6# pH 6.5, 37°C <47>) <47>
+	(#6# pH 6.5, 37Â°C <47>) <47>
 IC50	#6# 8.7 {CMP-4-O-[2,2,6,6-tetramethylpiperidine-1-oxyl]}  (#6# pH 6.5,
-	37°C <47>) <47>
+	37Â°C <47>) <47>
 
 KI_VALUE
 KI	#15# 0.016 {CDP}  (#15# mutant V220A <23>) <23>
@@ -12632,54 +12632,54 @@ KI	#15# 0.0047 {CDP}  (#15# wild-type enzyme <23>) <23>
 KI	#2# -999 {more}  <14>
 KI	#5# 0.18 {CMP}  <18>
 KI	#6# 0.79 {CMP-4-O-[4-carboxy-2,2,6,6-tetramethylpiperidinine-1-oxyl]} 
-	(#6# pH 6.5, 37°C <47>) <47>
+	(#6# pH 6.5, 37Â°C <47>) <47>
 KI	#6# 4.07 {CMP-4-O-[2,2,6,6-tetramethylpiperidine-1-oxyl]}  (#6# pH 6.5,
-	37°C <47>) <47>
+	37Â°C <47>) <47>
 
 PI_VALUE
 PI	#15# 6.3 (#15# isoelectric focusing <59>) <59>
 
 KCAT_KM_VALUE
-KKM	#14# 5.6 (#14# mutant enzyme I411T/L433T, at pH 8.0 and 22°C <79>) <79>
-KKM	#14# 0.93 (#14# mutant enzyme I411T, at pH 8.0 and 22°C <79>) <79>
-KKM	#14# 1.8 (#14# mutant enzyme I411T, at pH 8.0 and 22°C <79>) <79>
-KKM	#14# 0.74 (#14# wild type enzyme, at pH 8.0 and 22°C <79>) <79>
+KKM	#14# 5.6 (#14# mutant enzyme I411T/L433T, at pH 8.0 and 22Â°C <79>) <79>
+KKM	#14# 0.93 (#14# mutant enzyme I411T, at pH 8.0 and 22Â°C <79>) <79>
+KKM	#14# 1.8 (#14# mutant enzyme I411T, at pH 8.0 and 22Â°C <79>) <79>
+KKM	#14# 0.74 (#14# wild type enzyme, at pH 8.0 and 22Â°C <79>) <79>
 KKM	#14# 0.016 (#14# alpha2,6-trans-sialidase activity of DELTA15Pd2,6ST
 	<63>) <63>
-KKM	#14# 4.7 (#14# mutant enzyme L433T, at pH 8.0 and 22°C <79>) <79>
-KKM	#14# 1.35 (#14# mutant enzyme I411T/L433S, at pH 8.0 and 22°C <79>)
+KKM	#14# 4.7 (#14# mutant enzyme L433T, at pH 8.0 and 22Â°C <79>) <79>
+KKM	#14# 1.35 (#14# mutant enzyme I411T/L433S, at pH 8.0 and 22Â°C <79>)
 	<79>
-KKM	#14# 1.58 (#14# mutant enzyme I411T/L433S, at pH 8.0 and 22°C <79>)
+KKM	#14# 1.58 (#14# mutant enzyme I411T/L433S, at pH 8.0 and 22Â°C <79>)
 	<79>
-KKM	#14# 0.58 (#14# wild type enzyme, at pH 8.0 and 22°C <79>) <79>
-KKM	#14# 1.26 (#14# mutant enzyme L433T, at pH 8.0 and 22°C <79>) <79>
-KKM	#14# 1.43 (#14# mutant enzyme L433S, at pH 8.0 and 22°C <79>) <79>
-KKM	#14# 1.78 (#14# mutant enzyme I411T/L433T, at pH 8.0 and 22°C <79>)
+KKM	#14# 0.58 (#14# wild type enzyme, at pH 8.0 and 22Â°C <79>) <79>
+KKM	#14# 1.26 (#14# mutant enzyme L433T, at pH 8.0 and 22Â°C <79>) <79>
+KKM	#14# 1.43 (#14# mutant enzyme L433S, at pH 8.0 and 22Â°C <79>) <79>
+KKM	#14# 1.78 (#14# mutant enzyme I411T/L433T, at pH 8.0 and 22Â°C <79>)
 	<79>
-KKM	#14# 2.61 (#14# mutant enzyme L433S, at pH 8.0 and 22°C <79>) <79>
-KKM	#15# 0.05 (#15# mutant enzyme Q232A, at pH 6.5 and 37°C <83>) <83>
+KKM	#14# 2.61 (#14# mutant enzyme L433S, at pH 8.0 and 22Â°C <79>) <79>
+KKM	#15# 0.05 (#15# mutant enzyme Q232A, at pH 6.5 and 37Â°C <83>) <83>
 KKM	#15# 0.031 <59>
-KKM	#15# 0.44 (#15# mutant enzyme F208A, at pH 6.5 and 37°C <83>) <83>
-KKM	#15# 0.01 (#15# mutant enzyme D271A, at pH 6.5 and 37°C <83>) <83>
+KKM	#15# 0.44 (#15# mutant enzyme F208A, at pH 6.5 and 37Â°C <83>) <83>
+KKM	#15# 0.01 (#15# mutant enzyme D271A, at pH 6.5 and 37Â°C <83>) <83>
 KKM	#15# 5.27 (#15# recombinant wild type enzyme from HEK-293 cells, at pH
-	6.5 and 37°C <83>) <83>
-KKM	#15# 5 (#15# mutant enzyme Y119F, at pH 6.5 and 37°C <83>) <83>
-KKM	#15# 0.13 (#15# mutant enzyme D271A, at pH 6.5 and 37°C <83>) <83>
-KKM	#15# 0.17 (#15# mutant enzyme Y119F, at pH 6.5 and 37°C <83>) <83>
-KKM	#15# 7.3 (#15# mutant enzyme K355A, at pH 6.5 and 37°C <83>) <83>
-KKM	#15# 0.02 (#15# mutant enzyme Y272A, at pH 6.5 and 37°C <83>) <83>
+	6.5 and 37Â°C <83>) <83>
+KKM	#15# 5 (#15# mutant enzyme Y119F, at pH 6.5 and 37Â°C <83>) <83>
+KKM	#15# 0.13 (#15# mutant enzyme D271A, at pH 6.5 and 37Â°C <83>) <83>
+KKM	#15# 0.17 (#15# mutant enzyme Y119F, at pH 6.5 and 37Â°C <83>) <83>
+KKM	#15# 7.3 (#15# mutant enzyme K355A, at pH 6.5 and 37Â°C <83>) <83>
+KKM	#15# 0.02 (#15# mutant enzyme Y272A, at pH 6.5 and 37Â°C <83>) <83>
 KKM	#15# 1.23 <59>
 KKM	#15# 0.25 (#15# recombinant wild type enzyme from HEK-293 cells, at pH
-	6.5 and 37°C <83>) <83>
-KKM	#15# 0.36 (#15# mutant enzyme K355A, at pH 6.5 and 37°C <83>; #15#
-	mutant enzyme Q354A, at pH 6.5 and 37°C <83>) <83>
-KKM	#15# 0.23 (#15# mutant enzyme Y272A, at pH 6.5 and 37°C <83>) <83>
+	6.5 and 37Â°C <83>) <83>
+KKM	#15# 0.36 (#15# mutant enzyme K355A, at pH 6.5 and 37Â°C <83>; #15#
+	mutant enzyme Q354A, at pH 6.5 and 37Â°C <83>) <83>
+KKM	#15# 0.23 (#15# mutant enzyme Y272A, at pH 6.5 and 37Â°C <83>) <83>
 KKM	#15# 0.37 (#15# recombinant wild type enzyme from 293-F cells, at pH
-	6.5 and 37°C <83>) <83>
-KKM	#15# 0.47 (#15# mutant enzyme F208A, at pH 6.5 and 37°C <83>) <83>
-KKM	#15# 4.17 (#15# mutant enzyme Q354A, at pH 6.5 and 37°C <83>) <83>
+	6.5 and 37Â°C <83>) <83>
+KKM	#15# 0.47 (#15# mutant enzyme F208A, at pH 6.5 and 37Â°C <83>) <83>
+KKM	#15# 4.17 (#15# mutant enzyme Q354A, at pH 6.5 and 37Â°C <83>) <83>
 KKM	#15# 6.45 (#15# recombinant wild type enzyme from 293-F cells, at pH
-	6.5 and 37°C <83>) <83>
+	6.5 and 37Â°C <83>) <83>
 
 EXPRESSION
 EXP	#10# more (#10# enzyme activity has little variation in dogs with
@@ -13257,27 +13257,27 @@ SP	#8# CMP-N-acetylneuraminate + native polysialoglycoprotein = ? (#8#
 
 KM_VALUE
 KM	#4# 2.2 {CMP-N-acetylneuraminate}  <2>
-KM	#5# 0.1 {CMP-9-O-acetyl-N-acetylneuraminate}  (#5# 37°C <5>) <5>
+KM	#5# 0.1 {CMP-9-O-acetyl-N-acetylneuraminate}  (#5# 37Â°C <5>) <5>
 KM	#5# 2.8 {CMP-N-acetylneuraminate}  <2>
-KM	#5# 0.66 {CMP-N-acetylneuraminate}  (#5# pH 6.5, 37°C, ovine
+KM	#5# 0.66 {CMP-N-acetylneuraminate}  (#5# pH 6.5, 37Â°C, ovine
 	submaxillary asialo-mucin as acceptor <1>) <1>
-KM	#5# 0.27 {CMP-N-acetylneuraminate}  (#5# 37°C <5>) <5>
-KM	#5# 0.52 {CMP-N-acetylneuraminate}  (#5# pH 6.5, 37°C, antifreeze
+KM	#5# 0.27 {CMP-N-acetylneuraminate}  (#5# 37Â°C <5>) <5>
+KM	#5# 0.52 {CMP-N-acetylneuraminate}  (#5# pH 6.5, 37Â°C, antifreeze
 	glycoprotein 8 as acceptor <1>) <1>
-KM	#5# 0.52 {CMP-N-glycolylneuraminate}  (#5# 37°C <5>) <5>
+KM	#5# 0.52 {CMP-N-glycolylneuraminate}  (#5# 37Â°C <5>) <5>
 KM	#5# 1.02 {Antifreeze glycoprotein}  (#5# antifreeze glycoprotein 8, pH
-	6.5, 37°C <1>) <1>
-KM	#5# 2.93 {submaxillary asialo-mucin}  (#5# ovine, pH 6.5, 37°C <1>) <1>
-KM	#6# 0.21 {CMP-N-glycolylneuraminate}  (#6# 37°C <5>) <5>
-KM	#6# 0.15 {CMP-N-acetylneuraminate}  (#6# 37°C <5>) <5>
-KM	#6# 0.08 {CMP-9-O-acetyl-N-acetylneuraminate}  (#6# 37°C <5>) <5>
+	6.5, 37Â°C <1>) <1>
+KM	#5# 2.93 {submaxillary asialo-mucin}  (#5# ovine, pH 6.5, 37Â°C <1>) <1>
+KM	#6# 0.21 {CMP-N-glycolylneuraminate}  (#6# 37Â°C <5>) <5>
+KM	#6# 0.15 {CMP-N-acetylneuraminate}  (#6# 37Â°C <5>) <5>
+KM	#6# 0.08 {CMP-9-O-acetyl-N-acetylneuraminate}  (#6# 37Â°C <5>) <5>
 KM	#6# 4.7 {submaxillary asialo-mucin}  (#6# ovine,
-	CMP-N-acetylneuraminate as donor, 37°C <5>) <5>
+	CMP-N-acetylneuraminate as donor, 37Â°C <5>) <5>
 KM	#6# 2.7 {CMP-N-acetylneuraminate}  <2>
 KM	#7# 1.9 {submaxillary asialo-mucin}  (#7# ovine, calculated in terms of
-	N-acetylgalactosamine acceptor sites, 37°C <11>) <11>
+	N-acetylgalactosamine acceptor sites, 37Â°C <11>) <11>
 KM	#7# 1.1 {CMP-N-acetylneuraminate}  <2>
-KM	#7# 0.57 {CMP-N-acetylneuraminate}  (#7# 37°C <11>) <11>
+KM	#7# 0.57 {CMP-N-acetylneuraminate}  (#7# 37Â°C <11>) <11>
 
 PH_OPTIMUM
 PHO	#3# 7.6 <6>
@@ -13293,10 +13293,10 @@ PHR	#3# 6.2-8.5 (#3# about half-maximal activity at pH 6.2 and 8.5 <6>) <6>
 
 SPECIFIC_ACTIVITY
 SA	#4,5,6,7# 0.0003 (#4,5,6,7# crude extract, acceptor asialo-fetuin, pH
-	7.1, 37°C <2>) <2>
+	7.1, 37Â°C <2>) <2>
 SA	#5# 44.6 <1>
-SA	#6# 28.3 (#6# 37°C <5>) <5>
-SA	#6,7# 0.00435 (#6# 37°C <5>) <5,11>
+SA	#6# 28.3 (#6# 37Â°C <5>) <5>
+SA	#6,7# 0.00435 (#6# 37Â°C <5>) <5,11>
 
 TEMPERATURE_OPTIMUM
 TO	#2# 25 (#2# broad <8>) <8>
@@ -13306,8 +13306,8 @@ TO	#3,4,5,6,7,9,10# 37 (#3,4,5,6,7,9,10# assay at
 TO	#8# 22 (#8# assay at <12>) <12>
 
 TEMPERATURE_RANGE
-TR	#2# 17-38 (#2# about half-maximal activity at 17°C and 38°C <8>) <8>
-TR	#3# 20-40 (#3# about half-maximal activity at 20°C and 40°C <6>) <6>
+TR	#2# 17-38 (#2# about half-maximal activity at 17Â°C and 38Â°C <8>) <8>
+TR	#3# 20-40 (#3# about half-maximal activity at 20Â°C and 40Â°C <6>) <6>
 
 ACTIVATING_COMPOUND
 AC	#1# more (#1# ST6 activity yield produced in Sf9 insect cells is higher
@@ -13330,7 +13330,7 @@ IN	#5,7# more (#5,7# not inhibited by EDTA <1,11>; #5,7# not inhibited by
 	#5# not inhibited by Zn2+, Mn2+ <1>) <1,11>
 
 KI_VALUE
-KI	#5# 0.92 {Antifreeze glycoprotein}  (#5# pH 6.5, 37°C <1>) <1>
+KI	#5# 0.92 {Antifreeze glycoprotein}  (#5# pH 6.5, 37Â°C <1>) <1>
 
 METALS_IONS
 ME	#3,5,7# more (#5# no metal ion requirement, e.g. Mn2+, Mg2+ or Zn2+
@@ -13453,8 +13453,8 @@ PH_STABILITY
 PHS	#5# 6-6.5 (#5# maximal stability <7>) <7>
 
 STORAGE_STABILITY
-SS	#5# (4°C, partially purified, at least 6 months) <7>
-SS	#6# (-20°C, 10 mM sodium cacodylate, pH 6.5, 50 mM NaCl, 50% glycerol,
+SS	#5# (4Â°C, partially purified, at least 6 months) <7>
+SS	#6# (-20Â°C, 10 mM sodium cacodylate, pH 6.5, 50 mM NaCl, 50% glycerol,
 	0.02% NaN3, at least 6 months, stable) <5>
 SS	#7# (frozen, crude preparation, at least 2 months, stable) <11>
 
@@ -13581,10 +13581,10 @@ AC	#1# more (#1# ST6 activity yield produced in Sf9 insect cells is higher
 	as compared to bacterial cells <22>) <22>
 
 KI_VALUE
-KI	#5# 0.92 {Antifreeze glycoprotein}  (#5# pH 6.5, 37°C <1>) <1>
+KI	#5# 0.92 {Antifreeze glycoprotein}  (#5# pH 6.5, 37Â°C <1>) <1>
 
 KI_VALUE
-KI	#5# 0.92 {Antifreeze glycoprotein}  (#5# pH 6.5, 37°C <1>) <1>
+KI	#5# 0.92 {Antifreeze glycoprotein}  (#5# pH 6.5, 37Â°C <1>) <1>
 
 EXPRESSION
 EXP	#3# up (#3# while wild-type Escherichia coli strain DHB4 produces very
@@ -13799,57 +13799,57 @@ SP	#6# CMP-N-acetylneuraminate + beta-D-Gal-(1->3)-beta-D-GalNAc = CMP +
 
 TURNOVER_NUMBER
 TN	#4# 2-8 {4-methylumbelliferyl 4-O-beta-D-galactosyl-beta-D-glucoside} 
-	(#4# mutant enzyme E271F, in Tris-HCl buffer (100 mM, pH 8.5), at 37°C
+	(#4# mutant enzyme E271F, in Tris-HCl buffer (100 mM, pH 8.5), at 37Â°C
 	<2>) <2>
 TN	#4# 17 {4-methylumbelliferyl 4-O-beta-D-galactosyl-beta-D-glucoside} 
 	(#4# mutant enzyme E271F/R313Y, in Tris-HCl buffer (100 mM, pH 8.5), at
-	37°C <2>) <2>
+	37Â°C <2>) <2>
 TN	#4# 19 {CMP-N-acetylneuraminate}  (#4# mutant enzyme R313Y, in Tris-HCl
-	buffer (100 mM, pH 8.5), at 37°C <2>) <2>
+	buffer (100 mM, pH 8.5), at 37Â°C <2>) <2>
 TN	#4# 19 {4-methylumbelliferyl 4-O-beta-D-galactosyl-beta-D-glucoside} 
-	(#4# mutant enzyme R313Y, in Tris-HCl buffer (100 mM, pH 8.5), at 37°C
+	(#4# mutant enzyme R313Y, in Tris-HCl buffer (100 mM, pH 8.5), at 37Â°C
 	<2>) <2>
 TN	#4# 26 {CMP-N-acetylneuraminate}  (#4# mutant enzyme E271F, in Tris-HCl
-	buffer (100 mM, pH 8.5), at 37°C <2>) <2>
+	buffer (100 mM, pH 8.5), at 37Â°C <2>) <2>
 TN	#4# 47 {4-methylumbelliferyl 4-O-beta-D-galactosyl-beta-D-glucoside} 
-	(#4# wild type enzyme, in Tris-HCl buffer (100 mM, pH 8.5), at 37°C
+	(#4# wild type enzyme, in Tris-HCl buffer (100 mM, pH 8.5), at 37Â°C
 	<2>) <2>
 TN	#4# 23 {CMP-N-acetylneuraminate}  (#4# mutant enzyme E271F/R313Y, in
-	Tris-HCl buffer (100 mM, pH 8.5), at 37°C <2>) <2>
+	Tris-HCl buffer (100 mM, pH 8.5), at 37Â°C <2>) <2>
 TN	#4# 32 {CMP-N-acetylneuraminate}  (#4# wild type enzyme, in Tris-HCl
-	buffer (100 mM, pH 8.5), at 37°C <2>) <2>
+	buffer (100 mM, pH 8.5), at 37Â°C <2>) <2>
 
 KM_VALUE
 KM	#4# 0.18 {CMP-N-acetylneuraminate}  (#4# mutant enzyme E271F, in
-	Tris-HCl buffer (100 mM, pH 8.5), at 37°C <2>) <2>
+	Tris-HCl buffer (100 mM, pH 8.5), at 37Â°C <2>) <2>
 KM	#4# 0.67 {4-methylumbelliferyl 4-O-beta-D-galactosyl-beta-D-glucoside} 
-	(#4# mutant enzyme R313Y, in Tris-HCl buffer (100 mM, pH 8.5), at 37°C
+	(#4# mutant enzyme R313Y, in Tris-HCl buffer (100 mM, pH 8.5), at 37Â°C
 	<2>) <2>
 KM	#4# 1.4 {4-methylumbelliferyl 4-O-beta-D-galactosyl-beta-D-glucoside} 
-	(#4# wild type enzyme, in Tris-HCl buffer (100 mM, pH 8.5), at 37°C
+	(#4# wild type enzyme, in Tris-HCl buffer (100 mM, pH 8.5), at 37Â°C
 	<2>) <2>
 KM	#4# 0.54 {4-methylumbelliferyl 4-O-beta-D-galactosyl-beta-D-glucoside} 
 	(#4# mutant enzyme E271F/R313Y, in Tris-HCl buffer (100 mM, pH 8.5), at
-	37°C <2>) <2>
+	37Â°C <2>) <2>
 KM	#4# 0.62 {CMP-N-acetylneuraminate}  (#4# mutant enzyme R313Y, in
-	Tris-HCl buffer (100 mM, pH 8.5), at 37°C <2>) <2>
+	Tris-HCl buffer (100 mM, pH 8.5), at 37Â°C <2>) <2>
 KM	#4# 0.34 {CMP-N-acetylneuraminate}  (#4# mutant enzyme E271F/R313Y, in
-	Tris-HCl buffer (100 mM, pH 8.5), at 37°C <2>) <2>
+	Tris-HCl buffer (100 mM, pH 8.5), at 37Â°C <2>) <2>
 KM	#4# 0.71 {4-methylumbelliferyl 4-O-beta-D-galactosyl-beta-D-glucoside} 
-	(#4# mutant enzyme E271F, in Tris-HCl buffer (100 mM, pH 8.5), at 37°C
+	(#4# mutant enzyme E271F, in Tris-HCl buffer (100 mM, pH 8.5), at 37Â°C
 	<2>) <2>
 KM	#4# 0.44 {CMP-N-acetylneuraminate}  (#4# wild type enzyme, in Tris-HCl
-	buffer (100 mM, pH 8.5), at 37°C <2>) <2>
-KM	#6# 0.21 {beta-D-Gal-(1->3)-beta-D-GalNAc}  (#6# pH 6.5, 37°C, enzyme
+	buffer (100 mM, pH 8.5), at 37Â°C <2>) <2>
+KM	#6# 0.21 {beta-D-Gal-(1->3)-beta-D-GalNAc}  (#6# pH 6.5, 37Â°C, enzyme
 	form B <8>) <8>
-KM	#6# 0.2 {beta-D-Gal-(1->3)-beta-D-GalNAc}  (#6# pH 6.5, 37°C, enzyme
+KM	#6# 0.2 {beta-D-Gal-(1->3)-beta-D-GalNAc}  (#6# pH 6.5, 37Â°C, enzyme
 	form A <8>) <8>
 KM	#6# 0.35 {[antifreeze
 	glycoprotein]-(O-3-(beta-D-Gal-(1->3)-alpha-D-GalNAc-(1->)))-L
-	threonine}  (#6# pH 6.5, 37°C, enzyme form A <8>) <8>
+	threonine}  (#6# pH 6.5, 37Â°C, enzyme form A <8>) <8>
 KM	#6# 0.39 {[antifreeze
 	glycoprotein]-(O-3-(beta-D-Gal-(1->3)-alpha-D-GalNAc-(1->)))-L
-	threonine}  (#6# pH 6.5, 37°C, enzyme form B <8>) <8>
+	threonine}  (#6# pH 6.5, 37Â°C, enzyme form B <8>) <8>
 
 PH_OPTIMUM
 PHO	#2# 7 (#2# assay at <10>) <10>
@@ -13928,7 +13928,7 @@ PU	#6# <7,9>
 PU	#6# (purification of enzyme form A and B) <8>
 
 STORAGE_STABILITY
-SS	#6# (-20°C, 50% (w/v) glycerol, 6 months, no loss of activity) <7>
+SS	#6# (-20Â°C, 50% (w/v) glycerol, 6 months, no loss of activity) <7>
 
 REFERENCE
 RF	<1> Huang, S.; Day, T.W.; Choi, M.R.; Safa, A.R.: Human
@@ -14007,21 +14007,21 @@ KI	#6# 0.00022 {CTP}  (#6# pH and temperature not specified in the
 
 KCAT_KM_VALUE
 KKM	#4# 30 (#4# mutant enzyme R313Y, in Tris-HCl buffer (100 mM, pH 8.5),
-	at 37°C <2>) <2>
+	at 37Â°C <2>) <2>
 KKM	#4# 28 (#4# mutant enzyme R313Y, in Tris-HCl buffer (100 mM, pH 8.5),
-	at 37°C <2>) <2>
+	at 37Â°C <2>) <2>
 KKM	#4# 69 (#4# mutant enzyme E271F/R313Y, in Tris-HCl buffer (100 mM, pH
-	8.5), at 37°C <2>) <2>
+	8.5), at 37Â°C <2>) <2>
 KKM	#4# 140 (#4# mutant enzyme E271F, in Tris-HCl buffer (100 mM, pH 8.5),
-	at 37°C <2>) <2>
+	at 37Â°C <2>) <2>
 KKM	#4# 32 (#4# mutant enzyme E271F/R313Y, in Tris-HCl buffer (100 mM, pH
-	8.5), at 37°C <2>) <2>
+	8.5), at 37Â°C <2>) <2>
 KKM	#4# 39 (#4# mutant enzyme E271F, in Tris-HCl buffer (100 mM, pH 8.5),
-	at 37°C <2>) <2>
+	at 37Â°C <2>) <2>
 KKM	#4# 34 (#4# wild type enzyme, in Tris-HCl buffer (100 mM, pH 8.5), at
-	37°C <2>) <2>
+	37Â°C <2>) <2>
 KKM	#4# 73 (#4# wild type enzyme, in Tris-HCl buffer (100 mM, pH 8.5), at
-	37°C <2>) <2>
+	37Â°C <2>) <2>
 
 EXPRESSION
 EXP	#2# up (#2# taxol treatment upregulates ST3Gal III expression and
@@ -14508,104 +14508,104 @@ SP	#8,17# CMP-N-acetylneuraminate + beta-D-Gal-(1->4)-beta-D-GlcNAc = CMP
 TURNOVER_NUMBER
 TN	#14# 0.55 {CMP-N-acetyl-beta-neuraminate}  (#14# wild type enzyme,
 	using 4-methylumbelliferyl beta-Lewis x as cosubstrate, in Tris-HCl
-	buffer (200 mM, pH 8.5), at 37°C <1>) <1>
+	buffer (200 mM, pH 8.5), at 37Â°C <1>) <1>
 TN	#14# 2.1 {CMP-N-acetyl-beta-neuraminate}  (#14# mutant enzyme H311A, in
-	Tris-HCl buffer (200 mM, pH 8.5), at 37°C <1>) <1>
+	Tris-HCl buffer (200 mM, pH 8.5), at 37Â°C <1>) <1>
 TN	#14# 21 {4-methylumbelliferyl beta-lactoside}  (#14# mutant enzyme
-	M144H, in Tris-HCl buffer (200 mM, pH 8.5), at 37°C <1>) <1>
+	M144H, in Tris-HCl buffer (200 mM, pH 8.5), at 37Â°C <1>) <1>
 TN	#14# 21 {CMP-N-acetyl-beta-neuraminate}  (#14# mutant enzyme M144H,
 	using 4-methylumbelliferyl beta-lactoside as cosubstrate, in Tris-HCl
-	buffer (200 mM, pH 8.5), at 37°C <1>) <1>
+	buffer (200 mM, pH 8.5), at 37Â°C <1>) <1>
 TN	#14# 22 {4-methylumbelliferyl beta-lactoside}  (#14# mutant enzyme
-	M144D, in Tris-HCl buffer (200 mM, pH 8.5), at 37°C <1>) <1>
+	M144D, in Tris-HCl buffer (200 mM, pH 8.5), at 37Â°C <1>) <1>
 TN	#14# 27 {CMP-N-acetyl-beta-neuraminate}  (#14# wild type enzyme, in
-	Tris-HCl buffer (200 mM, pH 8.5), at 37°C <1>) <1>
+	Tris-HCl buffer (200 mM, pH 8.5), at 37Â°C <1>) <1>
 TN	#14# 0.59 {CMP-N-acetyl-beta-neuraminate}  (#14# mutant enzyme M144D,
 	using 4-methylumbelliferyl beta-Lewis x as cosubstrate, in Tris-HCl
-	buffer (200 mM, pH 8.5), at 37°C <1>) <1>
+	buffer (200 mM, pH 8.5), at 37Â°C <1>) <1>
 TN	#14# 4 {4-methylumbelliferyl beta-Lewis x}  (#14# mutant enzyme M144D,
-	in Tris-HCl buffer (200 mM, pH 8.5), at 37°C <1>) <1>
+	in Tris-HCl buffer (200 mM, pH 8.5), at 37Â°C <1>) <1>
 TN	#14# 6.5 {CMP-N-acetyl-beta-neuraminate}  (#14# mutant enzyme M144D, in
-	Tris-HCl buffer (200 mM, pH 8.5), at 37°C <1>) <1>
+	Tris-HCl buffer (200 mM, pH 8.5), at 37Â°C <1>) <1>
 TN	#14# 1.9 {CMP-N-acetyl-beta-neuraminate}  (#14# mutant enzyme M144D,
 	using 4-methylumbelliferyl beta-lactoside as cosubstrate, in Tris-HCl
-	buffer (200 mM, pH 8.5), at 37°C <1>) <1>
+	buffer (200 mM, pH 8.5), at 37Â°C <1>) <1>
 TN	#14# 0.025 {CMP-N-acetyl-beta-neuraminate}  (#14# mutant enzyme D141A,
-	in Tris-HCl buffer (200 mM, pH 8.5), at 37°C <1>) <1>
+	in Tris-HCl buffer (200 mM, pH 8.5), at 37Â°C <1>) <1>
 TN	#14# 47 {4-methylumbelliferyl beta-lactoside}  (#14# wild type enzyme,
-	in Tris-HCl buffer (200 mM, pH 8.5), at 37°C <1>) <1>
+	in Tris-HCl buffer (200 mM, pH 8.5), at 37Â°C <1>) <1>
 TN	#14# 6.7 {4-methylumbelliferyl beta-Lewis x}  (#14# wild type enzyme,
-	in Tris-HCl buffer (200 mM, pH 8.5), at 37°C <1>) <1>
+	in Tris-HCl buffer (200 mM, pH 8.5), at 37Â°C <1>) <1>
 TN	#14# 32 {CMP-N-acetyl-beta-neuraminate}  (#14# wild type enzyme, using
 	4-methylumbelliferyl beta-lactoside as cosubstrate, in Tris-HCl buffer
-	(200 mM, pH 8.5), at 37°C <1>) <1>
+	(200 mM, pH 8.5), at 37Â°C <1>) <1>
 TN	#14# 8.4 {4-methylumbelliferyl beta-Lewis x}  (#14# mutant enzyme
-	M144H, in Tris-HCl buffer (200 mM, pH 8.5), at 37°C <1>) <1>
+	M144H, in Tris-HCl buffer (200 mM, pH 8.5), at 37Â°C <1>) <1>
 TN	#14# 0.93 {CMP-N-acetyl-beta-neuraminate}  (#14# mutant enzyme M144H,
 	using 4-methylumbelliferyl beta-Lewis x as cosubstrate, in Tris-HCl
-	buffer (200 mM, pH 8.5), at 37°C <1>) <1>
+	buffer (200 mM, pH 8.5), at 37Â°C <1>) <1>
 TN	#14# 71 {CMP-N-acetyl-beta-neuraminate}  (#14# mutant enzyme M144H, in
-	Tris-HCl buffer (200 mM, pH 8.5), at 37°C <1>) <1>
+	Tris-HCl buffer (200 mM, pH 8.5), at 37Â°C <1>) <1>
 
 KM_VALUE
 KM	#1# 0.5
 	{beta-D-Gal-(1->4)-beta-D-GlcNAc-(1->3)-beta-D-Gal-(1->4)-beta-D-Glc
-	(1<->1)-ceramide}  (#1# pH 6.4, 37°C <21>) <21>
-KM	#10# 31 {beta-D-Gal-(1->4)-beta-D-Glc}  (#10# pH 6.0, 30°C <19>) <19>
-KM	#10# 99 {methyl beta-D-galactopyranoside}  (#10# pH 6.0, 30°C <19>)
+	(1<->1)-ceramide}  (#1# pH 6.4, 37Â°C <21>) <21>
+KM	#10# 31 {beta-D-Gal-(1->4)-beta-D-Glc}  (#10# pH 6.0, 30Â°C <19>) <19>
+KM	#10# 99 {methyl beta-D-galactopyranoside}  (#10# pH 6.0, 30Â°C <19>)
 	<19>
-KM	#11# 0.05 {CMP-N-acetyl-beta-neuraminate}  (#11# pH 6.0, 25°C <22>)
+KM	#11# 0.05 {CMP-N-acetyl-beta-neuraminate}  (#11# pH 6.0, 25Â°C <22>)
 	<22>
-KM	#11# 1.7 {beta-D-Gal-(1->4)-beta-D-Glc}  (#11# pH 6.0, 25°C <22>) <22>
-KM	#11# 2.5 {beta-D-Gal-(1->4)-beta-D-GlcNAc}  (#11# pH 6.0, 25°C <22>)
+KM	#11# 1.7 {beta-D-Gal-(1->4)-beta-D-Glc}  (#11# pH 6.0, 25Â°C <22>) <22>
+KM	#11# 2.5 {beta-D-Gal-(1->4)-beta-D-GlcNAc}  (#11# pH 6.0, 25Â°C <22>)
 	<22>
 KM	#12# 0.14 {4-nitrophenyl
 	beta-D-Gal-(1->4)-beta-D-GlcNAc-(1->3)-beta-D-Gal}  (#12# pH and
 	temperature not specified in the publication <3>) <3>
-KM	#13# 0.22 {beta-D-Gal-(1->4)-beta-D-GlcNAc}  (#13# pH 6.4, 37°C <14>)
+KM	#13# 0.22 {beta-D-Gal-(1->4)-beta-D-GlcNAc}  (#13# pH 6.4, 37Â°C <14>)
 	<14>
-KM	#13# 0.75 {beta-D-Gal-(1->3)-beta-D-GlcNAc}  (#13# pH 6.4, 37°C <14>)
+KM	#13# 0.75 {beta-D-Gal-(1->3)-beta-D-GlcNAc}  (#13# pH 6.4, 37Â°C <14>)
 	<14>
 KM	#14# 0.3 {CMP-N-acetyl-beta-neuraminate}  (#14# mutant enzyme M144D,
 	using 4-methylumbelliferyl beta-lactoside as cosubstrate, in Tris-HCl
-	buffer (200 mM, pH 8.5), at 37°C <1>) <1>
+	buffer (200 mM, pH 8.5), at 37Â°C <1>) <1>
 KM	#14# 0.4 {CMP-N-acetyl-beta-neuraminate}  (#14# mutant enzyme M144H,
 	using 4-methylumbelliferyl beta-Lewis x as cosubstrate, in Tris-HCl
-	buffer (200 mM, pH 8.5), at 37°C <1>) <1>
+	buffer (200 mM, pH 8.5), at 37Â°C <1>) <1>
 KM	#14# 1.4 {4-methylumbelliferyl beta-lactoside}  (#14# wild type enzyme,
-	in Tris-HCl buffer (200 mM, pH 8.5), at 37°C <1>) <1>
+	in Tris-HCl buffer (200 mM, pH 8.5), at 37Â°C <1>) <1>
 KM	#14# 1.4 {CMP-N-acetyl-beta-neuraminate}  (#14# mutant enzyme D141A, in
-	Tris-HCl buffer (200 mM, pH 8.5), at 37°C <1>) <1>
+	Tris-HCl buffer (200 mM, pH 8.5), at 37Â°C <1>) <1>
 KM	#14# 1.8 {CMP-N-acetyl-beta-neuraminate}  (#14# mutant enzyme H311A, in
-	Tris-HCl buffer (200 mM, pH 8.5), at 37°C <1>) <1>
+	Tris-HCl buffer (200 mM, pH 8.5), at 37Â°C <1>) <1>
 KM	#14# 1.5 {CMP-N-acetyl-beta-neuraminate}  (#14# wild type enzyme, in
-	Tris-HCl buffer (200 mM, pH 8.5), at 37°C <1>) <1>
+	Tris-HCl buffer (200 mM, pH 8.5), at 37Â°C <1>) <1>
 KM	#14# 0.81 {CMP-N-acetyl-beta-neuraminate}  (#14# mutant enzyme M144H,
 	using 4-methylumbelliferyl beta-lactoside as cosubstrate, in Tris-HCl
-	buffer (200 mM, pH 8.5), at 37°C <1>) <1>
+	buffer (200 mM, pH 8.5), at 37Â°C <1>) <1>
 KM	#14# 0.39 {CMP-N-acetyl-beta-neuraminate}  (#14# wild type enzyme,
 	using 4-methylumbelliferyl beta-Lewis x as cosubstrate, in Tris-HCl
-	buffer (200 mM, pH 8.5), at 37°C <1>) <1>
+	buffer (200 mM, pH 8.5), at 37Â°C <1>) <1>
 KM	#14# 2.1 {CMP-N-acetyl-beta-neuraminate}  (#14# mutant enzyme M144D,
 	using 4-methylumbelliferyl beta-Lewis x as cosubstrate, in Tris-HCl
-	buffer (200 mM, pH 8.5), at 37°C <1>) <1>
+	buffer (200 mM, pH 8.5), at 37Â°C <1>) <1>
 KM	#14# 12 {4-methylumbelliferyl beta-lactoside}  (#14# mutant enzyme
-	M144D, in Tris-HCl buffer (200 mM, pH 8.5), at 37°C <1>) <1>
+	M144D, in Tris-HCl buffer (200 mM, pH 8.5), at 37Â°C <1>) <1>
 KM	#14# 17 {4-methylumbelliferyl beta-Lewis x}  (#14# wild type enzyme, in
-	Tris-HCl buffer (200 mM, pH 8.5), at 37°C <1>) <1>
+	Tris-HCl buffer (200 mM, pH 8.5), at 37Â°C <1>) <1>
 KM	#14# 0.44 {CMP-N-acetyl-beta-neuraminate}  (#14# wild type enzyme,
 	using 4-methylumbelliferyl beta-lactoside as cosubstrate, in Tris-HCl
-	buffer (200 mM, pH 8.5), at 37°C <1>) <1>
+	buffer (200 mM, pH 8.5), at 37Â°C <1>) <1>
 KM	#14# 13 {CMP-N-acetyl-beta-neuraminate}  (#14# mutant enzyme M144H, in
-	Tris-HCl buffer (200 mM, pH 8.5), at 37°C <1>) <1>
+	Tris-HCl buffer (200 mM, pH 8.5), at 37Â°C <1>) <1>
 KM	#14# 13 {4-methylumbelliferyl beta-Lewis x}  (#14# mutant enzyme M144D,
-	in Tris-HCl buffer (200 mM, pH 8.5), at 37°C <1>) <1>
+	in Tris-HCl buffer (200 mM, pH 8.5), at 37Â°C <1>) <1>
 KM	#14# 0.79 {4-methylumbelliferyl beta-lactoside}  (#14# mutant enzyme
-	M144H, in Tris-HCl buffer (200 mM, pH 8.5), at 37°C <1>) <1>
+	M144H, in Tris-HCl buffer (200 mM, pH 8.5), at 37Â°C <1>) <1>
 KM	#14# 7.3 {CMP-N-acetyl-beta-neuraminate}  (#14# mutant enzyme M144D, in
-	Tris-HCl buffer (200 mM, pH 8.5), at 37°C <1>) <1>
+	Tris-HCl buffer (200 mM, pH 8.5), at 37Â°C <1>) <1>
 KM	#14# 8.1 {4-methylumbelliferyl beta-Lewis x}  (#14# mutant enzyme
-	M144H, in Tris-HCl buffer (200 mM, pH 8.5), at 37°C <1>) <1>
+	M144H, in Tris-HCl buffer (200 mM, pH 8.5), at 37Â°C <1>) <1>
 KM	#15# 0.1085 {FCHASE beta-D-Gal-(1->4)-beta-D-GlcNAc}  (#15# pH and
 	temperature not specified in the publication <17>) <17>
 KM	#15# 0.1255 {CMP-N-acetyl-beta-neuraminate}  (#15# pH and temperature
@@ -14615,7 +14615,7 @@ KM	#16# 0.83 {4-nitrophenyl
 	temperature not specified in the publication <3>) <3>
 KM	#6# 0.08761 {beta-D-Gal-(1->4)-beta-D-GlcNAc}  (#6# pH and temperature
 	not specified in the publication <24>) <24>
-KM	#7# 3 {beta-D-Gal-(1->4)-beta-D-GlcNAc}  (#7# pH 6.4, 37°C <14>) <14>
+KM	#7# 3 {beta-D-Gal-(1->4)-beta-D-GlcNAc}  (#7# pH 6.4, 37Â°C <14>) <14>
 KM	#8# 0.11 {8-methoxy-8-oxooctyl beta-D-Gal-(1->4)-beta-D-GlcNAc}  (#8#
 	pH and temperature not specified in the publication <12>) <12>
 
@@ -14636,7 +14636,7 @@ PHR	#18# 5-9 (#18# pH 5: about 40% of maximal activity, pH 9: about 60% of
 	maximal actzivity <18>) <18>
 
 SPECIFIC_ACTIVITY
-SA	#10# 113.0 (#10# pH 6.0, 30°C <19>) <19>
+SA	#10# 113.0 (#10# pH 6.0, 30Â°C <19>) <19>
 
 TEMPERATURE_OPTIMUM
 TO	#1,3,4,5,19,20# 37 (#1,3,4,5,19,20# assay at <5,11,20,23>) <5,11,20,23>
@@ -14646,7 +14646,7 @@ TO	#11# 20-25 (#11# native enzyme and the full-length recombinant enzyme
 TO	#18# 20 <18>
 
 TEMPERATURE_RANGE
-TR	#18# 10-30 (#18# 10°C: 65% of maximal activity, 30°C: 80% of maximal
+TR	#18# 10-30 (#18# 10Â°C: 65% of maximal activity, 30Â°C: 80% of maximal
 	activity <18>) <18>
 
 ACTIVATING_COMPOUND
@@ -14741,11 +14741,11 @@ PU	#16# <3>
 PU	#18# (recombinant truncated enzyme) <18>
 
 STORAGE_STABILITY
-SS	#15# (-70°C, purified enzyme, over 50 days, isoform ST2 remains
+SS	#15# (-70Â°C, purified enzyme, over 50 days, isoform ST2 remains
 	stable) <17>
-SS	#3# (4°C, partially purified enzyme preparation in 20% (v/v) glycerol,
+SS	#3# (4Â°C, partially purified enzyme preparation in 20% (v/v) glycerol,
 	at least 1 week) <6>
-SS	#4# (-20°C, 3 months, retains full activity) <5>
+SS	#4# (-20Â°C, 3 months, retains full activity) <5>
 
 REFERENCE
 RF	<1> Sugiarto, G.; Lau, K.; Qu, J.; Li, Y.; Lim, S.; Mu, S.; Ames, J.B.;
@@ -14880,44 +14880,44 @@ AC	#1# Triton CF-54/X-100 <21>
 
 KCAT_KM_VALUE
 KKM	#14# 1.1 (#14# mutant enzyme H311A, in Tris-HCl buffer (200 mM, pH
-	8.5), at 37°C <1>) <1>
+	8.5), at 37Â°C <1>) <1>
 KKM	#14# 0.018 (#14# mutant enzyme D141A, in Tris-HCl buffer (200 mM, pH
-	8.5), at 37°C <1>) <1>
+	8.5), at 37Â°C <1>) <1>
 KKM	#14# 1.4 (#14# wild type enzyme, using 4-methylumbelliferyl beta-Lewis
-	x as cosubstrate, in Tris-HCl buffer (200 mM, pH 8.5), at 37°C <1>) <1>
+	x as cosubstrate, in Tris-HCl buffer (200 mM, pH 8.5), at 37Â°C <1>) <1>
 KKM	#14# 5.5 (#14# mutant enzyme M144H, in Tris-HCl buffer (200 mM, pH
-	8.5), at 37°C <1>) <1>
+	8.5), at 37Â°C <1>) <1>
 KKM	#14# 0.89 (#14# mutant enzyme M144D, in Tris-HCl buffer (200 mM, pH
-	8.5), at 37°C <1>) <1>
+	8.5), at 37Â°C <1>) <1>
 KKM	#14# 0.28 (#14# mutant enzyme M144D, using 4-methylumbelliferyl
 	beta-Lewis x as cosubstrate, in Tris-HCl buffer (200 mM, pH 8.5), at
-	37°C <1>) <1>
+	37Â°C <1>) <1>
 KKM	#14# 18 (#14# wild type enzyme, in Tris-HCl buffer (200 mM, pH 8.5), at
-	37°C <1>) <1>
+	37Â°C <1>) <1>
 KKM	#14# 34 (#14# wild type enzyme, in Tris-HCl buffer (200 mM, pH 8.5), at
-	37°C <1>) <1>
+	37Â°C <1>) <1>
 KKM	#14# 6.1 (#14# mutant enzyme M144D, using 4-methylumbelliferyl
 	beta-lactoside as cosubstrate, in Tris-HCl buffer (200 mM, pH 8.5), at
-	37°C <1>) <1>
+	37Â°C <1>) <1>
 KKM	#14# 1 (#14# mutant enzyme M144H, in Tris-HCl buffer (200 mM, pH 8.5),
-	at 37°C <1>) <1>
+	at 37Â°C <1>) <1>
 KKM	#14# 2.2 (#14# mutant enzyme M144H, using 4-methylumbelliferyl
 	beta-Lewis x as cosubstrate, in Tris-HCl buffer (200 mM, pH 8.5), at
-	37°C <1>) <1>
+	37Â°C <1>) <1>
 KKM	#14# 0.32 (#14# mutant enzyme M144D, in Tris-HCl buffer (200 mM, pH
-	8.5), at 37°C <1>) <1>
+	8.5), at 37Â°C <1>) <1>
 KKM	#14# 0.38 (#14# wild type enzyme, in Tris-HCl buffer (200 mM, pH 8.5),
-	at 37°C <1>) <1>
+	at 37Â°C <1>) <1>
 KKM	#14# 1.9 (#14# mutant enzyme M144D, in Tris-HCl buffer (200 mM, pH
-	8.5), at 37°C <1>) <1>
+	8.5), at 37Â°C <1>) <1>
 KKM	#14# 27 (#14# mutant enzyme M144H, in Tris-HCl buffer (200 mM, pH 8.5),
-	at 37°C <1>) <1>
+	at 37Â°C <1>) <1>
 KKM	#14# 27 (#14# mutant enzyme M144H, using 4-methylumbelliferyl
 	beta-lactoside as cosubstrate, in Tris-HCl buffer (200 mM, pH 8.5), at
-	37°C <1>) <1>
+	37Â°C <1>) <1>
 KKM	#14# 73 (#14# wild type enzyme, using 4-methylumbelliferyl
 	beta-lactoside as cosubstrate, in Tris-HCl buffer (200 mM, pH 8.5), at
-	37°C <1>) <1>
+	37Â°C <1>) <1>
 
 EXPRESSION
 EXP	#13# up (#13# the number of ST3Gal IV-expressing neurons in the
@@ -15161,12 +15161,12 @@ SP	#6,7# CMP-NeuAc + glycosphingolipid = ? <9>
 KM_VALUE
 KM	#2# 0.07 {CMP-N-acetylneuraminate}  <7>
 KM	#2# 0.9 {sialyl lactoetraosylceramide}  (#2# isoform ST6GalNAc V, pH
-	6.0, 37°C <8>) <8>
-KM	#2# 0.33 {GM1b}  (#2# isoform ST6GalNAc VI, pH 6.0, 37°C <8>) <8>
-KM	#2# 0.56 {GM1b}  (#2# isoform ST6GalNAc V, pH 6.0, 37°C <8>) <8>
+	6.0, 37Â°C <8>) <8>
+KM	#2# 0.33 {GM1b}  (#2# isoform ST6GalNAc VI, pH 6.0, 37Â°C <8>) <8>
+KM	#2# 0.56 {GM1b}  (#2# isoform ST6GalNAc V, pH 6.0, 37Â°C <8>) <8>
 KM	#2# 1.1 {Neu5Acalpha2-3Galbeta1-3GalNac}  <7>
 KM	#2# 0.46 {sialyl lactoetraosylceramide}  (#2# isoform ST6GalNAc VI, pH
-	6.0, 37°C <8>) <8>
+	6.0, 37Â°C <8>) <8>
 KM	#2# 2.21 {Neu5Acalpha2-3Galbeta1-3GalNacalpha-O-benzyl}  <7>
 
 PH_OPTIMUM
@@ -15627,7 +15627,7 @@ SP	#1# 4-methylumbelliferyl alpha-D-mannoside + H2O = 4-methylumbelliferol
 SP	#1# 4-methylumbelliferyl alpha-D-mannopyranoside + H2O = ? <50>
 SP	#1# 2,4-dinitrophenyl alpha-D-mannopyranoside + H2O = ? <51>
 SP	#1# 4-nitrophenyl-alpha-D-mannopyranoside + H2O = 4-nitrophenol +
-	alpha-D-mannose (#1# 30 min, 20°C <49>) <49>
+	alpha-D-mannose (#1# 30 min, 20Â°C <49>) <49>
 SP	#1,2,3,4,5,6,8,10,11,12,14,17,18,19,21# more = ? (#14,19# substrate
 	specificity, overview <31,37>; #4,18# domain structure <1,20>; #5,11#
 	not: (Man)5(GlcNAc)2 <22,23>; #8# not: Glc3(Man)9GlcNAc <8,17>; #10#
@@ -15686,7 +15686,7 @@ SP	#1,2,3,4,5,6,8,10,11,12,14,17,18,19,21# more = ? (#14,19# substrate
 	diversification of hybrid N-glycans, processes with strong cellular
 	links to cancer and autoimmune disease <59>; #3#
 	alpha-1,3-mannosidases, Bt3858 and Bt1769, convert Man4GlcNAc2 to
-	Man3GlcNAc2, but do not attack Man5GlcNAc2, indicat­ing that these
+	Man3GlcNAc2, but do not attack Man5GlcNAc2, indicatÂ­ing that these
 	enzymes cannot tolerate alpha-1,6-Man side chains <58>; #21# SpGH38 is
 	an alpha-mannosidase with specificity for alpha-1,3 mannosidic
 	linkages, active site structure, overview <59>; #17# the cleavage
@@ -15752,7 +15752,7 @@ SP	#1,2,3,4,5,6,8,10,11,12,14,17,18,19,21# more = ? (#14,19# substrate
 	diversification of hybrid N-glycans, processes with strong cellular
 	links to cancer and autoimmune disease <59>; #3#
 	alpha-1,3-mannosidases, Bt3858 and Bt1769, convert Man4GlcNAc2 to
-	Man3GlcNAc2, but do not attack Man5GlcNAc2, indicat­ing that these
+	Man3GlcNAc2, but do not attack Man5GlcNAc2, indicatÂ­ing that these
 	enzymes cannot tolerate alpha-1,6-Man side chains <58>; #21# SpGH38 is
 	an alpha-mannosidase with specificity for alpha-1,3 mannosidic
 	linkages, active site structure, overview <59>; #17# the cleavage
@@ -15850,7 +15850,7 @@ SP	#11# pyridylaminated (Man)5(GlcNAc)2 + H2O = pyridylaminated
 	(Man)3(GlcNAc)2 + alpha-D-mannose (#11# via a (Man)4(GlcNAc)2
 	intermediate <29>; #11# alpha-mannosidase III <28,29>) <28,29>
 SP	#13# 4-nitrophenyl-alpha-D-mannopyranoside + H2O = 4-nitrophenol +
-	alpha-D-mannopyranose (#13# 30 min, 37°C <49>) <49>
+	alpha-D-mannopyranose (#13# 30 min, 37Â°C <49>) <49>
 SP	#14# 4-nitrophenyl-alpha-D-mannoside + H2O = 4-nitrophenol +
 	alpha-D-mannose <31,32>
 SP	#14#
@@ -15950,7 +15950,7 @@ SP	#3# (Man)9GlcNAc + H2O = (Man)5GlcNAc + D-mannose (#3# hydrolysis to
 	(Man)5GlcNAc in the presence of Fe2+, Co2+, and Mn2+. Without
 	activating cations the main reaction product is (Man)8GlcNAc <42>) <42>
 SP	#3# 4-methyl-umbelliferyl-alpha-D-mannopyranoside + H2O =
-	4-methyl-umbelliferone + alpha-D-mannopyranose (#3# 30 min, 37°C <49>)
+	4-methyl-umbelliferone + alpha-D-mannopyranose (#3# 30 min, 37Â°C <49>)
 	<49>
 SP	#3# Man5GlcNAc2 + H2O = Man3GlcNAc2 + 2 alpha-D-mannopyranose (#3# the
 	alpha-1,3-mannosidase Bt3991, while unable to hydrolyze Man9GlcNAc2,
@@ -16007,38 +16007,38 @@ SP	#9,21# 4-methylumbelliferyl alpha-D-mannopyranoside + H2O =
 	4-methylumbelliferol + alpha-D-mannopyranose <57,59>
 
 TURNOVER_NUMBER
-TN	#1# 0.048 {2,4-dinitrophenyl alpha-D-mannoside}  (#1# pH 5.6, 37°C,
+TN	#1# 0.048 {2,4-dinitrophenyl alpha-D-mannoside}  (#1# pH 5.6, 37Â°C,
 	D341N mutant GMII <24>) <24>
-TN	#1# 8.6 {2,4-dinitrophenyl alpha-D-mannoside}  (#1# pH 5.6, 37°C,
+TN	#1# 8.6 {2,4-dinitrophenyl alpha-D-mannoside}  (#1# pH 5.6, 37Â°C,
 	wild-type GMII <24>) <24>
-TN	#1# 0.0051 {5-fluoro-beta-L-gulosyl fluoride}  (#1# pH 5.6, 37°C,
+TN	#1# 0.0051 {5-fluoro-beta-L-gulosyl fluoride}  (#1# pH 5.6, 37Â°C,
 	wild-type GMII <24>) <24>
 TN	#21# 6.4 {3-O-alpha-D-mannopyranosyl-alpha-D-mannopyranose}  (#21# pH
-	6.8, 37°C, recombinant enzyme <59>) <59>
+	6.8, 37Â°C, recombinant enzyme <59>) <59>
 TN	#21# 0.03 {4-methylumbelliferyl alpha-D-mannopyranoside}  (#21# pH 6.8,
-	37°C, recombinant enzyme <59>) <59>
+	37Â°C, recombinant enzyme <59>) <59>
 TN	#3# 4.67 {3-O-alpha-D-mannopyranosyl-alpha-D-mannopyranose}  (#3# pH
-	7.0, 37°C, Bt3991 <58>) <58>
-TN	#3# 0.0025 {4-nitrophenyl alpha-D-mannopyranoside}  (#3# pH 7.0, 37°C,
+	7.0, 37Â°C, Bt3991 <58>) <58>
+TN	#3# 0.0025 {4-nitrophenyl alpha-D-mannopyranoside}  (#3# pH 7.0, 37Â°C,
 	Bt3991 <58>) <58>
 
 KM_VALUE
-KM	#1# 0.05 {2,4-dinitrophenyl alpha-D-mannoside}  (#1# pH 5.6, 37°C,
+KM	#1# 0.05 {2,4-dinitrophenyl alpha-D-mannoside}  (#1# pH 5.6, 37Â°C,
 	D341N mutant GMII <24>) <24>
-KM	#1# 0.2 {5-fluoro-beta-L-gulosyl fluoride}  (#1# pH 5.6, 37°C,
+KM	#1# 0.2 {5-fluoro-beta-L-gulosyl fluoride}  (#1# pH 5.6, 37Â°C,
 	wild-type GMII <24>) <24>
 KM	#1# 25 {2-deoxy-2-fluoro-alpha-D-mannosyl fluoride}  (#1# pH 5.6,
-	37°C, above, wild-type GMII <24>) <24>
-KM	#1# 5.5 {2,4-dinitrophenyl alpha-D-mannoside}  (#1# pH 5.6, 37°C,
+	37Â°C, above, wild-type GMII <24>) <24>
+KM	#1# 5.5 {2,4-dinitrophenyl alpha-D-mannoside}  (#1# pH 5.6, 37Â°C,
 	wild-type GMII <24>) <24>
 KM	#10# 14 {alpha-D-Man-(1,6)-D-Man}  <33>
 KM	#10# 1.25
 	{Manalpha(1,6)(Manalpha(1,3))Manbeta(1,4)GlcNAcbeta(1,4)GlcNAc}  (#10#
-	NaBH4 reduced <4,7>; #10# pH 5, 37°C <4>) <4,7>
+	NaBH4 reduced <4,7>; #10# pH 5, 37Â°C <4>) <4,7>
 KM	#21# 3.6 {4-methylumbelliferyl alpha-D-mannopyranoside}  (#21# pH 6.8,
-	37°C, recombinant enzyme <59>) <59>
+	37Â°C, recombinant enzyme <59>) <59>
 KM	#21# 27 {3-O-alpha-D-mannopyranosyl-alpha-D-mannopyranose}  (#21# pH
-	6.8, 37°C, recombinant enzyme <59>) <59>
+	6.8, 37Â°C, recombinant enzyme <59>) <59>
 KM	#3# 0.55 {4-methylumbelliferyl-alpha-D-mannopyranoside}  (#3# extracted
 	from endothelial cells HCEC <49>) <49>
 KM	#3# 0.2
@@ -16048,8 +16048,8 @@ KM	#3# 0.2
 KM	#3# 0.65 {4-methylumbelliferyl-alpha-D-mannopyranoside}  (#3# extracted
 	from human glioblastoma cells LNZ308 <49>) <49>
 KM	#3# 9 {3-O-alpha-D-mannopyranosyl-alpha-D-mannopyranose}  (#3# pH 7.0,
-	37°C, Bt3991 <58>) <58>
-KM	#3# 2.7 {4-nitrophenyl alpha-D-mannopyranoside}  (#3# pH 7.0, 37°C,
+	37Â°C, Bt3991 <58>) <58>
+KM	#3# 2.7 {4-nitrophenyl alpha-D-mannopyranoside}  (#3# pH 7.0, 37Â°C,
 	Bt3991 <58>) <58>
 KM	#3# 1.065 {4-methylumbelliferyl-alpha-D-mannopyranoside}  (#3#
 	extracted from human glioblastoma cells LN18 <49>) <49>
@@ -16096,7 +16096,7 @@ SA	#12# 4.2 (#12# purified recombinant TM1851 <30>) <30>
 SA	#14# 5.4 (#14# purified native enzyme <31>) <31>
 SA	#19# 6.38 (#19# purified recombinant GMII expressed in insect cells,
 	substrate 4-nitrophenyl alpha-mannoside <37>) <37>
-SA	#4# 3.1 (#4# pH 5.5, 37°C <3>) <3>
+SA	#4# 3.1 (#4# pH 5.5, 37Â°C <3>) <3>
 SA	#4# 6.75 (#4# intact 124 kDa Man II <1>) <1>
 SA	#4# 1.425 (#4# 4-nitrophenyl alpha-D-mannoside as substrate <2>) <2>
 SA	#4# 7.03 (#4# chymotrypsin-cleaved soluble 110 kDa catalytic subunit
@@ -16170,7 +16170,7 @@ IN	#1# 1-deoxyaminocyclopentitetrol (#1# poor inhibitor <50>; #1#
 IN	#1# di-epi-swainsonine (#1# weak inhibitor <46>) <46>
 IN	#1# 5-fluoro-beta-L-gulosyl fluoride (#1# reversible, wild-type and
 	D341N mutant GMII, inhibits only at low assay temperatures, acts as
-	slow substrate at 37°C <24>) <24>
+	slow substrate at 37Â°C <24>) <24>
 IN	#1# 2-deoxy-2-fluoro-alpha-D-mannosyl fluoride (#1# reversible, D341N
 	mutant GMII <24>) <24>
 IN	#1# N-benzyl mannostatin A (#1# structural basis of the inhibition of
@@ -16424,7 +16424,7 @@ KI	#1# 0.001
 	4-dihydroxy-5-([[(1R)-2-hydroxy-1-phenylethyl]amino]methyl)-1
 	methylpyrrolidin-2-one}  <49>
 KI	#1# 0.0003 {(1R,2S,3R,4R,5R)-5-aminocyclopentane-1,2,3,4-tetraol}  <50>
-KI	#1# 0.6 {5-fluoro-beta-L-gulosyl fluoride}  (#1# pH 5.6, 37°C, D341N
+KI	#1# 0.6 {5-fluoro-beta-L-gulosyl fluoride}  (#1# pH 5.6, 37Â°C, D341N
 	mutant GMII <24>) <24>
 KI	#1# 0.067
 	{(2S,3R
@@ -16435,11 +16435,11 @@ KI	#1# 0.022
 	4-dihydroxy-5-([[(1R)-2-hydroxy-1-phenylethyl]amino]methyl)pyrrolidin-2
 	one}  <49>
 KI	#1# 7.5 {2-deoxy-2-fluoro-alpha-D-mannosyl fluoride}  (#1# pH 5.6,
-	37°C, D341N mutant GMII <24>) <24>
-KI	#1# 5.2 {kifunensine}  (#1# pH 5.75, 37°C <11>) <11>
+	37Â°C, D341N mutant GMII <24>) <24>
+KI	#1# 5.2 {kifunensine}  (#1# pH 5.75, 37Â°C <11>) <11>
 KI	#1# 0.265 {1-deoxyaminocyclopentitetrol}  <36,50>
 KI	#1# 0.265 {1-deoxyamino-cyclopentitetrol}  <36>
-KI	#1# 0.0000105 {swainsonine}  (#1# pH 5.75, 37°C <11>) <11>
+KI	#1# 0.0000105 {swainsonine}  (#1# pH 5.75, 37Â°C <11>) <11>
 KI	#1# 0.000249 {N-benzyl mannostatin A}  <36>
 KI	#1# 0.000249 {N-benzyl-mannostatin}  <36>
 KI	#1,17# 0.00002 {swainsonine}  (#17# pH 5.6 <48>) <48,49>
@@ -16469,17 +16469,17 @@ KI	#17# 0.001
 	{(3R,4R,5R)-3
 	4-dihydroxy-5-([[(1R)-2-hydroxy-1-phenylethyl]amino]methyl)-1
 	methylpyrrolidin-2-one}  (#17# 20C, pH 6.8 <49>) <49>
-KI	#17# 0.003 {swainsonine}  (#17# pH 5.75, 25°C <54>) <54>
+KI	#17# 0.003 {swainsonine}  (#17# pH 5.75, 25Â°C <54>) <54>
 KI	#17# 0.0003 {(1R,2R,3S,4R,5R)-5-aminocyclopentane-1,2,3,4-tetrol}  <50>
 KI	#17# 0.002 {mannoimidazole}  (#17# pH 5.6 <48>) <48>
 KI	#17# 0.017 {N-octyl-6-epi-valienamine}  (#17# pH 5.6 <48>) <48>
 KI	#17# 0.0027
 	{1-(4-methylphenyl)-2-[(1S,2R,5R,8R,8aR)-1,2
-	8-trihydroxyoctahydroindolizin-5-yl]ethanone}  (#17# pH 5.75, 25°C
+	8-trihydroxyoctahydroindolizin-5-yl]ethanone}  (#17# pH 5.75, 25Â°C
 	<54>) <54>
 KI	#17# 0.0027
 	{1-(4-tert-butylphenyl)-2-[(1S,2R,5R,8R,8aR)-1,2
-	8-trihydroxyoctahydroindolizin-5-yl]ethanone}  (#17# pH 5.75, 25°C
+	8-trihydroxyoctahydroindolizin-5-yl]ethanone}  (#17# pH 5.75, 25Â°C
 	<54>) <54>
 KI	#17# 0.067
 	{(2R,3R
@@ -16499,7 +16499,7 @@ KI	#17# 0.52
 KI	#17# 0.013 {glucoimidazole}  (#17# pH 5.6 <48>) <48>
 KI	#17# 0.0028
 	{1-phenyl-2-[(1S,2R,5R,8R,8aR)-1,2
-	8-trihydroxyoctahydroindolizin-5-yl]ethanone}  (#17# pH 5.75, 25°C
+	8-trihydroxyoctahydroindolizin-5-yl]ethanone}  (#17# pH 5.75, 25Â°C
 	<54>) <54>
 KI	#17# 0.00002 {(1S,2R,8R,8aR)-octahydroindolizine-1,2,8-triol}  (#17#
 	20C, pH 6.8 <49>) <49>
@@ -16510,17 +16510,17 @@ KI	#3# 0.006
 	{(1R,2R,3R,4S,5S)-1,2,3
 	4-tetrahydroxy-5-(N-(p-fluoro-benzyl)amino)cyclopentane}  (#3# reaction
 	volume containing 4-methylumbelliferyl alpha-D-mannopyranoside, sodium
-	acetate pH 5.6 and ZnCl at 37°C <34>) <34>
+	acetate pH 5.6 and ZnCl at 37Â°C <34>) <34>
 KI	#3# 0.01
 	{(1R,2R,3R,4S,5S)-1,2,3,4-tetrahydroxy-5-(N-benzylamino)cyclopentane} 
 	(#3# reaction volume containing 4-methylumbelliferyl
-	alpha-D-mannopyranoside, sodium acetate pH 5.6 and ZnCl at 37°C <34>)
+	alpha-D-mannopyranoside, sodium acetate pH 5.6 and ZnCl at 37Â°C <34>)
 	<34>
 KI	#3# 0.0066
 	{(1R,2R,3R,4S,5S)-1,2,3
 	4-tetrahydroxy-5-(N-(p-methoxy-benzyl)amino)cyclopentane}  (#3#
 	reaction volume containing 4-methylumbelliferyl
-	alpha-D-mannopyranoside, sodium acetate pH 5.6 and ZnCl at 37°C <34>)
+	alpha-D-mannopyranoside, sodium acetate pH 5.6 and ZnCl at 37Â°C <34>)
 	<34>
 KI	#3# 0.00067
 	{(3R,4R,5S)-3
@@ -16529,7 +16529,7 @@ KI	#3# 0.00067
 	<49>) <49>
 KI	#3# 50 {meso-aminocyclopentitretrol}  (#3# reaction volume containing
 	4-methylumbelliferyl alpha-D-mannopyranoside, sodium acetate pH 5.6 and
-	ZnCl at 37°C <34>) <34>
+	ZnCl at 37Â°C <34>) <34>
 KI	#3# 0.0032
 	{(3R,4R,5S)-3
 	4-dihydroxy-5-([[(1R)-2-hydroxy-1-phenylethyl]amino]methyl)-1
@@ -16541,40 +16541,40 @@ KI	#3# 0.75 {8a-epi-swainsonine}  (#3# liver lysosomal fraction <35>) <35>
 KI	#3# 0.0044 {(1R,2R,3R,4S,5S)-1,2,3,4-tetrahydroxy-5-(N-(p-allyl ester
 	benzyl)amino)cyclopentane}  (#3# reaction volume containing
 	4-methylumbelliferyl alpha-D-mannopyranoside, sodium acetate pH 5.6 and
-	ZnCl at 37°C <34>) <34>
+	ZnCl at 37Â°C <34>) <34>
 KI	#3# 0.0076
 	{(1R,2R,3R,4S,5S)-1,2,3
 	4-tetrahydroxy-5-(N-(p-bromo-benzyl)amino)cyclopentane}  (#3# reaction
 	volume containing 4-methylumbelliferyl alpha-D-mannopyranoside, sodium
-	acetate pH 5.6 and ZnCl at 37°C <34>) <34>
+	acetate pH 5.6 and ZnCl at 37Â°C <34>) <34>
 KI	#3# 0.0081
 	{(1R,2R,3R,4S,5S)-1,2,3
 	4-tetrahydroxy-5-(N-(p-chloro-benzyl)amino)cyclopentane}  (#3# reaction
 	volume containing 4-methylumbelliferyl alpha-D-mannopyranoside, sodium
-	acetate pH 5.6 and ZnCl at 37°C <34>) <34>
+	acetate pH 5.6 and ZnCl at 37Â°C <34>) <34>
 KI	#3# 0.00053
 	{(1R,2R,3R,4R,5S)-1-(methylthio)-2,3
 	4-trihydroxy-5-(N-(p-fluoro-benzyl)amino)cyclopentane}  (#3# reaction
 	volume containing 4-methylumbelliferyl alpha-D-mannopyranoside, sodium
-	acetate pH 5.6 and ZnCl at 37°C <34>) <34>
+	acetate pH 5.6 and ZnCl at 37Â°C <34>) <34>
 KI	#3# 0.00091
 	{(1R,2R,3R,4R,5S)-1-(methylthio)-2,3
 	4-trihydroxy-5-(N-(p-chloro-benzyl)amino)cyclopentane}  (#3# reaction
 	volume containing 4-methylumbelliferyl alpha-D-mannopyranoside, sodium
-	acetate pH 5.6 and ZnCl at 37°C <34>) <34>
+	acetate pH 5.6 and ZnCl at 37Â°C <34>) <34>
 KI	#3# 0.00052
 	{(1R,2R,3R,4R,5S)-1-(methylthio)-2,3
 	4-trihydroxy-5-(N-(p-methoxy-benzyl)amino)cyclopentane}  (#3# reaction
 	volume containing 4-methylumbelliferyl alpha-D-mannopyranoside, sodium
-	acetate pH 5.6 and ZnCl at 37°C <34>) <34>
+	acetate pH 5.6 and ZnCl at 37Â°C <34>) <34>
 KI	#3# 0.00021 {mannostatin}  (#3# reaction volume containing
 	4-methylumbelliferyl alpha-D-mannopyranoside, sodium acetate pH 5.6 and
-	ZnCl at 37°C <34>) <34>
+	ZnCl at 37Â°C <34>) <34>
 KI	#3# 0.00051
 	{(1R,2R,3R,4R,5S)-1-(methylthio)-2,3
 	4-trihydroxy-5-(N-(p-bromo-benzyl)amino)cyclopentane}  (#3# reaction
 	volume containing 4-methylumbelliferyl alpha-D-mannopyranoside, sodium
-	acetate pH 5.6 and ZnCl at 37°C <34>) <34>
+	acetate pH 5.6 and ZnCl at 37Â°C <34>) <34>
 KI	#3# 0.00055
 	{(3R,4R,5S)-3
 	4-dihydroxy-5-([[(1R)-2-hydroxy-1-phenylethyl]amino]methyl)-1
@@ -16588,12 +16588,12 @@ KI	#3# 0.00088
 	{(1R,2R,3R,4R,5S)-1-(methylthio)-2,3
 	4-trihydroxy-5-(N-benzylamino)cyclopentane}  (#3# reaction volume
 	containing 4-methylumbelliferyl alpha-D-mannopyranoside, sodium acetate
-	pH 5.6 and ZnCl at 37°C <34>) <34>
+	pH 5.6 and ZnCl at 37Â°C <34>) <34>
 KI	#3# 0.00322
 	{(1R,2R,3R,4R,5S)-1-(methylthio)-2,3,4-trihydroxy-5-(N-(p-allyl ester
 	benzyl)amino)cyclopentane}  (#3# reaction volume containing
 	4-methylumbelliferyl alpha-D-mannopyranoside, sodium acetate pH 5.6 and
-	ZnCl at 37°C <34>) <34>
+	ZnCl at 37Â°C <34>) <34>
 KI	#3# 0.0415
 	{(2S,3R
 	4S)-2-([[(1R)-2-hydroxy-1-phenylethyl]amino]methyl)pyrrolidine-3
@@ -16889,7 +16889,7 @@ CR	#12# (purified recombinant TM1851, sitting drop vapour diffusion
 	method, optimal conditions: 0.001 ml of protein solution containing 5.3
 	mg/ml protein in 5 mM sodium phosphate and 150 mM NaCl, pH 6.8, mixed
 	with an equal volume of reservoir solution containing 4% w/v PEG 6000,
-	50 mM sodium phosphate, pH 6.0, and 0.5 M NaCl, 1 day at 25°C, X-ray
+	50 mM sodium phosphate, pH 6.0, and 0.5 M NaCl, 1 day at 25Â°C, X-ray
 	diffraction structure determination and preliminary analysis at 2.9 A
 	resolution) <30>
 CR	#17# <48>
@@ -16983,7 +16983,7 @@ GS	#4# (enzyme retains full activity after incubation with chymotrypsin or
 	membrane-anchoring domains, a decrease in activity occurs with a
 	corresponding cleavage of the catalytic subunit to a MW 105000 species)
 	<15>
-GS	#4# (ultrafiltration, even in the presence of PMSF at 0°C, results in
+GS	#4# (ultrafiltration, even in the presence of PMSF at 0Â°C, results in
 	a slow conversion of the intact enzyme to the 110 kDa degradation
 	product, the catalytic domain, which itself is extremely stable) <1>
 GS	#4# (freezing and thawing greatly enhances the rate of cleavage of the
@@ -16994,33 +16994,33 @@ GS	#9# (unfolding and denaturation in 6 M guanidinium hydrochloride, the
 	overview) <57>
 
 PH_STABILITY
-PHS	#4# 4-6 (#4# unstable at 37°C, no activity below pH 4 <3>) <3>
-PHS	#4# 8 (#4# 1 h, at 37°C, stable <2>) <2>
-PHS	#4# 7-9 (#4# stable at 37°C <3>) <3>
-PHS	#4# 4 (#4# 1 h, at 37°C, inactivation, 1 mM ZnCl2 partially stabilizes
+PHS	#4# 4-6 (#4# unstable at 37Â°C, no activity below pH 4 <3>) <3>
+PHS	#4# 8 (#4# 1 h, at 37Â°C, stable <2>) <2>
+PHS	#4# 7-9 (#4# stable at 37Â°C <3>) <3>
+PHS	#4# 4 (#4# 1 h, at 37Â°C, inactivation, 1 mM ZnCl2 partially stabilizes
 	<2>) <2>
 PHS	#4,8# 6 (#8# below, high loss of activity within 1 week <17>; #4# 1 h,
-	at 37°C, 30% loss of activity <2>) <2,17>
+	at 37Â°C, 30% loss of activity <2>) <2,17>
 PHS	#8# 6.5 (#8# below, loss of activity <8>) <8>
 PHS	#9# -999 (#9# pH dependent denaturation, kinetics, overview <57>) <57>
 PHS	#9# 5-7 (#9# the enzyme is most stable, inactivation below pH 5.0 and
 	above pH 8.0 is irreversible <57>) <57>
 
 STORAGE_STABILITY
-SS	#10# (-20°C or 4°C, 4 months, less than 5% loss of activity) <4>
-SS	#10# (-20°C or 4°C, 10 mM sodium acetate buffer, pH 5, with or
+SS	#10# (-20Â°C or 4Â°C, 4 months, less than 5% loss of activity) <4>
+SS	#10# (-20Â°C or 4Â°C, 10 mM sodium acetate buffer, pH 5, with or
 	without CaCl2, 4 months, stable) <7>
-SS	#11# (4°C, column-bound glutathione S-transferase-tagged secreted form
+SS	#11# (4Â°C, column-bound glutathione S-transferase-tagged secreted form
 	of SfManIII, at least 1 week, stable) <29>
-SS	#4# (5°C or frozen, 0.1 M potassium phosphate buffer, pH 7.2, Triton
+SS	#4# (5Â°C or frozen, 0.1 M potassium phosphate buffer, pH 7.2, Triton
 	X-100, 30 days, 20% loss of activity) <3>
-SS	#4# (2-4°C, 10 mM potassium phosphate buffer, pH 7.2, 1% Triton X-100,
+SS	#4# (2-4Â°C, 10 mM potassium phosphate buffer, pH 7.2, 1% Triton X-100,
 	4 weeks, 20% loss of activity) <2>
 SS	#4# (frozen, at least 2 months, stable) <3>
-SS	#4# (4°C, intact enzyme, several weeks, stable) <1>
-SS	#8# (0-4°C, 10 mM HEPES buffer, pH 7.2, 10% glycerol, several days,
+SS	#4# (4Â°C, intact enzyme, several weeks, stable) <1>
+SS	#8# (0-4Â°C, 10 mM HEPES buffer, pH 7.2, 10% glycerol, several days,
 	stable) <17>
-SS	#8# (0-4°C, 10 mM HEPES buffer, pH 7.1, 0.1% Triton X-100, 0.5 mM
+SS	#8# (0-4Â°C, 10 mM HEPES buffer, pH 7.1, 0.1% Triton X-100, 0.5 mM
 	PMSF, 0.2 mM dithiothreitol, 10% glycerol, at least 2 weeks, stable) <8>
 SS	#8# (frozen, 10 mM HEPES buffer, pH 7.1, 0.1% Triton X-100, 0.5 mM
 	PMSF, 0.2 mM dithiothreitol, 10% glycerol, at least 2 months, stable)
@@ -17034,12 +17034,12 @@ TS	#4# 50 (#4# 3 h, about 30% loss of activity, 4-nitrophenyl
 	alpha-D-mannoside or (Man)9GlcNAc as substrate <2>) <2>
 TS	#4# 40 (#4# and below, 15 min stable, rapid inactivation above, Zn2+ or
 	0.125 mg/l bovine serum albumin stabilizes <3>) <3>
-TS	#9# 30-90 (#9# activity is reduced by 8% at 50°C while positive
+TS	#9# 30-90 (#9# activity is reduced by 8% at 50Â°C while positive
 	ellipticity at 190-195 nm is almost same in the temperature range of
-	35-50°C. The activity is not affected in this range. At 60°C, 18% and
-	at 70°C and above, 25% loss in the alpha-helical content of the
+	35-50Â°C. The activity is not affected in this range. At 60Â°C, 18% and
+	at 70Â°C and above, 25% loss in the alpha-helical content of the
 	protein occurs with significant decrease in the positive ellipticity,
-	the protein does not completely unfold at 90°C <57>) <57>
+	the protein does not completely unfold at 90Â°C <57>) <57>
 
 REFERENCE
 RF	<1> Moremen, K.W.; Touster, O.; Robbins, P.W.: Novel purification of
@@ -17122,7 +17122,7 @@ RF	<21> Foster, J.M.; Yudkin, B.; Lockyer, A.E.; Roberts, D.B.: Cloning
 	and sequence analysis of GmII, a Drosophila melanogaster homologue of
 	the cDNA encoding murine Golgi alpha-mannosidase II. Gene (1995) 154,
 	183-186. {Pubmed:7890162}
-RF	<22> Altmann, F.; März, L.: Processing of asparagine-linked
+RF	<22> Altmann, F.; MÃ¤rz, L.: Processing of asparagine-linked
 	oligosaccharides in insect cells: evidence for alpha-mannosidase II.
 	Glycoconj. J. (1995) 12, 150-155. {Pubmed:7620332}
 RF	<23> Ren, J.; Castellino, F.J.; Bretthauer, R.K.: Purification and
@@ -17333,7 +17333,7 @@ KI	#1# 0.001
 	4-dihydroxy-5-([[(1R)-2-hydroxy-1-phenylethyl]amino]methyl)-1
 	methylpyrrolidin-2-one}  <49>
 KI	#1# 0.0003 {(1R,2S,3R,4R,5R)-5-aminocyclopentane-1,2,3,4-tetraol}  <50>
-KI	#1# 0.6 {5-fluoro-beta-L-gulosyl fluoride}  (#1# pH 5.6, 37°C, D341N
+KI	#1# 0.6 {5-fluoro-beta-L-gulosyl fluoride}  (#1# pH 5.6, 37Â°C, D341N
 	mutant GMII <24>) <24>
 KI	#1# 0.067
 	{(2S,3R
@@ -17344,11 +17344,11 @@ KI	#1# 0.022
 	4-dihydroxy-5-([[(1R)-2-hydroxy-1-phenylethyl]amino]methyl)pyrrolidin-2
 	one}  <49>
 KI	#1# 7.5 {2-deoxy-2-fluoro-alpha-D-mannosyl fluoride}  (#1# pH 5.6,
-	37°C, D341N mutant GMII <24>) <24>
-KI	#1# 5.2 {kifunensine}  (#1# pH 5.75, 37°C <11>) <11>
+	37Â°C, D341N mutant GMII <24>) <24>
+KI	#1# 5.2 {kifunensine}  (#1# pH 5.75, 37Â°C <11>) <11>
 KI	#1# 0.265 {1-deoxyaminocyclopentitetrol}  <36,50>
 KI	#1# 0.265 {1-deoxyamino-cyclopentitetrol}  <36>
-KI	#1# 0.0000105 {swainsonine}  (#1# pH 5.75, 37°C <11>) <11>
+KI	#1# 0.0000105 {swainsonine}  (#1# pH 5.75, 37Â°C <11>) <11>
 KI	#1# 0.000249 {N-benzyl mannostatin A}  <36>
 KI	#1# 0.000249 {N-benzyl-mannostatin}  <36>
 KI	#1,17# 0.00002 {swainsonine}  (#17# pH 5.6 <48>) <48,49>
@@ -17378,17 +17378,17 @@ KI	#17# 0.001
 	{(3R,4R,5R)-3
 	4-dihydroxy-5-([[(1R)-2-hydroxy-1-phenylethyl]amino]methyl)-1
 	methylpyrrolidin-2-one}  (#17# 20C, pH 6.8 <49>) <49>
-KI	#17# 0.003 {swainsonine}  (#17# pH 5.75, 25°C <54>) <54>
+KI	#17# 0.003 {swainsonine}  (#17# pH 5.75, 25Â°C <54>) <54>
 KI	#17# 0.0003 {(1R,2R,3S,4R,5R)-5-aminocyclopentane-1,2,3,4-tetrol}  <50>
 KI	#17# 0.002 {mannoimidazole}  (#17# pH 5.6 <48>) <48>
 KI	#17# 0.017 {N-octyl-6-epi-valienamine}  (#17# pH 5.6 <48>) <48>
 KI	#17# 0.0027
 	{1-(4-methylphenyl)-2-[(1S,2R,5R,8R,8aR)-1,2
-	8-trihydroxyoctahydroindolizin-5-yl]ethanone}  (#17# pH 5.75, 25°C
+	8-trihydroxyoctahydroindolizin-5-yl]ethanone}  (#17# pH 5.75, 25Â°C
 	<54>) <54>
 KI	#17# 0.0027
 	{1-(4-tert-butylphenyl)-2-[(1S,2R,5R,8R,8aR)-1,2
-	8-trihydroxyoctahydroindolizin-5-yl]ethanone}  (#17# pH 5.75, 25°C
+	8-trihydroxyoctahydroindolizin-5-yl]ethanone}  (#17# pH 5.75, 25Â°C
 	<54>) <54>
 KI	#17# 0.067
 	{(2R,3R
@@ -17408,7 +17408,7 @@ KI	#17# 0.52
 KI	#17# 0.013 {glucoimidazole}  (#17# pH 5.6 <48>) <48>
 KI	#17# 0.0028
 	{1-phenyl-2-[(1S,2R,5R,8R,8aR)-1,2
-	8-trihydroxyoctahydroindolizin-5-yl]ethanone}  (#17# pH 5.75, 25°C
+	8-trihydroxyoctahydroindolizin-5-yl]ethanone}  (#17# pH 5.75, 25Â°C
 	<54>) <54>
 KI	#17# 0.00002 {(1S,2R,8R,8aR)-octahydroindolizine-1,2,8-triol}  (#17#
 	20C, pH 6.8 <49>) <49>
@@ -17419,17 +17419,17 @@ KI	#3# 0.006
 	{(1R,2R,3R,4S,5S)-1,2,3
 	4-tetrahydroxy-5-(N-(p-fluoro-benzyl)amino)cyclopentane}  (#3# reaction
 	volume containing 4-methylumbelliferyl alpha-D-mannopyranoside, sodium
-	acetate pH 5.6 and ZnCl at 37°C <34>) <34>
+	acetate pH 5.6 and ZnCl at 37Â°C <34>) <34>
 KI	#3# 0.01
 	{(1R,2R,3R,4S,5S)-1,2,3,4-tetrahydroxy-5-(N-benzylamino)cyclopentane} 
 	(#3# reaction volume containing 4-methylumbelliferyl
-	alpha-D-mannopyranoside, sodium acetate pH 5.6 and ZnCl at 37°C <34>)
+	alpha-D-mannopyranoside, sodium acetate pH 5.6 and ZnCl at 37Â°C <34>)
 	<34>
 KI	#3# 0.0066
 	{(1R,2R,3R,4S,5S)-1,2,3
 	4-tetrahydroxy-5-(N-(p-methoxy-benzyl)amino)cyclopentane}  (#3#
 	reaction volume containing 4-methylumbelliferyl
-	alpha-D-mannopyranoside, sodium acetate pH 5.6 and ZnCl at 37°C <34>)
+	alpha-D-mannopyranoside, sodium acetate pH 5.6 and ZnCl at 37Â°C <34>)
 	<34>
 KI	#3# 0.00067
 	{(3R,4R,5S)-3
@@ -17438,7 +17438,7 @@ KI	#3# 0.00067
 	<49>) <49>
 KI	#3# 50 {meso-aminocyclopentitretrol}  (#3# reaction volume containing
 	4-methylumbelliferyl alpha-D-mannopyranoside, sodium acetate pH 5.6 and
-	ZnCl at 37°C <34>) <34>
+	ZnCl at 37Â°C <34>) <34>
 KI	#3# 0.0032
 	{(3R,4R,5S)-3
 	4-dihydroxy-5-([[(1R)-2-hydroxy-1-phenylethyl]amino]methyl)-1
@@ -17450,40 +17450,40 @@ KI	#3# 0.75 {8a-epi-swainsonine}  (#3# liver lysosomal fraction <35>) <35>
 KI	#3# 0.0044 {(1R,2R,3R,4S,5S)-1,2,3,4-tetrahydroxy-5-(N-(p-allyl ester
 	benzyl)amino)cyclopentane}  (#3# reaction volume containing
 	4-methylumbelliferyl alpha-D-mannopyranoside, sodium acetate pH 5.6 and
-	ZnCl at 37°C <34>) <34>
+	ZnCl at 37Â°C <34>) <34>
 KI	#3# 0.0076
 	{(1R,2R,3R,4S,5S)-1,2,3
 	4-tetrahydroxy-5-(N-(p-bromo-benzyl)amino)cyclopentane}  (#3# reaction
 	volume containing 4-methylumbelliferyl alpha-D-mannopyranoside, sodium
-	acetate pH 5.6 and ZnCl at 37°C <34>) <34>
+	acetate pH 5.6 and ZnCl at 37Â°C <34>) <34>
 KI	#3# 0.0081
 	{(1R,2R,3R,4S,5S)-1,2,3
 	4-tetrahydroxy-5-(N-(p-chloro-benzyl)amino)cyclopentane}  (#3# reaction
 	volume containing 4-methylumbelliferyl alpha-D-mannopyranoside, sodium
-	acetate pH 5.6 and ZnCl at 37°C <34>) <34>
+	acetate pH 5.6 and ZnCl at 37Â°C <34>) <34>
 KI	#3# 0.00053
 	{(1R,2R,3R,4R,5S)-1-(methylthio)-2,3
 	4-trihydroxy-5-(N-(p-fluoro-benzyl)amino)cyclopentane}  (#3# reaction
 	volume containing 4-methylumbelliferyl alpha-D-mannopyranoside, sodium
-	acetate pH 5.6 and ZnCl at 37°C <34>) <34>
+	acetate pH 5.6 and ZnCl at 37Â°C <34>) <34>
 KI	#3# 0.00091
 	{(1R,2R,3R,4R,5S)-1-(methylthio)-2,3
 	4-trihydroxy-5-(N-(p-chloro-benzyl)amino)cyclopentane}  (#3# reaction
 	volume containing 4-methylumbelliferyl alpha-D-mannopyranoside, sodium
-	acetate pH 5.6 and ZnCl at 37°C <34>) <34>
+	acetate pH 5.6 and ZnCl at 37Â°C <34>) <34>
 KI	#3# 0.00052
 	{(1R,2R,3R,4R,5S)-1-(methylthio)-2,3
 	4-trihydroxy-5-(N-(p-methoxy-benzyl)amino)cyclopentane}  (#3# reaction
 	volume containing 4-methylumbelliferyl alpha-D-mannopyranoside, sodium
-	acetate pH 5.6 and ZnCl at 37°C <34>) <34>
+	acetate pH 5.6 and ZnCl at 37Â°C <34>) <34>
 KI	#3# 0.00021 {mannostatin}  (#3# reaction volume containing
 	4-methylumbelliferyl alpha-D-mannopyranoside, sodium acetate pH 5.6 and
-	ZnCl at 37°C <34>) <34>
+	ZnCl at 37Â°C <34>) <34>
 KI	#3# 0.00051
 	{(1R,2R,3R,4R,5S)-1-(methylthio)-2,3
 	4-trihydroxy-5-(N-(p-bromo-benzyl)amino)cyclopentane}  (#3# reaction
 	volume containing 4-methylumbelliferyl alpha-D-mannopyranoside, sodium
-	acetate pH 5.6 and ZnCl at 37°C <34>) <34>
+	acetate pH 5.6 and ZnCl at 37Â°C <34>) <34>
 KI	#3# 0.00055
 	{(3R,4R,5S)-3
 	4-dihydroxy-5-([[(1R)-2-hydroxy-1-phenylethyl]amino]methyl)-1
@@ -17497,12 +17497,12 @@ KI	#3# 0.00088
 	{(1R,2R,3R,4R,5S)-1-(methylthio)-2,3
 	4-trihydroxy-5-(N-benzylamino)cyclopentane}  (#3# reaction volume
 	containing 4-methylumbelliferyl alpha-D-mannopyranoside, sodium acetate
-	pH 5.6 and ZnCl at 37°C <34>) <34>
+	pH 5.6 and ZnCl at 37Â°C <34>) <34>
 KI	#3# 0.00322
 	{(1R,2R,3R,4R,5S)-1-(methylthio)-2,3,4-trihydroxy-5-(N-(p-allyl ester
 	benzyl)amino)cyclopentane}  (#3# reaction volume containing
 	4-methylumbelliferyl alpha-D-mannopyranoside, sodium acetate pH 5.6 and
-	ZnCl at 37°C <34>) <34>
+	ZnCl at 37Â°C <34>) <34>
 KI	#3# 0.0415
 	{(2S,3R
 	4S)-2-([[(1R)-2-hydroxy-1-phenylethyl]amino]methyl)pyrrolidine-3
@@ -17530,27 +17530,27 @@ IC50	#1# 0.72
 	4-diol}  <45>
 IC50	#17# 0.00003
 	{1-phenyl-2-[(1S,2R,5R,8R,8aR)-1,2
-	8-trihydroxyoctahydroindolizin-5-yl]ethanone}  (#17# pH 5.75, 25°C
+	8-trihydroxyoctahydroindolizin-5-yl]ethanone}  (#17# pH 5.75, 25Â°C
 	<54>) <54>
-IC50	#17# 0.000037 {swainsonine}  (#17# pH 5.75, 25°C <54>) <54>
+IC50	#17# 0.000037 {swainsonine}  (#17# pH 5.75, 25Â°C <54>) <54>
 IC50	#17# 0.000029
 	{1-(4-methylphenyl)-2-[(1S,2R,5R,8R,8aR)-1,2
-	8-trihydroxyoctahydroindolizin-5-yl]ethanone}  (#17# pH 5.75, 25°C
+	8-trihydroxyoctahydroindolizin-5-yl]ethanone}  (#17# pH 5.75, 25Â°C
 	<54>) <54>
 IC50	#17# 0.000029
 	{1-(4-tert-butylphenyl)-2-[(1S,2R,5R,8R,8aR)-1,2
-	8-trihydroxyoctahydroindolizin-5-yl]ethanone}  (#17# pH 5.75, 25°C
+	8-trihydroxyoctahydroindolizin-5-yl]ethanone}  (#17# pH 5.75, 25Â°C
 	<54>) <54>
 IC50	#17# 0.000044
 	{(1S,2R,5S,8R,8aR)-5-[2-(4-tert-butylphenyl)ethyl]octahydroindolizine-1
-	2,8-triol}  (#17# pH 5.75, 25°C <54>) <54>
+	2,8-triol}  (#17# pH 5.75, 25Â°C <54>) <54>
 IC50	#17# 0.00025
 	{1-(4-tert-butylphenyl)-2-[(1S,2R,5S,8R,8aR)-1,2
-	8-trihydroxyoctahydroindolizin-5-yl]ethanone}  (#17# pH 5.75, 25°C
+	8-trihydroxyoctahydroindolizin-5-yl]ethanone}  (#17# pH 5.75, 25Â°C
 	<54>) <54>
 IC50	#17# 0.00025
 	{(1S,2R,5R,8R,8aR)-5-[2-(4-tert-butylphenyl)ethyl]octahydroindolizine-1
-	2,8-triol}  (#17# pH 5.75, 25°C <54>) <54>
+	2,8-triol}  (#17# pH 5.75, 25Â°C <54>) <54>
 IC50	#3# 0.0005
 	{(3R,4R,5S)-3
 	4-dihydroxy-5-([[(1R)-2-hydroxy-1-phenylethyl]amino]methyl)-1
@@ -17562,7 +17562,7 @@ IC50	#3# 0.002
 	methylpyrrolidin-2-one}  (#3# extracted from human glioblastoma cells
 	LN18 <49>) <49>
 IC50	#3# 1.5 {2-phenylethyl alpha-D-mannopyranosyl sulfone}  (#3# in 50 mM
-	sodium acetate buffer pH 5.8, at 37°C <60>) <60>
+	sodium acetate buffer pH 5.8, at 37Â°C <60>) <60>
 IC50	#3# 0.025
 	{(2S,3R
 	4S)-2-([[(1R)-2-hydroxy-1-phenylethyl]amino]methyl)pyrrolidine-3
@@ -17573,9 +17573,9 @@ IC50	#3# 0.0075
 	phenylethyl]amino)methyl]-3,4-dihydroxy-1-methylpyrrolidin-2-one}  (#3#
 	extracted from human glioblastoma cells LNZ308 <49>) <49>
 IC50	#3# 0.000005 {swainsonine}  (#3# in 50 mM sodium acetate buffer pH 5.8,
-	at 37°C <60>) <60>
+	at 37Â°C <60>) <60>
 IC50	#3# 2 {benzyl alpha-D-mannopyranosyl sulfone}  (#3# in 50 mM sodium
-	acetate buffer pH 5.8, at 37°C <60>) <60>
+	acetate buffer pH 5.8, at 37Â°C <60>) <60>
 IC50	#3# 0.05
 	{(2S,3R
 	4S)-2-([[(1R)-2-hydroxy-1-phenylethyl]amino]methyl)pyrrolidine-3
@@ -17586,7 +17586,7 @@ IC50	#3# 0.05
 	4-dihydroxy-5-([[(1R)-2-hydroxy-1-phenylethyl]amino]methyl)pyrrolidin-2
 	one}  (#3# extracted from human glioblastoma cells LNZ308 <49>) <49>
 IC50	#3# 0.00013 {Mannostatin A}  (#3# in 50 mM sodium acetate buffer pH
-	5.8, at 37°C <60>) <60>
+	5.8, at 37Â°C <60>) <60>
 IC50	#3# 0.00002 {swainsonine}  (#3# extracted from human glioblastoma cells
 	LNZ308 <49>) <49>
 IC50	#3# 0.15
@@ -17626,7 +17626,7 @@ IC50	#3# 0.075
 IC50	#3# 0.00005 {swainsonine}  (#3# extracted from human glioblastoma cells
 	LN18 <49>) <49>
 IC50	#3# 2.5 {(RS)-2-phenylethyl alpha-D-mannopyranosyl sulfoxide}  (#3# in
-	50 mM sodium acetate buffer pH 5.8, at 37°C <60>) <60>
+	50 mM sodium acetate buffer pH 5.8, at 37Â°C <60>) <60>
 IC50	#3# 0.00075
 	{(3R,4R
 	5S)-5-[([(1R)-2-[(4-bromophenyl)(hydroxy)methoxy]-1
@@ -17659,7 +17659,7 @@ KI	#1# 0.001
 	4-dihydroxy-5-([[(1R)-2-hydroxy-1-phenylethyl]amino]methyl)-1
 	methylpyrrolidin-2-one}  <49>
 KI	#1# 0.0003 {(1R,2S,3R,4R,5R)-5-aminocyclopentane-1,2,3,4-tetraol}  <50>
-KI	#1# 0.6 {5-fluoro-beta-L-gulosyl fluoride}  (#1# pH 5.6, 37°C, D341N
+KI	#1# 0.6 {5-fluoro-beta-L-gulosyl fluoride}  (#1# pH 5.6, 37Â°C, D341N
 	mutant GMII <24>) <24>
 KI	#1# 0.067
 	{(2S,3R
@@ -17670,11 +17670,11 @@ KI	#1# 0.022
 	4-dihydroxy-5-([[(1R)-2-hydroxy-1-phenylethyl]amino]methyl)pyrrolidin-2
 	one}  <49>
 KI	#1# 7.5 {2-deoxy-2-fluoro-alpha-D-mannosyl fluoride}  (#1# pH 5.6,
-	37°C, D341N mutant GMII <24>) <24>
-KI	#1# 5.2 {kifunensine}  (#1# pH 5.75, 37°C <11>) <11>
+	37Â°C, D341N mutant GMII <24>) <24>
+KI	#1# 5.2 {kifunensine}  (#1# pH 5.75, 37Â°C <11>) <11>
 KI	#1# 0.265 {1-deoxyaminocyclopentitetrol}  <36,50>
 KI	#1# 0.265 {1-deoxyamino-cyclopentitetrol}  <36>
-KI	#1# 0.0000105 {swainsonine}  (#1# pH 5.75, 37°C <11>) <11>
+KI	#1# 0.0000105 {swainsonine}  (#1# pH 5.75, 37Â°C <11>) <11>
 KI	#1# 0.000249 {N-benzyl mannostatin A}  <36>
 KI	#1# 0.000249 {N-benzyl-mannostatin}  <36>
 KI	#1,17# 0.00002 {swainsonine}  (#17# pH 5.6 <48>) <48,49>
@@ -17704,17 +17704,17 @@ KI	#17# 0.001
 	{(3R,4R,5R)-3
 	4-dihydroxy-5-([[(1R)-2-hydroxy-1-phenylethyl]amino]methyl)-1
 	methylpyrrolidin-2-one}  (#17# 20C, pH 6.8 <49>) <49>
-KI	#17# 0.003 {swainsonine}  (#17# pH 5.75, 25°C <54>) <54>
+KI	#17# 0.003 {swainsonine}  (#17# pH 5.75, 25Â°C <54>) <54>
 KI	#17# 0.0003 {(1R,2R,3S,4R,5R)-5-aminocyclopentane-1,2,3,4-tetrol}  <50>
 KI	#17# 0.002 {mannoimidazole}  (#17# pH 5.6 <48>) <48>
 KI	#17# 0.017 {N-octyl-6-epi-valienamine}  (#17# pH 5.6 <48>) <48>
 KI	#17# 0.0027
 	{1-(4-methylphenyl)-2-[(1S,2R,5R,8R,8aR)-1,2
-	8-trihydroxyoctahydroindolizin-5-yl]ethanone}  (#17# pH 5.75, 25°C
+	8-trihydroxyoctahydroindolizin-5-yl]ethanone}  (#17# pH 5.75, 25Â°C
 	<54>) <54>
 KI	#17# 0.0027
 	{1-(4-tert-butylphenyl)-2-[(1S,2R,5R,8R,8aR)-1,2
-	8-trihydroxyoctahydroindolizin-5-yl]ethanone}  (#17# pH 5.75, 25°C
+	8-trihydroxyoctahydroindolizin-5-yl]ethanone}  (#17# pH 5.75, 25Â°C
 	<54>) <54>
 KI	#17# 0.067
 	{(2R,3R
@@ -17734,7 +17734,7 @@ KI	#17# 0.52
 KI	#17# 0.013 {glucoimidazole}  (#17# pH 5.6 <48>) <48>
 KI	#17# 0.0028
 	{1-phenyl-2-[(1S,2R,5R,8R,8aR)-1,2
-	8-trihydroxyoctahydroindolizin-5-yl]ethanone}  (#17# pH 5.75, 25°C
+	8-trihydroxyoctahydroindolizin-5-yl]ethanone}  (#17# pH 5.75, 25Â°C
 	<54>) <54>
 KI	#17# 0.00002 {(1S,2R,8R,8aR)-octahydroindolizine-1,2,8-triol}  (#17#
 	20C, pH 6.8 <49>) <49>
@@ -17745,17 +17745,17 @@ KI	#3# 0.006
 	{(1R,2R,3R,4S,5S)-1,2,3
 	4-tetrahydroxy-5-(N-(p-fluoro-benzyl)amino)cyclopentane}  (#3# reaction
 	volume containing 4-methylumbelliferyl alpha-D-mannopyranoside, sodium
-	acetate pH 5.6 and ZnCl at 37°C <34>) <34>
+	acetate pH 5.6 and ZnCl at 37Â°C <34>) <34>
 KI	#3# 0.01
 	{(1R,2R,3R,4S,5S)-1,2,3,4-tetrahydroxy-5-(N-benzylamino)cyclopentane} 
 	(#3# reaction volume containing 4-methylumbelliferyl
-	alpha-D-mannopyranoside, sodium acetate pH 5.6 and ZnCl at 37°C <34>)
+	alpha-D-mannopyranoside, sodium acetate pH 5.6 and ZnCl at 37Â°C <34>)
 	<34>
 KI	#3# 0.0066
 	{(1R,2R,3R,4S,5S)-1,2,3
 	4-tetrahydroxy-5-(N-(p-methoxy-benzyl)amino)cyclopentane}  (#3#
 	reaction volume containing 4-methylumbelliferyl
-	alpha-D-mannopyranoside, sodium acetate pH 5.6 and ZnCl at 37°C <34>)
+	alpha-D-mannopyranoside, sodium acetate pH 5.6 and ZnCl at 37Â°C <34>)
 	<34>
 KI	#3# 0.00067
 	{(3R,4R,5S)-3
@@ -17764,7 +17764,7 @@ KI	#3# 0.00067
 	<49>) <49>
 KI	#3# 50 {meso-aminocyclopentitretrol}  (#3# reaction volume containing
 	4-methylumbelliferyl alpha-D-mannopyranoside, sodium acetate pH 5.6 and
-	ZnCl at 37°C <34>) <34>
+	ZnCl at 37Â°C <34>) <34>
 KI	#3# 0.0032
 	{(3R,4R,5S)-3
 	4-dihydroxy-5-([[(1R)-2-hydroxy-1-phenylethyl]amino]methyl)-1
@@ -17776,40 +17776,40 @@ KI	#3# 0.75 {8a-epi-swainsonine}  (#3# liver lysosomal fraction <35>) <35>
 KI	#3# 0.0044 {(1R,2R,3R,4S,5S)-1,2,3,4-tetrahydroxy-5-(N-(p-allyl ester
 	benzyl)amino)cyclopentane}  (#3# reaction volume containing
 	4-methylumbelliferyl alpha-D-mannopyranoside, sodium acetate pH 5.6 and
-	ZnCl at 37°C <34>) <34>
+	ZnCl at 37Â°C <34>) <34>
 KI	#3# 0.0076
 	{(1R,2R,3R,4S,5S)-1,2,3
 	4-tetrahydroxy-5-(N-(p-bromo-benzyl)amino)cyclopentane}  (#3# reaction
 	volume containing 4-methylumbelliferyl alpha-D-mannopyranoside, sodium
-	acetate pH 5.6 and ZnCl at 37°C <34>) <34>
+	acetate pH 5.6 and ZnCl at 37Â°C <34>) <34>
 KI	#3# 0.0081
 	{(1R,2R,3R,4S,5S)-1,2,3
 	4-tetrahydroxy-5-(N-(p-chloro-benzyl)amino)cyclopentane}  (#3# reaction
 	volume containing 4-methylumbelliferyl alpha-D-mannopyranoside, sodium
-	acetate pH 5.6 and ZnCl at 37°C <34>) <34>
+	acetate pH 5.6 and ZnCl at 37Â°C <34>) <34>
 KI	#3# 0.00053
 	{(1R,2R,3R,4R,5S)-1-(methylthio)-2,3
 	4-trihydroxy-5-(N-(p-fluoro-benzyl)amino)cyclopentane}  (#3# reaction
 	volume containing 4-methylumbelliferyl alpha-D-mannopyranoside, sodium
-	acetate pH 5.6 and ZnCl at 37°C <34>) <34>
+	acetate pH 5.6 and ZnCl at 37Â°C <34>) <34>
 KI	#3# 0.00091
 	{(1R,2R,3R,4R,5S)-1-(methylthio)-2,3
 	4-trihydroxy-5-(N-(p-chloro-benzyl)amino)cyclopentane}  (#3# reaction
 	volume containing 4-methylumbelliferyl alpha-D-mannopyranoside, sodium
-	acetate pH 5.6 and ZnCl at 37°C <34>) <34>
+	acetate pH 5.6 and ZnCl at 37Â°C <34>) <34>
 KI	#3# 0.00052
 	{(1R,2R,3R,4R,5S)-1-(methylthio)-2,3
 	4-trihydroxy-5-(N-(p-methoxy-benzyl)amino)cyclopentane}  (#3# reaction
 	volume containing 4-methylumbelliferyl alpha-D-mannopyranoside, sodium
-	acetate pH 5.6 and ZnCl at 37°C <34>) <34>
+	acetate pH 5.6 and ZnCl at 37Â°C <34>) <34>
 KI	#3# 0.00021 {mannostatin}  (#3# reaction volume containing
 	4-methylumbelliferyl alpha-D-mannopyranoside, sodium acetate pH 5.6 and
-	ZnCl at 37°C <34>) <34>
+	ZnCl at 37Â°C <34>) <34>
 KI	#3# 0.00051
 	{(1R,2R,3R,4R,5S)-1-(methylthio)-2,3
 	4-trihydroxy-5-(N-(p-bromo-benzyl)amino)cyclopentane}  (#3# reaction
 	volume containing 4-methylumbelliferyl alpha-D-mannopyranoside, sodium
-	acetate pH 5.6 and ZnCl at 37°C <34>) <34>
+	acetate pH 5.6 and ZnCl at 37Â°C <34>) <34>
 KI	#3# 0.00055
 	{(3R,4R,5S)-3
 	4-dihydroxy-5-([[(1R)-2-hydroxy-1-phenylethyl]amino]methyl)-1
@@ -17823,12 +17823,12 @@ KI	#3# 0.00088
 	{(1R,2R,3R,4R,5S)-1-(methylthio)-2,3
 	4-trihydroxy-5-(N-benzylamino)cyclopentane}  (#3# reaction volume
 	containing 4-methylumbelliferyl alpha-D-mannopyranoside, sodium acetate
-	pH 5.6 and ZnCl at 37°C <34>) <34>
+	pH 5.6 and ZnCl at 37Â°C <34>) <34>
 KI	#3# 0.00322
 	{(1R,2R,3R,4R,5S)-1-(methylthio)-2,3,4-trihydroxy-5-(N-(p-allyl ester
 	benzyl)amino)cyclopentane}  (#3# reaction volume containing
 	4-methylumbelliferyl alpha-D-mannopyranoside, sodium acetate pH 5.6 and
-	ZnCl at 37°C <34>) <34>
+	ZnCl at 37Â°C <34>) <34>
 KI	#3# 0.0415
 	{(2S,3R
 	4S)-2-([[(1R)-2-hydroxy-1-phenylethyl]amino]methyl)pyrrolidine-3
@@ -17847,8 +17847,8 @@ PI	#10# 4.6 (#10# method not mentioned <33>) <33>
 PI	#4# 5.8 (#4# pH 3 to 10 gradient, isoelectric focusing <3>) <3>
 
 KCAT_KM_VALUE
-KKM	#3# 0.0009 (#3# pH 7.0, 37°C, Bt3991 <58>) <58>
-KKM	#3# 0.52 (#3# pH 7.0, 37°C, Bt3991 <58>) <58>
+KKM	#3# 0.0009 (#3# pH 7.0, 37Â°C, Bt3991 <58>) <58>
+KKM	#3# 0.52 (#3# pH 7.0, 37Â°C, Bt3991 <58>) <58>
 
 EXPRESSION
 EXP	#4# down (#4# the expression of mRNA is inhibited in cerebral and
@@ -18075,7 +18075,7 @@ ST	#5# seedling (#5# specifically expressed in cotyledons of seedling
 ST	#61# flower <39>
 ST	#61,80,98# more (#61# not in leaf <39>; #98# solid state fermentation
 	on medium containing microcrystalline cellulose <92>; #80# the
-	temperature range for growth is 47-88°C with an optimum at 80°C
+	temperature range for growth is 47-88Â°C with an optimum at 80Â°C
 	<106>) <39,92,106>
 ST	#64,78,79,87# radicle (#64# high degree of enzyme expression during
 	germination facilitates radicle protrusion through the surrounding
@@ -18593,7 +18593,7 @@ TURNOVER_NUMBER
 TN	#1# -999 {more}  (#1# turnover numbers are 61.2 per s, substrate locust
 	bean gum, wild-type, 75.1 per s, konjac flour, wild-type, 11 per s,
 	ivory nut mannan, wild-type, 1.97 per s, locust bean gum, mutant E167A,
-	26.5 per s, locust bean gum, mutant H1A/H23A, respectively, at 37°C,
+	26.5 per s, locust bean gum, mutant H1A/H23A, respectively, at 37Â°C,
 	pH 7.0 <70>) <70>
 TN	#26# 0.7 {Manbeta(1-4)Manbeta(1-4)Manbeta(1-4)Man}  <46>
 TN	#26# 45 {Manbeta(1-4)Manbeta(1-4)Manbeta(1-4)Manbeta(1-4)Man}  <46>
@@ -18603,9 +18603,9 @@ TN	#29# 1935 {low viscosity locust bean galactomannan}  (#29# isozyme MAN
 	I <43>) <43>
 TN	#29# 2246 {low viscosity locust bean galactomannan}  (#29# isozyme MAN
 	II <43>) <43>
-TN	#30# 4.77 {guar gum}  (#30# pH 7.0, 55°C, recombinant enzyme <100>)
+TN	#30# 4.77 {guar gum}  (#30# pH 7.0, 55Â°C, recombinant enzyme <100>)
 	<100>
-TN	#30# 14.9 {locust bean gum}  (#30# pH 7.0, 55°C, recombinant enzyme
+TN	#30# 14.9 {locust bean gum}  (#30# pH 7.0, 55Â°C, recombinant enzyme
 	<100>) <100>
 TN	#41# 0.41 {Manbeta(1-4)Manbeta(1-4)Manbeta(1-4)Man}  <42>
 TN	#41# 0.26 {Manbeta(1-4)Manbeta(1-4)Manbeta(1-4)Manbeta(1-4)Man}  <42>
@@ -18614,32 +18614,32 @@ TN	#41# 77
 	{Manbeta(1-4)Manbeta(1-4)Manbeta(1-4)Manbeta(1-4)Manbeta(1-4)Man}  <42>
 TN	#41# 11.64 {Manbeta(1-4)Manbeta(1-4)Manbeta(1-4)Man}  <42>
 TN	#41# 52.42 {Manbeta(1-4)Manbeta(1-4)Manbeta(1-4)Manbeta(1-4)Man}  <42>
-TN	#5# 25.2 {locust bean gum}  (#5# pH 5.0, 28°C <89>) <89>
-TN	#63# 50.87 {guar gum}  (#63# pH 5.5, 30°C, recombinant enzyme <97>)
+TN	#5# 25.2 {locust bean gum}  (#5# pH 5.0, 28Â°C <89>) <89>
+TN	#63# 50.87 {guar gum}  (#63# pH 5.5, 30Â°C, recombinant enzyme <97>)
 	<97>
-TN	#76# 21000 {glucomannan}  (#76# 50°C, pH 6.0 <79>) <79>
-TN	#76# 31200 {locust bean gum}  (#76# 50°C, pH 6.0 <79>) <79>
-TN	#76# 18200 {beta-1,4-D-mannan}  (#76# 50°C, pH 6.0 <79>) <79>
-TN	#77# 330 {locust bean gum galactomannan}  (#77# 70°C <78>) <78>
-TN	#77# 292 {carob galactomannan}  (#77# 70°C <78>) <78>
-TN	#77# 148 {1,4-beta-D-Mannan}  (#77# 70°C <78>) <78>
-TN	#77# 215 {glucomannan}  (#77# 70°C <78>) <78>
+TN	#76# 21000 {glucomannan}  (#76# 50Â°C, pH 6.0 <79>) <79>
+TN	#76# 31200 {locust bean gum}  (#76# 50Â°C, pH 6.0 <79>) <79>
+TN	#76# 18200 {beta-1,4-D-mannan}  (#76# 50Â°C, pH 6.0 <79>) <79>
+TN	#77# 330 {locust bean gum galactomannan}  (#77# 70Â°C <78>) <78>
+TN	#77# 292 {carob galactomannan}  (#77# 70Â°C <78>) <78>
+TN	#77# 148 {1,4-beta-D-Mannan}  (#77# 70Â°C <78>) <78>
+TN	#77# 215 {glucomannan}  (#77# 70Â°C <78>) <78>
 TN	#83# 2.8 {Man-beta-1,4-Man-beta-1,4-Man-beta-1,4-Man}  (#83# mutant
-	W283S, pH 5.5, 37°C <83>) <83>
+	W283S, pH 5.5, 37Â°C <83>) <83>
 TN	#83# 67 {Man-beta-1,4-Man-beta-1,4-Man-beta-1,4-Man}  (#83# pH 5.5,
-	37°C <83>) <83>
+	37Â°C <83>) <83>
 TN	#83# 193 {Man-beta-1,4-Man-beta-1,4-Man-beta-1,4-Man-beta-1,4-Man} 
-	(#83# pH 5.5, 37°C <83>) <83>
+	(#83# pH 5.5, 37Â°C <83>) <83>
 TN	#83# 148 {Man-beta-1,4-Man-beta-1,4-Man-beta-1,4-Man-beta-1,4-Man} 
-	(#83# mutant W283S, pH 5.5, 37°C <83>) <83>
+	(#83# mutant W283S, pH 5.5, 37Â°C <83>) <83>
 TN	#84# 117 {Man-beta-1,4-Man-beta-1,4-Man-beta-1,4-Man-beta-1,4-Man} 
-	(#84# mutant W283S, pH 5.5, 37°C <83>) <83>
+	(#84# mutant W283S, pH 5.5, 37Â°C <83>) <83>
 TN	#84# 98 {Man-beta-1,4-Man-beta-1,4-Man-beta-1,4-Man}  (#84# mutant
-	W283S, pH 5.5, 37°C <83>) <83>
+	W283S, pH 5.5, 37Â°C <83>) <83>
 TN	#84# 112 {Man-beta-1,4-Man-beta-1,4-Man-beta-1,4-Man}  (#84# wild-type,
-	pH 5.5, 37°C <83>) <83>
+	pH 5.5, 37Â°C <83>) <83>
 TN	#84# 134 {Man-beta-1,4-Man-beta-1,4-Man-beta-1,4-Man-beta-1,4-Man} 
-	(#84# wild-type, pH 5.5, 37°C <83>) <83>
+	(#84# wild-type, pH 5.5, 37Â°C <83>) <83>
 
 KM_VALUE
 KM	#1,3,4,7,9,14,16,19,21,24,25,30,31,40,44,63,65,66,72,76,77,94,96,97#
@@ -18650,7 +18650,7 @@ KM	#1,3,4,7,9,14,16,19,21,24,25,30,31,40,44,63,65,66,72,76,77,94,96,97#
 	glucomannan, glactomannan and mannan are 3, 2.3, 1.6 and 0.54 mg/ml,
 	respectively <54>; #1# apparent Km values of the mannanase for locust
 	bean gum, guar gum and konjac powder are 7.6, 10.5 and 27.4 mg/ml,
-	respectively <53>; #66# Km value for locust bean gum at pH 2.4, 50°C
+	respectively <53>; #66# Km value for locust bean gum at pH 2.4, 50Â°C
 	is 0.93 mg/ml <56>; #9# Km value for konjac flour is 7.5 mg/ml, for
 	locust bean gum 11.67 mg/ml <63>; #72# Km value for konjac glucomannan
 	0.6 mg/ml <65>; #76# Km values are 14.9 mg/ml, 17.5 mg/ml, and 15.2
@@ -18662,15 +18662,15 @@ KM	#1,3,4,7,9,14,16,19,21,24,25,30,31,40,44,63,65,66,72,76,77,94,96,97#
 	gum, and copra mannan, are 0.11, 0.28, and 0.33 mg/ml, respectively
 	<76>; #96# kinetics of recombinant chimeric enzymes, overview <103>;
 	#63# Km is 2.074 mg/ml with guar gum for the recombinant enzyme at pH
-	5.5 and 30°C <97>; #94# Km of the recombinant enzyme is 7.8 mg/ml for
-	locust bean gum, pH 4.5, 50°C <101>; #30# Km values of the recombinant
+	5.5 and 30Â°C <97>; #94# Km of the recombinant enzyme is 7.8 mg/ml for
+	locust bean gum, pH 4.5, 50Â°C <101>; #30# Km values of the recombinant
 	enzyme are 3.78 mg/ml for locust bean gum, and 7.75 mg/ml for guar gum
 	<100>; #3# Km values with ocust bean gum are 0.9 mg/ml for wild-type
 	enzyme, 0.8 mg/ml for mutant Man5DELTACBM, and 1.1 mg/ml for mutant
 	Man5DELTACL <94>; #24# Michaelis-Menten kinetics, Km values for locust
 	bean gum, konjac mannan, and guar gum are 7.6 mg/ml, 2.1 mg/ml, and 2.3
-	mg/ml, respectively, pH 4.0, 80°C <96>; #21# recombinant enzyme, Km
-	for locust bean gum is 0.83 ± 0.2 mg/ml, pH 4.0, 80°C <99>)
+	mg/ml, respectively, pH 4.0, 80Â°C <96>; #21# recombinant enzyme, Km
+	for locust bean gum is 0.83 Â± 0.2 mg/ml, pH 4.0, 80Â°C <99>)
 	<5,8,9,17,19,20,21,51,53,54,56,63,65,76,78,79,94,95,96,97,99,100,101
 	103>
 KM	#10# 9 {Manbeta(1-4)Manbeta(1-4)Man}  <48>
@@ -18683,7 +18683,7 @@ KM	#29# 3.07 {low viscosity locust bean galactomannan}  (#29# isozyme MAN
 KM	#29# 3.12 {low viscosity locust bean galactomannan}  (#29# isozyme MAN
 	II <43>) <43>
 KM	#5,86# -999 {locust bean gum}  (#86# KM value is 3.8 mg/ml <90>; #5# KM
-	value is 34.9 mg/ml, pH 5.0, 28°C <89>) <89,90>
+	value is 34.9 mg/ml, pH 5.0, 28Â°C <89>) <89,90>
 KM	#58# 0.0014 {2,4-dinitrophenyl-beta-mannobioside}  (#58# pH 6.5, mutant
 	D283H <37>) <37>
 KM	#58# 0.0068 {2,4-dinitrophenyl-beta-mannobioside}  (#58# pH 6.5, mutant
@@ -18710,31 +18710,31 @@ KM	#58# 0.00066 {2,4-dinitrophenyl-beta-mannobioside}  (#58# pH 6.5,
 	mutant E212A <37>) <37>
 KM	#7# 1.9 {soluble mannan}  <7,19>
 KM	#83# 1.3 {Man-beta-1,4-Man-beta-1,4-Man-beta-1,4-Man-beta-1,4-Man} 
-	(#83# mutant W283S, pH 5.5, 37°C <83>) <83>
+	(#83# mutant W283S, pH 5.5, 37Â°C <83>) <83>
 KM	#83# 1.8 {Man-beta-1,4-Man-beta-1,4-Man-beta-1,4-Man-beta-1,4-Man} 
-	(#83# pH 5.5, 37°C <83>) <83>
+	(#83# pH 5.5, 37Â°C <83>) <83>
 KM	#83# 1.6 {Man-beta-1,4-Man-beta-1,4-Man-beta-1,4-Man}  (#83# mutant
-	W283S, pH 5.5, 37°C <83>) <83>
+	W283S, pH 5.5, 37Â°C <83>) <83>
 KM	#83# 2.9 {Man-beta-1,4-Man-beta-1,4-Man-beta-1,4-Man}  (#83# pH 5.5,
-	37°C <83>) <83>
+	37Â°C <83>) <83>
 KM	#84# 0.6 {Man-beta-1,4-Man-beta-1,4-Man-beta-1,4-Man-beta-1,4-Man} 
-	(#84# wild-type, pH 5.5, 37°C <83>) <83>
+	(#84# wild-type, pH 5.5, 37Â°C <83>) <83>
 KM	#84# 1 {Man-beta-1,4-Man-beta-1,4-Man-beta-1,4-Man-beta-1,4-Man}  (#84#
-	mutant W283S, pH 5.5, 37°C <83>) <83>
+	mutant W283S, pH 5.5, 37Â°C <83>) <83>
 KM	#84# 1.8 {Man-beta-1,4-Man-beta-1,4-Man-beta-1,4-Man}  (#84# wild-type,
-	pH 5.5, 37°C <83>) <83>
+	pH 5.5, 37Â°C <83>) <83>
 KM	#84# 2.8 {Man-beta-1,4-Man-beta-1,4-Man-beta-1,4-Man}  (#84# mutant
-	W283S, pH 5.5, 37°C <83>) <83>
+	W283S, pH 5.5, 37Â°C <83>) <83>
 KM	#99# -999 {carob galactomannan}  (#99# Km value 2.22 mg/ml, pH 5.0,
-	60°C <108>) <108>
+	60Â°C <108>) <108>
 KM	#99,100# -999 {konjac glucomannan}  (#99# Km value 3.22 mg/ml, pH 5.0,
-	60°C <108>; #100# Km value 4.7 mg/ml, pH 5.4, 70°C <111>) <108,111>
+	60Â°C <108>; #100# Km value 4.7 mg/ml, pH 5.4, 70Â°C <111>) <108,111>
 
 PH_OPTIMUM
 PHO	#1# 6.4 <58>
 PHO	#1# 5-6 <19>
 PHO	#1,15# 6.5 (#1# recombinant enzyme <102>) <33,102>
-PHO	#1,18# 7.1 (#18# at 91°C <32>) <30,32>
+PHO	#1,18# 7.1 (#18# at 91Â°C <32>) <30,32>
 PHO	#1,30,62,72,73,75# 7 <28,65,74,82,87,100>
 PHO	#1,37,41,74,82,85,99# 6 <3,42,53,73,84,86,108>
 PHO	#1,4,7,9,13,14,16,19,25,31,40,44# -999 <5,6,8,9,16,17,19,20,21>
@@ -18761,7 +18761,7 @@ PHO	#64# 3.5-4.5 <52>
 PHO	#65# 4-6 (#65# broad <54>) <54>
 PHO	#66# 2.4 <56>
 PHO	#69# 3.5 <67>
-PHO	#7,29,45,68,86,94# 4.5 (#29# at 60°C <43>; #94# recombinant enzyme
+PHO	#7,29,45,68,86,94# 4.5 (#29# at 60Â°C <43>; #94# recombinant enzyme
 	<101>; #68# recombinant enzyme expressed in Aspergillus sojae <66,109>)
 	<9,22,43,66,90,101,109>
 PHO	#70# 7.6 <61,69>
@@ -18769,9 +18769,9 @@ PHO	#71# 11.5 <62>
 PHO	#76# 6-7 <79>
 PHO	#77# 4.5-5 <78>
 PHO	#80# 4.5-6.5 <106>
-PHO	#9# 8.5 (#9# M-III, at 65°C <17>) <17>
+PHO	#9# 8.5 (#9# M-III, at 65Â°C <17>) <17>
 PHO	#9# 9.5 <45>
-PHO	#9,97# 9 (#9# M-I, M-II, at 60°C <17>) <17,95>
+PHO	#9,97# 9 (#9# M-I, M-II, at 60Â°C <17>) <17,95>
 PHO	#95# 6.3 (#95# recombinant enzyme <98>) <98>
 
 PH_RANGE
@@ -18816,27 +18816,27 @@ PHR	#99# 5-9 (#99# more than 90% of maximum activity <108>) <108>
 
 SPECIFIC_ACTIVITY
 SA	#1# 514.0 <19>
-SA	#1# 8302.0 (#1# pH 6.0, 50°C <53>) <53>
-SA	#1# 928.0 (#1# pH 6.4, 50°C <58>) <58>
-SA	#1# 2718.0 (#1# purified recombinant enzyme, pH 6.5, 45°C <102>) <102>
+SA	#1# 8302.0 (#1# pH 6.0, 50Â°C <53>) <53>
+SA	#1# 928.0 (#1# pH 6.4, 50Â°C <58>) <58>
+SA	#1# 2718.0 (#1# purified recombinant enzyme, pH 6.5, 45Â°C <102>) <102>
 SA	#1,4,7,8,9,14,16,19,24,29,31,36# -999.0 (#29# 1638 A550/min/mg optical
 	path 1cm,isozyme MAN I, OBR-LBG <43>; #29# 1763 A550/min/mg optical
 	path 1cm, isozyme MAN II, OBR-LBG <43>; #29# no activity against
 	4-nitrophenyl-alpha and -beta-mannopyranosides <43>; #24# 84.4 U/ml of
 	recombinant enzyme in the culture supernatant of Pichia pastoris, pH
-	4.0, 80°C <96>; #36# recombinant enzyme in Yarrowia lipolytica is
+	4.0, 80Â°C <96>; #36# recombinant enzyme in Yarrowia lipolytica is
 	produced with an activity of 183.5 U/ml and 0.23 mg protein/ml <93>)
 	<5,6,8,9,13,15,17,19,20,21,43,93,96>
 SA	#12# 201.0 <11>
 SA	#13# 21.0 <16>
 SA	#19# 125.0 <19>
 SA	#21# 1703.0 (#21# purified recombinant enzyme, substrate locust bean
-	gum, pH 4.0, 80°C <99>) <99>
+	gum, pH 4.0, 80Â°C <99>) <99>
 SA	#24# 420.9 (#24# purified recombinant enzyme, locust bean gum as
-	substrate, pH 4.0, 80°C <96>) <96>
-SA	#27# 4.8 (#27# pH 7.0, 30°C, substrate beta-1,4-mannan <55>) <55>
-SA	#27# 9.6 (#27# pH 7.0, 30°C, substrate glucomannan <55>) <55>
-SA	#27# 11.48 (#27# pH 7.0, 30°C, substrate galactomannan <55>) <55>
+	substrate, pH 4.0, 80Â°C <96>) <96>
+SA	#27# 4.8 (#27# pH 7.0, 30Â°C, substrate beta-1,4-mannan <55>) <55>
+SA	#27# 9.6 (#27# pH 7.0, 30Â°C, substrate glucomannan <55>) <55>
+SA	#27# 11.48 (#27# pH 7.0, 30Â°C, substrate galactomannan <55>) <55>
 SA	#29# 4.6 (#29# crude medium <43>) <43>
 SA	#29# 317.0 (#29# isozyme MAN II, guar gum <43>) <43>
 SA	#29# 190.0 (#29# isozyme MAN I, mannan A <43>) <43>
@@ -18856,17 +18856,17 @@ SA	#29# 225.4 (#29# isozyme MAN II, after 49fold purification with Phenyl
 SA	#29# 663.0 (#29# isozyme MAN I, low viscosity locust bean galactomannan
 	<43>) <43>
 SA	#29,100# 215.0 (#29# isozyme MAN II, mannan A <43>; #100# substrate
-	konjac glucomannan, pH 5.4, 70°C <111>) <43,111>
-SA	#30# 10760.0 (#30# purified recombinant enzyme, pH 7.0, 55°C,
+	konjac glucomannan, pH 5.4, 70Â°C <111>) <43,111>
+SA	#30# 10760.0 (#30# purified recombinant enzyme, pH 7.0, 55Â°C,
 	substrate locust bean gum <100>) <100>
 SA	#34# 380.0 (#34# 41.9 kDa protein <1>) <1>
 SA	#34# 475.0 (#34# 61.2 kDa protein <1>) <1>
-SA	#36# 64.6 (#36# pH 5.0, 50°C, recombinant protein <41>) <41>
+SA	#36# 64.6 (#36# pH 5.0, 50Â°C, recombinant protein <41>) <41>
 SA	#36# 60.0 <26>
-SA	#36# 264.1 (#36# pH 5.0, 50°C, native protein <41>) <41>
-SA	#4# 65.0 (#4# 50°C <76>) <76>
+SA	#36# 264.1 (#36# pH 5.0, 50Â°C, native protein <41>) <41>
+SA	#4# 65.0 (#4# 50Â°C <76>) <76>
 SA	#4# 39.0 <19>
-SA	#4# 1139.0 (#4# pH 5.0, 40°C <85>) <85>
+SA	#4# 1139.0 (#4# pH 5.0, 40Â°C <85>) <85>
 SA	#41# 1.95 (#41# Manbeta(1-4)Manbeta(1-4)Manbeta(1-4)Man <42>) <42>
 SA	#41# 1.13 (#41# Manbeta(1-4)Manbeta(1-4)Manbeta(1-4)Manbeta(1-4)Man
 	<42>) <42>
@@ -18874,34 +18874,34 @@ SA	#41# 3.1 (#41# Manbeta(1-4)Manbeta(1-4)Man <42>) <42>
 SA	#41# 0.69 (#41#
 	Manbeta(1-4)Manbeta(1-4)Manbeta(1-4)Manbeta(1-4)Manbeta(1-4)Man} <42>)
 	<42>
-SA	#59# 1400.0 (#59# ManB, 37°C, pH 5.0 <40>) <40>
-SA	#62# 18.5 (#62# substrate glucomannan, pH 7.0, 40°C <82>) <82>
-SA	#62# 2.2 (#62# substrate guar gum, pH 7.0, 40°C <82>) <82>
-SA	#62# 12.2 (#62# substrate locust bean gum, pH 7.0, 40°C <82>) <82>
-SA	#66# 366.0 (#66# pH 2.4, 50°C <56>) <56>
-SA	#67# 129.3 (#67# pH 4.0, 40°C <72>) <72>
+SA	#59# 1400.0 (#59# ManB, 37Â°C, pH 5.0 <40>) <40>
+SA	#62# 18.5 (#62# substrate glucomannan, pH 7.0, 40Â°C <82>) <82>
+SA	#62# 2.2 (#62# substrate guar gum, pH 7.0, 40Â°C <82>) <82>
+SA	#62# 12.2 (#62# substrate locust bean gum, pH 7.0, 40Â°C <82>) <82>
+SA	#66# 366.0 (#66# pH 2.4, 50Â°C <56>) <56>
+SA	#67# 129.3 (#67# pH 4.0, 40Â°C <72>) <72>
 SA	#68# 350.0 <66>
-SA	#69# 416.3 (#69# 30°C, pH 3.5 <67>) <67>
+SA	#69# 416.3 (#69# 30Â°C, pH 3.5 <67>) <67>
 SA	#70# 481.5 <69>
-SA	#71# 3373.0 (#71# pH 1.5, 65°C <62>) <62>
-SA	#73# 27.4 (#73# pH 7.0, 30°C <87>) <87>
-SA	#76# 1672.0 (#76# 50°C, pH 6.0 <79>) <79>
-SA	#82# 635.0 (#82# pH 6.0, 60°C, substrate locust bean gum <84>) <84>
-SA	#82# 962.0 (#82# pH 6.0, 60°C, substrate glucomannan <84>) <84>
-SA	#82# 2223.0 (#82# pH 6.0, 60°C, substrate 1,4-beta-D-mannan <84>) <84>
-SA	#85# 14710.0 (#85# substrate ivory nut mannan, pH 6.0, 50°C <86>) <86>
-SA	#85# 8498.0 (#85# substrate locust bean gum, pH 6.0, 50°C <86>) <86>
+SA	#71# 3373.0 (#71# pH 1.5, 65Â°C <62>) <62>
+SA	#73# 27.4 (#73# pH 7.0, 30Â°C <87>) <87>
+SA	#76# 1672.0 (#76# 50Â°C, pH 6.0 <79>) <79>
+SA	#82# 635.0 (#82# pH 6.0, 60Â°C, substrate locust bean gum <84>) <84>
+SA	#82# 962.0 (#82# pH 6.0, 60Â°C, substrate glucomannan <84>) <84>
+SA	#82# 2223.0 (#82# pH 6.0, 60Â°C, substrate 1,4-beta-D-mannan <84>) <84>
+SA	#85# 14710.0 (#85# substrate ivory nut mannan, pH 6.0, 50Â°C <86>) <86>
+SA	#85# 8498.0 (#85# substrate locust bean gum, pH 6.0, 50Â°C <86>) <86>
 SA	#9# 470.0 <17>
-SA	#9# 5383.0 (#9# 50°C <63>) <63>
-SA	#94# 47.5 (#94# purified recombinant enzyme, pH 4.5, 50°C <101>) <101>
-SA	#95# 4449.0 (#95# purified recombinant enzyme, pH 6.3, 70°C <98>) <98>
-SA	#96# 768.5 (#96# purified recombinant chimeric enzymes, pH 5.0, 50°C
+SA	#9# 5383.0 (#9# 50Â°C <63>) <63>
+SA	#94# 47.5 (#94# purified recombinant enzyme, pH 4.5, 50Â°C <101>) <101>
+SA	#95# 4449.0 (#95# purified recombinant enzyme, pH 6.3, 70Â°C <98>) <98>
+SA	#96# 768.5 (#96# purified recombinant chimeric enzymes, pH 5.0, 50Â°C
 	<103>) <103>
-SA	#97# 236.0 (#97# pH 8.0, 40°C, substrate konjac glucomannan  <95>) <95>
-SA	#99# 220.0 (#99# substrate carob galactomannan, pH 5.0, 60°C <108>)
+SA	#97# 236.0 (#97# pH 8.0, 40Â°C, substrate konjac glucomannan  <95>) <95>
+SA	#99# 220.0 (#99# substrate carob galactomannan, pH 5.0, 60Â°C <108>)
 	<108>
-SA	#99# 182.0 (#99# substrate beta-mannan, pH 5.0, 60°C <108>) <108>
-SA	#99# 312.0 (#99# substrate konjac glucomannan, pH 5.0, 60°C <108>)
+SA	#99# 182.0 (#99# substrate beta-mannan, pH 5.0, 60Â°C <108>) <108>
+SA	#99# 312.0 (#99# substrate konjac glucomannan, pH 5.0, 60Â°C <108>)
 	<108>
 
 TEMPERATURE_OPTIMUM
@@ -18938,7 +18938,7 @@ TO	#96# 45-55 (#96# recombinant chimeric enzymes <103>) <103>
 
 TEMPERATURE_RANGE
 TR	#1,4,7,9,10,14,16,19,31# -999 <4,5,6,8,9,17,19,20,21>
-TR	#13,30,97# 30-80 (#13# 30°C: about 25% of maximal activity, 80°C:
+TR	#13,30,97# 30-80 (#13# 30Â°C: about 25% of maximal activity, 80Â°C:
 	about 30% of maximal activity <16>; #97# activity range, profile
 	overview <95>; #30# activity range, recombinant enzyme, profile
 	overview <100>) <16,95,100>
@@ -18953,11 +18953,11 @@ TR	#4# 5-60 (#4# recombinant enzyme, more than 30% of maximum activity
 	within <85>) <85>
 TR	#62# 50 (#62# rapid decrease in activity above <82>) <82>
 TR	#62# 20-30 (#62# more than 80% of maximum activity <82>) <82>
-TR	#63# 10-50 (#63# approximately 70% between 10°C and 20°C, 60%
-	activity at 40°C, 30% activity at 50°C <97>) <97>
+TR	#63# 10-50 (#63# approximately 70% between 10Â°C and 20Â°C, 60%
+	activity at 40Â°C, 30% activity at 50Â°C <97>) <97>
 TR	#69# 0-60 (#69# the enzyme shows 20-40% of its maximum activity at
-	0-4°C and has its optimum at 30°C, about 10% of maximal activity at
-	50-60°C, inactivation at 70°C, profile overview <107>) <107>
+	0-4Â°C and has its optimum at 30Â°C, about 10% of maximal activity at
+	50-60Â°C, inactivation at 70Â°C, profile overview <107>) <107>
 TR	#69# 0-5 (#69# 20-40% of maximum activity <67>) <67>
 TR	#74# 40 (#74# about 50% of maximum activity <73>) <73>
 TR	#80# 40-100 (#80# activity range, profile overview <106>) <106>
@@ -19389,7 +19389,7 @@ PI	#99# 3.6 (#99# isoelectric focusing <108>) <108>
 APPLICATION
 AP	#1,9,10# agriculture (#10# fruit ripening and seed germination <49>;
 	#9# 10 U/mg enzyme can hydrolyze more than 90% of 10 mg/ml konjac flour
-	at 50°C in 24 h <63>; #10# when endo-beta-mannanase activity is much
+	at 50Â°C in 24 h <63>; #10# when endo-beta-mannanase activity is much
 	reduced by RNAi and antisense RNA strategies, their firmness is higher
 	compared to those of control fruits at the turning and orange-color
 	stages, but at the red-ripe stage firmness is similar between the two
@@ -19435,7 +19435,7 @@ AP	#4,36,82# synthesis (#36# production of enzyme by expression in
 	enzyme activity compared with batch fermentation, and a maximum titre
 	of 26,139 nkat/ml <80>; #4# production of beta-mannanase using palm
 	kernel cake as substrate in solid substrate fermentation. Optimal
-	conditions are incubation temperature of 32°C, initial moisture level
+	conditions are incubation temperature of 32Â°C, initial moisture level
 	of 59% and aeration rate of 0.5 l/min, resulting in a beta-mannanase
 	yield of 2231.26 U/g <75>; #4# development of a fed-batch strategy for
 	engineered enzyme, using high cell-density fermentation. Mannanase
@@ -19449,7 +19449,7 @@ AP	#4,36,82# synthesis (#36# production of enzyme by expression in
 	kernel cake as a substrate in solid substrate fermentation. A
 	statistical model suggests that the optimal conditions for attaining
 	the highest level of beta-mannanase are incubation temperature of
-	32°C, initial moisture level of 59% and aeration rate of 0.5 l/min. A
+	32Â°C, initial moisture level of 59% and aeration rate of 0.5 l/min. A
 	beta-mannanase yield of 2231.26 U/g is obtained under these optimal
 	conditions <75>) <68,75,80,84,85>
 AP	#62,99# degradation (#62# when assembled with the mini-CbpA, which
@@ -19487,7 +19487,7 @@ EN	#3,4,10,74,75,86,96,98# more (#10# the cultivar Walter displays an
 	pastoris, which has no change on the beta-mannanase amino acid sequence
 	<73>; #86# deletion of the CBM6 domain increases the enzyme stability
 	while enabling it to retain 80% and 60% of its initial activity after
-	treatment at 80°C and 90°C for 30 min <90>; #4# gene optimization
+	treatment at 80Â°C and 90Â°C for 30 min <90>; #4# gene optimization
 	according to the codon usage bias in Pichia pastoris and synthesis by
 	splicing overlap extension PCR <85>; #96# construction of a chimeric
 	enzyme of xylanase and mannanase with higher catalytic efficiency and
@@ -19645,13 +19645,13 @@ CR	#80# (purified recombinant isolated His-tagged catalytic domain in
 	gycerol, sitting drop vapor diffusion method, mixing of 0.0005 ml of 12
 	mg/ml protein in 25 mM Tris-HCl, pH 7.5, with 0.0005 ml of precipitant
 	solution containing 0.1 M citrate, pH 5.5, 1 M ammonium phosphate, and
-	0.2 M sodium chloride, 20°C, soaking of crystals in ligand solutions,
+	0.2 M sodium chloride, 20Â°C, soaking of crystals in ligand solutions,
 	X-ray diffraction structure determination and analysis at 1.40-1,92 A
 	resolution) <104>
 CR	#98# (hanging drop vapour diffusion method, mixing of 6.5 mg/ml protein
 	in 20 mM Tris-HCl, pH 7.6, with reservoir solution containing 0.1 M
 	magnesium chloride, 0.1 M sodium acetate pH 4.5, 23% w/v PEG 3350,
-	20°C, method optimization, X-ray diffraction structure determination
+	20Â°C, method optimization, X-ray diffraction structure determination
 	and analysis at 1.40 A resolution, molecular replacement) <92>
 CR	#99# (homology modeling of structure) <108>
 
@@ -19738,19 +19738,19 @@ OSS	#37# Acetone (#37# may be used in preparations <3>) <3>
 PH_STABILITY
 PHS	#1# 5.5-10.1 <53>
 PHS	#1,4,7,9,13,14,16,19,25,31,40,44# -999 <9,16,17,19,21>
-PHS	#1,9,12,100# 5-9 (#1# purified recombinant enzyme, 50°C, 8 h, stable
+PHS	#1,9,12,100# 5-9 (#1# purified recombinant enzyme, 50Â°C, 8 h, stable
 	at <102>; #100# 1 h, 90% residual activity <111>) <11,63,102,111>
 PHS	#13# 4.5-8 <16>
 PHS	#14# 5-8 <19>
 PHS	#21,67# 2-12 (#21# purified recombinant enzyme, 1 h, over 65% activity
 	remaining <99>) <72,99>
 PHS	#29# 4.5-8.5 <43>
-PHS	#3# 3 (#3# purified recombinant wild-type enzyme, 37°C, 1 h, 50%
+PHS	#3# 3 (#3# purified recombinant wild-type enzyme, 37Â°C, 1 h, 50%
 	activity remaining <94>) <94>
-PHS	#3# 1-2 (#3# purified recombinant wild-type enzyme, 37°C, 1 h, 50%
+PHS	#3# 1-2 (#3# purified recombinant wild-type enzyme, 37Â°C, 1 h, 50%
 	activity remaining <94>) <94>
-PHS	#3,26,94# 4-9 (#3# purified recombinant wild-type enzyme, 37°C, 1 h,
-	stable at <94>; #94# purified reocmbinant enzyme, 37°C, 1 h, without
+PHS	#3,26,94# 4-9 (#3# purified recombinant wild-type enzyme, 37Â°C, 1 h,
+	stable at <94>; #94# purified reocmbinant enzyme, 37Â°C, 1 h, without
 	substrate, more than 86% of the initial activity remaning <101>)
 	<38,94,101>
 PHS	#30,99# 4-10 (#30# purified recombinant enzyme, 30 min, without
@@ -19760,19 +19760,19 @@ PHS	#34# 4-5 <1>
 PHS	#36# 2.5-10 (#36# recombinant protein expressed in Aspergillus oryzae
 	<26>) <26>
 PHS	#47# 4.5-9 <29>
-PHS	#64# 5 (#64# 30°C, 24 h, 50% loss of activity <52>) <52>
-PHS	#64# 7.8 (#64# 30°C, 96 h, no loss of activity <52>) <52>
+PHS	#64# 5 (#64# 30Â°C, 24 h, 50% loss of activity <52>) <52>
+PHS	#64# 7.8 (#64# 30Â°C, 96 h, no loss of activity <52>) <52>
 PHS	#68# 3.5-8.5 <109>
 PHS	#69# 7 (#69# inactivation above <67>) <67>
-PHS	#7,65# 4-8 (#7# 40°C, 1 h <7,19>) <7,19,54>
+PHS	#7,65# 4-8 (#7# 40Â°C, 1 h <7,19>) <7,19,54>
 PHS	#72# 6.5-10 (#72# more than 80% of original activity after 12 h
-	incubation at 4°C <65>) <65>
-PHS	#73# 4 (#73# 40°C, 20 min, stable <87>) <87>
-PHS	#76# 6-9 (#76# after incubation at 50°C for 24 h <79>) <79>
-PHS	#76# 5-12 (#76# after incubation at 50°C for 30 min <79>) <79>
-PHS	#82# 2-10 (#82# 50°C, stable for 30 min <84>) <84>
+	incubation at 4Â°C <65>) <65>
+PHS	#73# 4 (#73# 40Â°C, 20 min, stable <87>) <87>
+PHS	#76# 6-9 (#76# after incubation at 50Â°C for 24 h <79>) <79>
+PHS	#76# 5-12 (#76# after incubation at 50Â°C for 30 min <79>) <79>
+PHS	#82# 2-10 (#82# 50Â°C, stable for 30 min <84>) <84>
 PHS	#85# 5.5-9 (#85# 1 h, more than 80% residual activity <86>) <86>
-PHS	#94# 11-12 (#94# purified reocmbinant enzyme, 37°C, 1 h, without
+PHS	#94# 11-12 (#94# purified reocmbinant enzyme, 37Â°C, 1 h, without
 	substrate, more than 40% of the initial activity remaning <101>) <101>
 PHS	#95# 5.5-7.8 (#95# purified recombinant enzyme, over 80% remaning after
 	1 h <98>) <98>
@@ -19781,14 +19781,14 @@ PHS	#95# 6.3-7.1 (#95# purified recombinant enzyme, over 80% remaning after
 PHS	#96# 2.2-11 (#96# purified recombinant chimeric enzymes display similar
 	high pH stability as the wild-type mannanase with over 80% activity in
 	this range, profiles overview <103>) <103>
-PHS	#97# 8 (#97# purified enzyme, 30°C, 30 min, over 90% activity
+PHS	#97# 8 (#97# purified enzyme, 30Â°C, 30 min, over 90% activity
 	remaining <95>) <95>
 
 STORAGE_STABILITY
-SS	#10# (-20°C, MES buffer, 4 months, without loss of activity) <48>
-SS	#10# (4°C, 48h, 20% residual activity) <48>
+SS	#10# (-20Â°C, MES buffer, 4 months, without loss of activity) <48>
+SS	#10# (4Â°C, 48h, 20% residual activity) <48>
 SS	#12# (dialyzed) <11>
-SS	#4# (4°C, stable for 18 h, pH 4-10) <19>
+SS	#4# (4Â°C, stable for 18 h, pH 4-10) <19>
 SS	#6,35,37,42,54,55,56,57# (cold) <3>
 SS	#66# (enzyme is stable at room temperature for at least 2 days) <56>
 
@@ -19801,7 +19801,7 @@ TS	#1,3,4,7,9,13,14,16,19,21,31,36,80# -999 (#36# glycerol at 30-40%,
 	thermostability of the enzyme, but additional removal of the linker
 	region results in worse thermostability <94>; #80# the CBM27 accessory
 	domain is critical for thermal stability, it reduces the melting
-	temperature from 100°C to 88°C <104>; #21# the glycosylation status
+	temperature from 100Â°C to 88Â°C <104>; #21# the glycosylation status
 	of the enzyme has no effect on the thermostability <99>)
 	<5,8,9,16,17,19,20,21,93,94,99,104>
 TS	#1,36,46# 80 (#36# 2 min, complete loss of activity <68>; #46# no loss
@@ -19810,14 +19810,14 @@ TS	#1,36,46# 80 (#36# 2 min, complete loss of activity <68>; #46# no loss
 TS	#1,4,21,22,24,32,33,36,40,65,66,70,74,82,86,94,99# 60 (#40,65# stable
 	up to <9,54>; #74# 30 min, complete loss of activity <73>; #33# 30 min,
 	stable up to <110>; #1# for 1 h <9,28>; #86# half-life 12 min <90>;
-	#32# rapidly inactivated at 60°C <44>; #1# 60 min, 90% residual
+	#32# rapidly inactivated at 60Â°C <44>; #1# 60 min, 90% residual
 	activity <58>; #1# at pH 6.0, stable up to <53>; #66# half-life 50 min
 	<56>; #36# 5 h, more than 50% residual activity <68>; #22# 6 h, 50%
 	residual activity <60>; #4# 8 h, 50% residual activity <60>; #70# but
 	no activity remains after incubation for 20 min <69>; #82# hlaf-life 4
 	min <84>; #36# a combination of mannanase with 0.2% sodium benzoate and
 	30% or 35% sorbitol presents the highest relative activity of about
-	150% when incubated at 60°C for 4 h, the control retains 63% of the
+	150% when incubated at 60Â°C for 4 h, the control retains 63% of the
 	initial activity <93>; #21# purified recombinant enzyme, 6 h, over 80%
 	activity remaining <99>; #24# purified recombinant His6-tagged enzyme,
 	half-life is approximately 58 h at pH 4.0 <96>; #94# purified
@@ -19853,13 +19853,13 @@ TS	#18# 91 (#18# half-life 13 h <2,32>) <2,32>
 TS	#2,9,13,99# 65 (#13# stable up to <16>; #9# stable below <63>; #2#
 	completely stable at <34>; #99# half-life 35.3 min <108>) <16,34,63,108>
 TS	#3# 30-90 (#3# purified recombinant wild-type enzyme, pH 5.0, 1 h, more
-	than 45% of maximal activity at 50-80°C and over 30% activity at 90°C
+	than 45% of maximal activity at 50-80Â°C and over 30% activity at 90Â°C
 	<94>) <94>
 TS	#4# 39 (#4# 4 h, stable between pH 5 and 7 <19>) <19>
-TS	#4,29,30,64# 55 (#29# stable up to 55°C <43>; #64# 15 min, almost
+TS	#4,29,30,64# 55 (#29# stable up to 55Â°C <43>; #64# 15 min, almost
 	complete loss of activity <52>; #4# 6 h, 50% residual activity <76>;
 	#30# purified recombinant enzyme, without substrate, stable up to, 90%
-	activity remaning at 55°C after 30 min <100>) <43,52,76,100>
+	activity remaning at 55Â°C after 30 min <100>) <43,52,76,100>
 TS	#4,60,97# 90 (#4# half-life 15 min <85>; #60# 1 h, 25% residual
 	activity, truncated protein fragments produced in Escherichia coli
 	<36>; #97# purified enzyme, pH 8.0, 20 min, inactivation <95>)
@@ -19947,7 +19947,7 @@ RF	<21> Halmer, P.: De novo synthesis of mannanase by the endosperm of
 RF	<22> Wozniewski, T.; Blaschek, W.; Fransz, G.: Isolation and
 	characterization of an endo-beta-mannanase of Lilium testaceum bulbs.
 	Phytochemistry (1992) 31, 3365-3370. {Pubmed:}
-RF	<23> Ademark, P.; Carga, A.; Medve, J.; Harjunpää, V.; Drakenberg,
+RF	<23> Ademark, P.; Carga, A.; Medve, J.; HarjunpÃ¤Ã¤, V.; Drakenberg,
 	T.; Tjerneld, F.; Stalbrand, H.: Softwood hemicellulose-degrading
 	enzymes from Aspergillus niger: Purification and properties of a
 	beta-mannase. J. Biotechnol. (1998) 63, 199-210. {Pubmed:9803534}
@@ -20373,16 +20373,16 @@ PI	#99# 4.4 (#99# calculated <108>) <108>
 PI	#99# 3.6 (#99# isoelectric focusing <108>) <108>
 
 KCAT_KM_VALUE
-KKM	#83# 23 (#83# pH 5.5, 37°C <83>) <83>
-KKM	#83# 115 (#83# mutant W283S, pH 5.5, 37°C <83>) <83>
-KKM	#83# 27 (#83# mutant W283S, pH 5.5, 37°C <83>) <83>
-KKM	#83# 109 (#83# pH 5.5, 37°C <83>) <83>
-KKM	#84# 118 (#84# mutant W283S, pH 5.5, 37°C <83>) <83>
-KKM	#84# 36 (#84# mutant W283S, pH 5.5, 37°C <83>) <83>
-KKM	#84# 61 (#84# wild-type, pH 5.5, 37°C <83>) <83>
-KKM	#84# 215 (#84# wild-type, pH 5.5, 37°C <83>) <83>
-KKM	#99# -999 (#99# kcat/Km value 8022 ml/mg/s, pH 5.0, 60°C <108>) <108>
-KKM	#99# -999 (#99# kcat/Km value 8855 ml/mg/s, pH 5.0, 60°C <108>) <108>
+KKM	#83# 23 (#83# pH 5.5, 37Â°C <83>) <83>
+KKM	#83# 115 (#83# mutant W283S, pH 5.5, 37Â°C <83>) <83>
+KKM	#83# 27 (#83# mutant W283S, pH 5.5, 37Â°C <83>) <83>
+KKM	#83# 109 (#83# pH 5.5, 37Â°C <83>) <83>
+KKM	#84# 118 (#84# mutant W283S, pH 5.5, 37Â°C <83>) <83>
+KKM	#84# 36 (#84# mutant W283S, pH 5.5, 37Â°C <83>) <83>
+KKM	#84# 61 (#84# wild-type, pH 5.5, 37Â°C <83>) <83>
+KKM	#84# 215 (#84# wild-type, pH 5.5, 37Â°C <83>) <83>
+KKM	#99# -999 (#99# kcat/Km value 8022 ml/mg/s, pH 5.0, 60Â°C <108>) <108>
+KKM	#99# -999 (#99# kcat/Km value 8855 ml/mg/s, pH 5.0, 60Â°C <108>) <108>
 
 EXPRESSION
 EXP	#36,75,78,79,87# up (#75# isoform manA transcription is positively
