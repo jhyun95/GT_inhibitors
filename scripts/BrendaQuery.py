@@ -18,7 +18,7 @@ def search_Inhibitors_and_Activators(EC):
     resultString = client.getInhibitors(parameters)
     inhibitors = set([match.group(1) for match in re.finditer('#inhibitor\*(.+?)#', resultString)])
     resultString = client.getActivatingCompound(parameters)
-    activators = set([match.group(1) for match in re.finditer('#activatingCompound\*(.+?)#', resultString)]).difference(set(['more']))
+    activators = set([match.group(1) for match in re.finditer('#activatingCompound\*(.+?)#', resultString)])
     return inhibitors, activators
 
 if __name__ == '__main__':
