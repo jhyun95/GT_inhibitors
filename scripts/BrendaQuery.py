@@ -21,7 +21,6 @@ def search_Inhibitors_and_Activators(EC):
     activators = set([match.group(1) for match in re.finditer('#activatingCompound\*(.+?)#', resultString)]).difference(set(['more']))
     return inhibitors, activators
 
-
 if __name__ == '__main__':
     ECs = extract_ECs('../data/GT_ECs.txt')
     d = {}
