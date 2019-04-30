@@ -16,9 +16,9 @@ def search_Inhibitors_and_Activators(EC):
     parameters = "EMAIL,"+password+",ecNumber*"+EC
     client = SOAPProxy(endpointURL)
     resultString = client.getInhibitors(parameters)
-    inhibitors = set([match.group(1) for match in re.finditer('#inhibitor\*(.+?)#', resultString)])
+    inhibitors = set([match.group(1) for match in re.finditer('#ligandStructureId\*(\d+)#', resultString)])
     resultString = client.getActivatingCompound(parameters)
-    activators = set([match.group(1) for match in re.finditer('#activatingCompound\*(.+?)#', resultString)])
+    activators = set([match.group(1) for match in re.finditer('#ligandStructureId\*(\d+)#', resultString)])
     return inhibitors, activators
 
 if __name__ == '__main__':
