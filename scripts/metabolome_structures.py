@@ -86,11 +86,16 @@ def process_metanetx(mnxm_path=METABOLITES_FILE,
     return df_db_links
 
 def download_mol_files(output_dir=OUTPUT_DIR, tag_file=METABOLITE_TAG_FILE, 
-                      limit=-1, db_order=['chebi'], show_all=False):
+                      limit=-1, db_order=['chebi','hmdb','kegg','lipidmaps'], 
+                      show_all=False, check_dir='../raw_data/CHO_structures_all/'):
     ''' Download structures based on the tag_file. Capable of querying ChEBI
-        (TODO: HMDB, KEGG, and LipidMaps querying) '''
+        (TODO: LipidMaps, cannot download directly by manipulating URL) '''
     df = pd.read_csv(tag_file, index_col=0) 
     existing = list(map(lambda x: x[:-4], os.listdir(output_dir)))
+    if not check_dir is None:
+        existing += list(map(lambda x: x[:-4], os.listdir(check_dir)))
+    
+    existing = set(existing)
     print('Total Metabolites:', df.shape[0])
     print('    Downloaded:', len(existing))
     print('    Missing:', df.shape[0] - len(existing), '\n')
@@ -112,26 +117,41 @@ def download_mol_files(output_dir=OUTPUT_DIR, tag_file=METABOLITE_TAG_FILE,
                             url = 'https://www.ebi.ac.uk/chebi/saveStructure.do?'
                             url +='defaultImage=true&chebiId=' + str(tag) + '&imageId=0'
                         elif db == 'hmdb':
-                            pass # TODO
+                            tag = tag.replace('HMDB', 'HMDB00') # URLs pad 0s to ID
+                            url = 'http://www.hmdb.ca/structures/metabolites/'
+                            url += str(tag) + '.mol'
                         elif db == 'kegg':
-                            pass # TODO
+                            if tag[0] == 'G': # glycan
+                                url = 'https://www.genome.jp/dbget-bin/www_bget?-f+k+glycan+'
+                            elif tag[0] == 'C': # generic compound
+                                url = 'https://www.genome.jp/dbget-bin/www_bget?-f+m+compound+'
+                            url += str(tag)
                         elif db == 'lipidmaps':
-                            pass # TODO
+                            url = 'https://www.lipidmaps.org/rest/compound/lm_id/'
+                            url += str(tag) + '/molfile'
                         
                         ''' Query the url to download the structure '''
                         if not url is None:
-                            print(met, '\t', url)
-                            
-                            data = urllib.request.urlopen(url, timeout=10)
-                            output = ''
-                            for bytestring in data:
-                                line = bytestring.decode("utf-8") 
-                                output += line
-                            if len(output.strip()) > 0: # got something
-                                f = open(mol_file, 'w+')
-                                f.write(output)
-                                f.close()
-                                found = True
+                            print(met, '\t', url, end=' ')
+                            try:
+                                data = urllib.request.urlopen(url, timeout=10)
+                                output = ''
+                                for bytestring in data:
+                                    line = bytestring.decode("utf-8") 
+                                    output += line
+                                if len(output.strip()) > 0: # got something
+                                    if db == 'kegg' and tag[0] == 'G': # KEGG stores glycans as KCF files
+                                        out_file = mol_file.replace('.mol','.kcf')
+                                    else: 
+                                        out_file = mol_file
+                                    f = open(out_file, 'w+')
+                                    f.write(output)
+                                    f.close()
+                                    found = True
+                                print('')
+                            except urllib.error.HTTPError:
+                                print('Unable to load URL')
+
     
                         ''' Stop testing tags if structure was found '''
                         if found: 
