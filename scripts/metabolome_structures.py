@@ -9,11 +9,15 @@ Created on Tue Apr 30 14:47:27 2019
 import os, urllib
 import cobra
 import pandas as pd
+import rdkit.Chem
 
 MODEL_FILE = '../data/iCHOv1.json'
 METABOLITES_FILE = '../data/iCHOv1.chemicals.tsv'
 METABOLITE_TAG_FILE = '../data/iCHOv1.chemical_tags.csv'
-OUTPUT_DIR = '../raw_data/CHO_structures/'
+METABOLITE_MOL_DIR = '../raw_data/CHO_structures/'
+METABOLITE_SMILES_FILE = '../data/iCHOv1_smiles.tsv'
+INHIBITOR_DIR = '../raw_data/inhibitors/'
+INHIBITOR_SMILES_FILE = '../data/inhibitor_smiles.tsv'
 
 NAME_FIXES = { # for BiGG IDs that are on MetaNetX but not iCHOv1?
     'dhnpt': '7,8-dihydroneopterin',
@@ -25,8 +29,70 @@ NAME_FIXES = { # for BiGG IDs that are on MetaNetX but not iCHOv1?
     'm3macchitppdol': '(alpha-D-mannosyl)3-beta-D-mannosyl-diacetylchitodiphosphodolichol',
     'ptd2meeta_SC': 'phosphatidyldi-N-methylethanolamine_tomerge'}
 
+STRUCTURE_BLACKLIST = {'pepd'} # has X in structure, ambiguous peptide
+
 db_priorities = ['chebi', 'hmdb', 'kegg', 'lipidmaps'] # structures readily available
 db_priorities += ['seed', 'metacyc', 'sabiork', 'reactome', 'mnxm', 'bigg'] # structures less available
+
+def main():
+    ''' Downloading MOL files for CHO metabolites '''
+    #df = process_metanetx()
+    #download_mol_files()
+    
+    ''' Converting CHO metabolite structures to SMILES '''
+#    mol_files = os.listdir(METABOLITE_MOL_DIR)
+#    mol_paths = list(map(lambda x: METABOLITE_MOL_DIR + x, mol_files))
+#    mol_to_smiles(mol_paths, smiles_path=METABOLITE_SMILES_FILE)
+    
+    ''' Converting GT inhibitor structures to SMILES '''
+    with open(INHIBITOR_SMILES_FILE, 'w+') as f:
+        f.write('EC\tgroup_id\tSMILES\n')
+        for EC_num in os.listdir(INHIBITOR_DIR): # for each EC number
+            EC_path = INHIBITOR_DIR + EC_num + '/'
+            if os.path.isdir(EC_path):
+                mol_paths = []
+                for group_id in os.listdir(EC_path): # for each compound/group id
+                    mol_path = EC_path + group_id
+                    if not '.DS_Store' in mol_path:
+                        mol_paths.append(mol_path)
+                smiles = mol_to_smiles(mol_paths)
+                for mol_name in smiles:
+                    smiles_str = smiles[mol_name]
+                    f.write(EC_num + '\t' + mol_name + '\t' + smiles_str + '\n')
+    
+    
+def mol_to_smiles(mol_path, smiles_path=None):
+    ''' Converts a MOL file(s) to SMILES format. Returns a dictionary
+        with keys as the molecule name (filepath with .mol removed), and
+        values as the SMILES strings. Optionally output to file (tsv) '''
+    if type(mol_path) == str: # single file
+        mol_files = [mol_path]
+    else: # multiple files
+        mol_files = mol_path
+        
+    ''' Convert each MOL file to SMILES strings '''
+    smiles = {}
+    for mol_file in mol_files:
+        print('Converting', mol_file)
+        mol_name = mol_file.split('/')[-1][:-4]
+        if not mol_name in STRUCTURE_BLACKLIST:
+            m = rdkit.Chem.rdmolfiles.MolFromMolFile(mol_file)
+            if m is None:
+                print('\tLoad failed, trying unsanitized structure')
+                m = rdkit.Chem.rdmolfiles.MolFromMolFile(mol_file, sanitize=False)
+            smiles_str = rdkit.Chem.rdmolfiles.MolToSmiles(m)
+            smiles[mol_name] = smiles_str
+        
+    ''' Optionally output to file '''
+    if not smiles_path is None:
+        with open(smiles_path, 'w+') as f: 
+            f.write('compound\tSMILES\n')
+            for mol_file in mol_files:
+                mol_name = mol_file.split('/')[-1][:-4]
+                if not mol_name in STRUCTURE_BLACKLIST:
+                    smiles_str = smiles[mol_name]
+                    f.write(mol_name + '\t' + smiles_str + '\n')
+    return smiles          
 
 def process_metanetx(mnxm_path=METABOLITES_FILE, 
                      model_path=MODEL_FILE,
@@ -85,7 +151,7 @@ def process_metanetx(mnxm_path=METABOLITES_FILE,
     df_db_links.to_csv(out_path)
     return df_db_links
 
-def download_mol_files(output_dir=OUTPUT_DIR, tag_file=METABOLITE_TAG_FILE, 
+def download_mol_files(output_dir=METABOLITE_MOL_DIR, tag_file=METABOLITE_TAG_FILE, 
                       limit=-1, db_order=['chebi','hmdb','kegg','lipidmaps'], 
                       show_all=False, check_dir='../raw_data/CHO_structures_all/'):
     ''' Download structures based on the tag_file. Capable of querying ChEBI
@@ -164,6 +230,5 @@ def download_mol_files(output_dir=OUTPUT_DIR, tag_file=METABOLITE_TAG_FILE,
         if counter >= limit and limit != -1:
             break;
             
-
-#df = process_metanetx()
-download_mol_files()
+if __name__ == '__main__':
+    main()
