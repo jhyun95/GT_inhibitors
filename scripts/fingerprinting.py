@@ -7,8 +7,8 @@ Created on Tue May 21 19:09:34 2019
 """
 
 import numpy as np
-import rdkit.Chem
-from rdkit.Chem.Fingerprints.FingerprintMols import FingerprintMol # topological
+from rdkit.Chem.rdmolfiles import MolFromSmiles
+from rdkit.Chem.Fingerprints.FingerprintMols import FingerprintMol, FingerprintsFromMols # topological
 from rdkit.Chem.AllChem import GetMorganFingerprintAsBitVect # circular
 
 def fingerprint_from_smiles(smiles, method='topological',
@@ -18,8 +18,8 @@ def fingerprint_from_smiles(smiles, method='topological',
     
     Parameters 
     ----------
-    smiles : str
-        SMILES string to convert to binary fingerprint 
+    smiles : str or list
+        SMILES string(s) to convert to binary fingerprint(s)
     method : str
         "topological" or "daylight" for topological fingerprinting, "circular" 
         or "morgan" for circular fingerprinting (default "topological)
@@ -38,18 +38,35 @@ def fingerprint_from_smiles(smiles, method='topological',
         Numpy integer array with fingerprint bit vector
     '''
     
-    mol = rdkit.Chem.rdmolfiles.MolFromSmiles(smiles)
-    if method=='topological' or method=='daylight':
-        # https://www.rdkit.org/docs/source/rdkit.Chem.rdmolops.html#rdkit.Chem.rdmolops.RDKFingerprint
-        fp = FingerprintMol(mol, minPath=min_path, maxPath=max_path, fpSize=num_bits, 
-            bitsPerHash=2, useHs=True, tgtDensity=0, minSize=128)
-    elif method=='circular' or method=='morgan':
-        fp = GetMorganFingerprintAsBitVect(mol, radius, nBits=num_bits)
+    def fingerprint_to_array(fp):
+        ''' Convert rdkit ExplicitBitVect to numpy boolean array
+            Note: Was unable to make use of fp.ToBinary() could not reliably
+            decode the returned byte string into the correct bit string. See:
+            https://sourceforge.net/p/rdkit/mailman/message/24426410/ '''
+        bs = fp.ToBitString() 
+        bs_list = list(map(int,bs))
+        return np.array(bs_list, dtype=int)
         
-    ''' Convert rdkit ExplicitBitVect to numpy boolean array
-        Note: Was unable to make use of fp.ToBinary() could not reliably
-        decode the returned byte string into the correct bit string. See:
-        https://sourceforge.net/p/rdkit/mailman/message/24426410/ '''
-    bs = fp.ToBitString() 
-    bs_list = list(map(int,bs))
-    return np.array(bs_list, dtype=int)
+    if type(smiles) == str: # single entry
+        mol = MolFromSmiles(smiles)
+        if method=='topological' or method=='daylight':
+            # https://www.rdkit.org/docs/source/rdkit.Chem.rdmolops.html#rdkit.Chem.rdmolops.RDKFingerprint
+            fp = FingerprintMol(mol, minPath=min_path, maxPath=max_path, 
+                fpSize=num_bits, bitsPerHash=2, useHs=True, tgtDensity=0, minSize=128)
+        elif method=='circular' or method=='morgan':
+            fp = GetMorganFingerprintAsBitVect(mol, radius, nBits=num_bits)
+        return fingerprint_to_array(fp)
+    
+    elif type(smiles) == list: # multiple entries
+        mols = map(lambda i: (i, MolFromSmiles(smiles[i])), range(len(smiles)))
+        if method=='topological' or method=='daylight':
+            fps = FingerprintsFromMols(list(mols), minPath=min_path, maxPath=max_path, 
+                fpSize=num_bits, bitsPerHash=2, useHs=True, tgtDensity=0, minSize=128,
+                reportFreq=-1)
+            fps = map(lambda x: x[1], fps)
+        elif method=='circular' or method=='morgan':
+            fps = map(lambda mol: GetMorganFingerprintAsBitVect(mol[1], 
+                radius, nBits=num_bits), mols)
+        bss = list(map(fingerprint_to_array, fps))
+        return np.array(bss)
+        
