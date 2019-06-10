@@ -6,7 +6,12 @@ Created on Tue May 21 19:09:34 2019
 @author: jhyun95
 """
 
+import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+import sklearn.decomposition
+
 from rdkit.Chem.rdmolfiles import MolFromSmiles
 from rdkit.Chem.Fingerprints.FingerprintMols import FingerprintMol, FingerprintsFromMols # topological
 from rdkit.Chem.AllChem import GetMorganFingerprintAsBitVect # circular
@@ -46,9 +51,18 @@ def fingerprint_from_smiles(smiles, method='topological',
         bs = fp.ToBitString() 
         bs_list = list(map(int,bs))
         return np.array(bs_list, dtype=int)
+    
+    def mol_to_smiles(smiles_str):
+        ''' Wrapper for MolFromSmiles to avoid getting stuck on abnormal strings '''
+        mol = MolFromSmiles(smiles_str)
+        if mol is None: # failed to run with sanitization
+            print('SMILES', smiles_str, 'is abnormal, skipping sanitization')
+            mol = MolFromSmiles(smiles_str, sanitize=False)
+            mol.UpdatePropertyCache(strict=False)
+        return mol
         
     if type(smiles) == str: # single entry
-        mol = MolFromSmiles(smiles)
+        mol = mol_to_smiles(smiles)
         if method=='topological' or method=='daylight':
             # https://www.rdkit.org/docs/source/rdkit.Chem.rdmolops.html#rdkit.Chem.rdmolops.RDKFingerprint
             fp = FingerprintMol(mol, minPath=min_path, maxPath=max_path, 
@@ -58,7 +72,7 @@ def fingerprint_from_smiles(smiles, method='topological',
         return fingerprint_to_array(fp)
     
     elif type(smiles) == list: # multiple entries
-        mols = map(lambda i: (i, MolFromSmiles(smiles[i])), range(len(smiles)))
+        mols = map(lambda i: (i, mol_to_smiles(smiles[i])), range(len(smiles)))
         if method=='topological' or method=='daylight':
             fps = FingerprintsFromMols(list(mols), minPath=min_path, maxPath=max_path, 
                 fpSize=num_bits, bitsPerHash=2, useHs=True, tgtDensity=0, minSize=128,
@@ -69,4 +83,66 @@ def fingerprint_from_smiles(smiles, method='topological',
                 radius, nBits=num_bits), mols)
         bss = list(map(fingerprint_to_array, fps))
         return np.array(bss)
+
+
+def fingerprint_jaccard_distances(fps, fp_labels=None, visualize=None):
+    ''' 
+    Computes pairwise Jaccard distances between binary fingerprints,
+    and optionally creates a heatmap or clustermap to visualize distances
+    
+    Parameters
+    ----------
+    fps : ndarray
+        2D integer or boolean Numpy array representing chemical x fingerprint
+    fp_labels : list
+        List of strings with chemical labels for visualization (default None)
+    visualize : str
+        Type of visualization to generate (either 'heatmap' or 'clustermap'), 
+        or other value to skip visualization (default None).
         
+    Returns
+    -------
+    distances : ndarray
+        Symmetric Numpy float array with pairwise distances
+    '''
+    
+    n = fps.shape[0]; distances = np.zeros((n,n))
+    jaccard = lambda x,y: np.logical_and(x,y).sum() / float(np.logical_or(x,y).sum())
+    for i in range(n):
+        for j in range(i):
+            dist = 1.0 - jaccard(fps[i,:], fps[j,:])
+            if pd.isnull(dist): # NaN, if both vectors are all 0s
+                dist = 1.0
+            distances[i,j] = dist
+            distances[j,i] = dist
+    
+    labels = range(n) if fp_labels is None else fp_labels
+    df_dists = pd.DataFrame(data=distances, index=labels, columns=labels)
+    if visualize == 'clustermap': # optionally make a clustermap
+        sns.clustermap(df_dists)
+    elif visualize == 'heatmap': # or a heatmap
+        sns.heatmap(df_dists, vmin=0.0, vmax=1.0)
+    return distances
+
+
+def fingerprint_biplot(fps, fp_groups=None):
+    ''' 
+    Visualize binary fingerprints in a biplot. Computes pairwise Jaccard 
+    distances between each element, applies PCA, and projects the results 
+    onto the top 2 PCs. Optionally, providing group labels will color-code
+    the biplot based on group (such as for inhibitors, corresponding EC) 
+    '''
+    X = fingerprint_jaccard_distances(fps, None, None)
+    pca = sklearn.decomposition.PCA()
+    top2 = pca.fit_transform(X)[:,:2]
+    top2var = pca.explained_variance_ratio_[:2]
+    if fp_groups is None: # no group labels
+        plt.scatter(top2[:,0], top2[:,1])
+    else: # group labels are provided
+        unique_groups = set(fp_groups)
+        for group in unique_groups: # iterate through possible labels
+            ith_cluster = np.where(np.array(fp_groups) == group)[0]
+            plt.scatter(top2[ith_cluster,0], top2[ith_cluster,1], label=group)
+        plt.legend()
+    plt.xlabel('PC1 (' + str(round(100*top2var[0],1)) + '%)')
+    plt.ylabel('PC2 (' + str(round(100*top2var[1],1)) + '%)')

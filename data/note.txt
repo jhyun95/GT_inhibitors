@@ -1,0 +1,4 @@
+Original Inhibitor SMILES string below is abnormal
+3.2.1.114	1907	[H][C@@](O)(C[S+]1C[C@@]([H])(O)[C@]([H])(O)[C@@]1([H])CO)[C@]([H])(CO)O[S-](=O)(=O)=O
+Corrected to following
+3.2.1.114	1907	[H][C@@](O)(C[S+]1C[C@@]([H])(O)[C@]([H])(O)[C@@]1([H])CO)[C@]([H])(CO)O[S]([O-])(=O)=O
