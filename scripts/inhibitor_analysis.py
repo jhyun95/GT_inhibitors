@@ -22,11 +22,24 @@ def main():
     
     ''' Compare structures '''
 #    bs = fingerprinting.fingerprint_from_smiles(sm, method='topological')
-    bs= fingerprinting.fingerprint_from_smiles(sm, method='circular')
-    fingerprinting.fingerprint_biplot(bs, fp_groups=df.loc[:,'log_mw'])
+#    bs= fingerprinting.fingerprint_from_smiles(sm, method='circular')
+#    fingerprinting.fingerprint_biplot(bs, fp_groups=df.loc[:,'log_mw'])
     
-#    df_sng = pd.read_csv('../data/scaffold_fingerprints_inhibitors.csv', index_col=0)
-    
+    ''' Match SNG output existing tables '''
+    df_sng = pd.read_csv('../data/scaffold_fingerprints_inhibitors.csv', index_col=0).T
+    df_sng.index = df_sng.index.astype(int)
+    sng_dim = df_sng.shape[1] # size of SNG fingerprint
+    df2 = df.copy()
+    for col in df_sng.columns:
+        df2[col] = np.nan
+    for i in range(df2.shape[0]): # this loop is really slow 
+        gid = df2.loc[i,'group_id']
+        if gid in df_sng.index:
+            df2.iloc[i,-sng_dim:] = df_sng.loc[gid,:].values
+    df2 = df2.dropna(how='any')
+    bs = df2.iloc[:,-sng_dim:].values
+    fingerprinting.fingerprint_biplot(bs, fp_groups=df2.loc[:,'log_mw'])
+
     
 def merge_inhibitor_data(output='../data/inhibitor_merged.tsv'):
     ''' Merge tables with inhibitor SMILES and common names'''
