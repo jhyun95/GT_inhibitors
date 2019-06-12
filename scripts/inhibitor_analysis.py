@@ -10,14 +10,23 @@ import numpy as np
 import seaborn as sns
 import fingerprinting
 
+from rdkit.Chem.Descriptors import MolWt
+
 def main():
-#    df = pd.read_csv('../data/inhibitor_smiles.tsv', delimiter='\t')
-#    sm = df.loc[:,'SMILES'].values.tolist()
-#    bs_c = fingerprinting.fingerprint_from_smiles(sm, method='circular')
-#    bs_t = fingerprinting.fingerprint_from_smiles(sm, method='topological')
-#    fingerprinting.fingerprint_biplot(bs_c)
-#    fingerprinting.fingerprint_biplot(bs_t)
-    pass
+    ''' Load structures and compute MWs '''
+    df = pd.read_csv('../data/inhibitor_merged.tsv', delimiter='\t')
+    sm = df.loc[:,'SMILES'].values.tolist()
+    mw = list(map(lambda s: MolWt(fingerprinting.mol_to_smiles(s)), sm))
+    df.loc[:,'mw'] = mw
+    df.loc[:,'log_mw'] = np.log(np.array(mw))
+    
+    ''' Compare structures '''
+#    bs = fingerprinting.fingerprint_from_smiles(sm, method='topological')
+    bs= fingerprinting.fingerprint_from_smiles(sm, method='circular')
+    fingerprinting.fingerprint_biplot(bs, fp_groups=df.loc[:,'log_mw'])
+    
+#    df_sng = pd.read_csv('../data/scaffold_fingerprints_inhibitors.csv', index_col=0)
+    
     
 def merge_inhibitor_data(output='../data/inhibitor_merged.tsv'):
     ''' Merge tables with inhibitor SMILES and common names'''

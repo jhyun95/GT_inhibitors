@@ -51,15 +51,6 @@ def fingerprint_from_smiles(smiles, method='topological',
         bs = fp.ToBitString() 
         bs_list = list(map(int,bs))
         return np.array(bs_list, dtype=int)
-    
-    def mol_to_smiles(smiles_str):
-        ''' Wrapper for MolFromSmiles to avoid getting stuck on abnormal strings '''
-        mol = MolFromSmiles(smiles_str)
-        if mol is None: # failed to run with sanitization
-            print('SMILES', smiles_str, 'is abnormal, skipping sanitization')
-            mol = MolFromSmiles(smiles_str, sanitize=False)
-            mol.UpdatePropertyCache(strict=False)
-        return mol
         
     if type(smiles) == str: # single entry
         mol = mol_to_smiles(smiles)
@@ -83,7 +74,7 @@ def fingerprint_from_smiles(smiles, method='topological',
                 radius, nBits=num_bits), mols)
         bss = list(map(fingerprint_to_array, fps))
         return np.array(bss)
-
+    
 
 def fingerprint_jaccard_distances(fps, fp_labels=None, visualize=None):
     ''' 
@@ -125,24 +116,43 @@ def fingerprint_jaccard_distances(fps, fp_labels=None, visualize=None):
     return distances
 
 
-def fingerprint_biplot(fps, fp_groups=None):
+def fingerprint_biplot(fps, fp_groups=None, fp_labels=None):
     ''' 
     Visualize binary fingerprints in a biplot. Computes pairwise Jaccard 
     distances between each element, applies PCA, and projects the results 
     onto the top 2 PCs. Optionally, providing group labels will color-code
     the biplot based on group (such as for inhibitors, corresponding EC) 
     '''
-    X = fingerprint_jaccard_distances(fps, None, None)
+    data = fingerprint_jaccard_distances(fps, None, None)
     pca = sklearn.decomposition.PCA()
-    top2 = pca.fit_transform(X)[:,:2]
+    top2 = pca.fit_transform(data)[:,:2]
     top2var = pca.explained_variance_ratio_[:2]
-    if fp_groups is None: # no group labels
-        plt.scatter(top2[:,0], top2[:,1])
-    else: # group labels are provided
-        unique_groups = set(fp_groups)
-        for group in unique_groups: # iterate through possible labels
-            ith_cluster = np.where(np.array(fp_groups) == group)[0]
-            plt.scatter(top2[ith_cluster,0], top2[ith_cluster,1], label=group)
-        plt.legend()
+    X = top2[:,0]; Y = top2[:,1]
+    
+    if fp_groups is None:
+        df = pd.DataFrame(data=[X,Y], index=['PC1','PC2']).T
+        sp = sns.scatterplot(data=df, x='PC1', y='PC2')
+    else:             
+        df = pd.DataFrame(data=[X,Y,fp_groups], index=['PC1','PC2','group']).T
+        sp = sns.scatterplot(data=df, x='PC1', y='PC2', hue='group')
+        
+    if not fp_labels is None:
+        df.loc[:,'label'] = fp_labels
+        xdiff = max(X) - min(X)
+        for line in range(0,df.shape[0]):
+            sp.text(df.loc[line,'PC1']+xdiff/100, df.loc[line,'PC2'], df.loc[line,'label'], 
+                    horizontalalignment='left', size='small', color='black')
+        
     plt.xlabel('PC1 (' + str(round(100*top2var[0],1)) + '%)')
     plt.ylabel('PC2 (' + str(round(100*top2var[1],1)) + '%)')
+    plt.tight_layout()
+    
+
+def mol_to_smiles(smiles_str):
+    ''' Wrapper for MolFromSmiles to avoid getting stuck on abnormal strings '''
+    mol = MolFromSmiles(smiles_str)
+    if mol is None: # failed to run with sanitization
+        print('SMILES', smiles_str, 'is abnormal, skipping sanitization')
+        mol = MolFromSmiles(smiles_str, sanitize=False)
+        mol.UpdatePropertyCache(strict=False)
+    return mol
