@@ -3,18 +3,30 @@ EC,group_id,name
 2.4.1.145,223,EDTA
 2.4.1.145,26,Mn2+
 2.4.1.145,28,Cu2+
-2.4.1.149,24,SDS
-2.4.1.149,846,more
+2.4.1.92,2612,ganglioside GM1
+2.4.1.92,206,IMP
+2.4.1.92,4527,ganglioside GD1a
+2.4.1.92,13665,ganglioside GQ1b
+2.4.1.92,4820,"adenosine-5'-[alpha,beta-methylene]triphosphate"
+2.4.1.92,2381,GM3
+2.4.1.92,15399,GD3
+2.4.1.92,123,UDPgalactose
+2.4.1.92,6202,ganglioside GM2
+2.4.1.92,223,EDTA
+2.4.1.92,94,CMP
+2.4.1.92,4850,ganglioside GT1b
+2.4.1.149,24,UDP
+2.4.1.149,846,N-acetyllactosamine
 2.4.1.149,59,2-mercaptoethanol
 2.4.1.149,754,CH3CN
-2.4.1.149,937,FeCl2
+2.4.1.149,598,NiCl2
 2.4.1.149,707,CdCl2
 2.4.1.149,193,CaCl2
 2.4.1.149,63533,4-Thiouridine diphosphate
-2.4.1.149,598,N-acetyllactosamine
 2.4.1.149,236,ZnCl2
 2.4.1.149,223,EDTA
-2.4.1.149,118,NiCl2
+2.4.1.149,118,SDS
+2.4.1.149,937,FeCl2
 2.4.99.6,40822,3alpha-succinyl-5beta-cholan-24-oic acid
 2.4.99.6,5156,soyasaponin I
 2.4.99.6,132,Pb2+
@@ -68,55 +80,55 @@ EC,group_id,name
 2.4.99.7,94,CMP
 2.4.1.101,32982,5-Mercury-UDP
 2.4.1.101,66168,"alpha-D-Mannosyl-1,3-(alpha-D-mannosyl-1,6)-4-O-methyl-beta-D-mannosyl-1,4-N-acetyl-D-glucosamine"
-2.4.1.101,60,more
-2.4.1.101,61,UDP-glucose
+2.4.1.101,60,UDP-glucose
+2.4.1.101,61,UTP
 2.4.1.101,8299,5-Bromo-UTP
-2.4.1.101,24,more
+2.4.1.101,24,UDP
 2.4.1.101,7303,"alpha-D-mannosyl-1,6-(N-acetyl-D-glucosaminyl-1,2-alpha-D-mannosyl-1,3)-beta-D-mannosyl-1,4-N-acetyl-D-glucosaminyl-R"
-2.4.1.101,37364,"Manalpha6(6-O-(4,4-azopentyl)-Manalpha3)Man-beta-octyl"
-2.4.1.101,449,Manalpha6(6-O-methyl-Manalpha3)Man-beta-octyl
-2.4.1.101,303,more
+2.4.1.101,37364,"Manalpha6(6-O-(4,5-epoxypentyl)-Manalpha3)Man-beta-octyl"
+2.4.1.101,449,TDP
+2.4.1.101,303,UDP-N-acetylgalactosamine
 2.4.1.101,1330,2'-dUDP
-2.4.1.101,120,TDP
+2.4.1.101,120,UDP-N-acetylglucosamine
 2.4.1.101,62883,2'-O-Methyl-UDP
-2.4.1.101,127,UDP
+2.4.1.101,127,UMP
 2.4.1.101,223,EDTA
-2.4.1.101,37164,Manalpha6(6-O-(5-pentanolyl)-Manalpha3)Man-beta-octyl
-2.4.1.101,37165,Manalpha6(6-O-(4-oxopentyl)-Manalpha3)Man-beta-octyl
-2.4.1.101,37166,"Manalpha6(6-O-(4,5-epoxypentyl)-Manalpha3)Man-beta-octyl"
-2.4.1.101,37167,EDTA
-2.4.1.101,37168,UDP-N-acetylglucosamine
-2.4.1.101,18,Antibodies to pig liver N-acetylglucosaminyltransferase I
-2.4.1.101,19,UDP-N-acetylgalactosamine
+2.4.1.101,37164,Manalpha6(6-O-methyl-Manalpha3)Man-beta-octyl
+2.4.1.101,37165,Manalpha6(6-O-(5-pentanolyl)-Manalpha3)Man-beta-octyl
+2.4.1.101,37166,Manalpha6(6-O-(4-oxopentyl)-Manalpha3)Man-beta-octyl
+2.4.1.101,37167,"Manalpha6(6-O-(4,4-azopentyl)-Manalpha3)Man-beta-octyl"
+2.4.1.101,19,Zn2+
+2.4.1.101,18,Ca2+
+2.4.1.101,37168,[Manalpha6(Manalpha3)][4-O-methyl-Man]-beta4-N-acetyl-D-glucosamine
 2.4.1.143,63608,5-Hg-UDP-N-acetylglucosamine
 2.4.1.143,37174,"N-acetyl-beta-D-glucosaminyl-1,2-alpha-D-mannosyl-1,3-beta-D-mannosyl-octyl"
 2.4.1.143,37173,"3-O-(4,4-azopentyl)-Manalpha(1-6)(GlcNAcbeta(1-2)Manalpha(1-3))Man-beta-octyl"
 2.4.1.143,37172,3-O-(5-aminopentyl)-Manalpha(1-6)(GlcNAcbeta(1-2)Manalpha(1-3))Man-beta-octyl
 2.4.1.143,37171,"O-pentyl-alpha-D-mannosyl-1,6-(N-acetyl-beta-D-glucosaminyl-1,2-alpha-D-mannosyl-1,3)-beta-D-mannosyl-O-octyl"
+2.4.1.143,37170,"2-deoxy-alpha-D-mannosyl-1,6-(N-acetyl-beta-D-glucosaminyl-1,2-alpha-D-mannosyl-1,3)-beta-D-mannosyl-O-octyl"
 2.4.1.143,32982,5-Hg-UDP
-2.4.1.143,37170,2-deoxy-Manalpha(1-6)(GlcNAcbeta(1-2)Manalpha(1-3))Man-beta-octyl
 2.4.1.143,33452,"O-(4,4-azo)pentyl-alpha-D-mannosyl-1,6-(N-acetyl-beta-D-glucosaminyl-1,2-alpha-D-mannosyl-1,3)-beta-D-mannosyl-O-octyl"
 2.4.1.143,73880,"6-deoxy-alpha-D-mannosyl-1,6-(N-acetyl-beta-D-glucosaminyl-1,2-alpha-D-mannosyl-1,3)-beta-D-mannosyl-O-octyl"
 2.4.1.143,223,EDTA
 2.4.1.143,74655,"O-(5-iodoacetamido)pentyl-alpha-D-mannosyl-1,6-(N-acetyl-beta-D-glucosaminyl-1,2-alpha-D-mannosyl-1,3)-beta-D-mannosyl-O-octyl"
 2.4.1.143,74654,"O-(5-amino)pentyl-alpha-D-mannosyl-1,6-(N-acetyl-beta-D-glucosaminyl-1,2-alpha-D-mannosyl-1,3)-beta-D-mannosyl-O-octyl"
-2.4.1.144,24,N-acetyl-D-glucosamine
-2.4.1.144,449,"methyl 3,6-di-O-(alpha-D-mannopyranosyl)-alpha-D-mannopyranoside"
+2.4.1.144,24,UDP
+2.4.1.144,449,TDP
 2.4.1.144,73999,alpha-N-acetyl-D-glucosamine-1-phosphate
 2.4.1.144,841,GDP-glucose
 2.4.1.144,597,castanospermine
 2.4.1.144,49,GDP
-2.4.1.144,103769,"methyl 3,6-di-O-(2-deoxy-2-acetamide-beta-D-glucopyranosyl-2-O-alpha-D-mannopyranosyl)-alpha-D-mannopyranoside"
-2.4.1.144,705,more
+2.4.1.144,103769,"methyl 3,6-di-O-(alpha-D-mannopyranosyl)-alpha-D-mannopyranoside"
+2.4.1.144,705,TDP-glucose
 2.4.1.144,1787,CDP-glucose
-2.4.1.144,131408,inactive rat mutant D323A enzyme
-2.4.1.144,1243,more
+2.4.1.144,131408,"methyl 3,6-di-O-(2-deoxy-2-acetamide-beta-D-glucopyranosyl-2-O-alpha-D-mannopyranosyl)-alpha-D-mannopyranoside"
+2.4.1.144,1243,tunicamycin
 2.4.1.144,8,ADP
 2.4.1.144,188,CDP
-2.4.1.144,131406,hepatitis B virus
+2.4.1.144,131406,"methyl 3,6-di-O-(2-deoxy-2-acetamide-beta-D-glucopyranosyl-2-O-alpha-D-mannopyranosyl)-4-O-(2-deoxy-2-acetamide-beta-D-glucopyranosyl)-alpha-D-mannopyranoside"
 2.4.1.144,223,EDTA
-2.4.1.144,257,"methyl 3,6-di-O-(alpha-D-mannopyranosyl)-4-O-(2-deoxy-2-acetamide-beta-D-glucopyranosyl)-alpha-D-mannopyranoside"
-2.4.1.144,131407,"methyl 3,6-di-O-(2-deoxy-2-acetamide-beta-D-glucopyranosyl-2-O-alpha-D-mannopyranosyl)-4-O-(2-deoxy-2-acetamide-beta-D-glucopyranosyl)-alpha-D-mannopyranoside"
+2.4.1.144,257,N-acetyl-D-glucosamine
+2.4.1.144,131407,"methyl 3,6-di-O-(alpha-D-mannopyranosyl)-4-O-(2-deoxy-2-acetamide-beta-D-glucopyranosyl)-alpha-D-mannopyranoside"
 2.4.1.144,493,ADP-glucose
 2.4.1.155,73976,ADP-N-acetylglucosamine
 2.4.1.155,39,"N-Acetyl-D-glucosaminyl-1,2-alpha-4-O-methyl-mannosyl-1,6-beta-D-glucosyl-O-(CH2)7-CH3"
@@ -136,6 +148,48 @@ EC,group_id,name
 2.4.1.155,74288,EDTA
 2.4.1.155,223,Ca2+
 2.4.1.155,105,antisense GnT-V
+2.4.1.38,96543,"2-naphthylmethyl 2-acetamido-3,6-di-O-acetyl-2,4-dideoxy-beta-D-glucopyranosyl-(1,3)-2,4,6-tri-O-acetyl-beta-D-galactopyranoside"
+2.4.1.38,96542,"2-naphthylmethyl 2-acetamido-3,6-di-O-acetyl-2,4-dideoxy-4-fluoro-beta-D-glucopyranosyl-(1,3)-2,4,6-tri-O-acetyl-beta-D-galactopyranoside"
+2.4.1.38,96541,"2-naphthylmethyl 2-acetamido-3,6-di-O-acetyl-4-azido-2,4-dideoxy-beta-D-glucopyranosyl-(1,3)-2,4,6-tri-O-acetyl-beta-Dgalactopyranoside"
+2.4.1.38,96540,"2-naphthylmethyl 2-acetamido-3,6-di-O-acetyl-4-amino-2,4-dideoxy-beta-D-glucopyranosyl-(1,3)-2,4,6-tri-O-acetyl-beta-Dgalactopyranoside"
+2.4.1.38,449,more
+2.4.1.38,123729,4-methylumbelliferyl 4-deoxy-beta-D-xylopyranoside
+2.4.1.38,127,more
+2.4.1.38,550,GlcNAcbeta-(2-naphthyl)
+2.4.1.38,61,N-acetylglucosamine
+2.4.1.38,1174,Cu2+
+2.4.1.38,257,ammonium
+2.4.1.38,24,more
+2.4.1.38,131793,5-(5-formylthien-2-yl)-uridine
+2.4.1.38,131792,5-(5-formylthien-2-yl)-UDP-alpha-D-galactose
+2.4.1.38,28,alpha-lactalbumin
+2.4.1.38,122878,5-(indol-4-yl)-uridine
+2.4.1.38,122879,5-[5-({[1-(1H-indol-3-yl)ethyl]amino}methyl)thiophene-2-yl]uridine
+2.4.1.38,427,Glc-NAcbeta1-3Galbeta-O-naphthalenemethanol
+2.4.1.38,408,EDTA
+2.4.1.38,96538,"2-naphthylmethyl 2-acetamido-4,6-di-O-acetyl-2,3-dideoxy-beta-D-glucopyranosyl-(1,3)-2,4,6-tri-O-acetyl-beta-Dgalactopyranoside"
+2.4.1.38,96539,"2-naphthylmethyl 2-acetamido-3,6-di-O-acetyl-2,4-dideoxy-4-methoxy-beta-D-glucopyranosyl-(1,3)-2,4,6-tri-O-acetyl-beta-D-galactopyranoside"
+2.4.1.38,26865,alpha-lactalbumin
+2.4.1.38,123733,4-methylumbelliferyl 4-deoxy-4-fluoro-beta-D-xylopyranoside
+2.4.1.38,96536,"2-naphthylmethyl 2-acetamido-4,6-di-O-acetyl-2,3-dideoxy-3-methoxy-beta-D-glucopyranosyl-(1,3)-2,4,6-tri-O-acetyl-beta-D-galactopyranoside"
+2.4.1.38,96537,"2-naphthylmethyl 2-acetamido-4,6-di-O-acetyl-2,3-dideoxy-3-fluoro-beta-D-glucopyranosyl-(1,3)-2,4,6-tri-O-acetyl-beta-D-galactopyranoside"
+2.4.1.38,41495,more
+2.4.1.38,41494,6-thio-N-butyryl-GlcNbeta-(2-naphthyl)
+2.4.1.38,30394,more
+2.4.1.38,41496,more
+2.4.1.38,41491,1-thioGlcNAcbeta-(2-naphthyl)
+2.4.1.38,41490,alpha-lactalbumin
+2.4.1.38,41493,"1,6-dithio-N-butyryl-GlcNbeta-(2-naphthyl)"
+2.4.1.38,41492,Cu2+
+2.4.1.38,16080,1-thio-N-butyryl-GlcNbeta-(2-naphthyl)
+2.4.1.38,92,EDTA
+2.4.1.38,223,alpha-lactalbumin
+2.4.1.38,16,alpha-lactalbumin
+2.4.1.38,19,N-butyryl-GlcNbeta-(2-naphthyl)
+2.4.1.38,86337,more
+2.4.1.38,122881,5'-alpha-D-galactopryanosyl-diphospho-5-(1H-indol-4-yl)-uridine
+2.4.1.38,122880,5'-alpha-D-galactopryanosyl-diphospho-5-[5-({[1-(1H-indol-3-yl)ethyl]amino}methyl)thiophene-2-yl]uridine
+2.4.1.38,358,more
 3.2.1.78,1305,abscisic acid
 3.2.1.78,229,Al3+
 3.2.1.78,28,Cu2+
@@ -169,84 +223,69 @@ EC,group_id,name
 3.2.1.78,37,K+
 3.2.1.78,36,Ni2+
 3.2.1.78,57,Triton X-100
-2.4.99.4,5021,asialoGM1
-2.4.99.4,2871,"beta-D-galactosyl-1,3-N-acetylgalactosylamide"
 2.4.99.4,7208,lysophosphatidylglycerol
-2.4.99.4,2612,GM1
-2.4.99.4,46,N-ethylmaleimide
-2.4.99.4,1730,Sodium citrate
+2.4.99.4,1730,more
 2.4.99.4,56,CTP
 2.4.99.4,115558,lysophosphatidylserine
-2.4.99.4,35,GTP
-2.4.99.4,80642,stachybotrydial
-2.4.99.4,14369,Galbeta1-3(6-deoxy)GalNAcalpha-benzyl
-2.4.99.4,61,UTP
-2.4.99.4,14344,3-deoxy-Galbeta1-3GalNAcalpha-benzyl
-2.4.99.4,1726,octylglucoside
-2.4.99.4,7,ATP
-2.4.99.4,185,N-bromosuccinimide
-2.4.99.4,188,5'-CDP
-2.4.99.4,80644,2alpha-hydroxystachybotrylactone
-2.4.99.4,80643,stachybotrylactone
+2.4.99.4,188,CDP
 2.4.99.4,94,CMP
-2.4.99.4,90896,"3-O-sulfoGalbeta1,4GlcNAcbeta1,6(Galbeta1,3)GalNAcalpha-O-benzyl"
-3.2.1.114,109352,"1,4-Dideoxy-1,4-imino-D-mannitol"
-3.2.1.114,109353,"1-(4-methylphenyl)-2-[(1S,2R,5R,8R,8aR)-1,2,8-trihydroxyoctahydroindolizin-5-yl]ethanone"
-3.2.1.114,26,Mannostatin A
-3.2.1.114,23,EDTA
+3.2.1.114,109352,"1-(4-methylphenyl)-2-[(1S,2R,5R,8R,8aR)-1,2,8-trihydroxyoctahydroindolizin-5-yl]ethanone"
+3.2.1.114,109353,"1-(4-tert-butylphenyl)-2-[(1S,2R,5R,8R,8aR)-1,2,8-trihydroxyoctahydroindolizin-5-yl]ethanone"
+3.2.1.114,26,Mn2+
+3.2.1.114,23,Fe2+
 3.2.1.114,28,Cu2+
-3.2.1.114,1468,guanidinium hydrochloride
-3.2.1.114,109348,1-deoxymannojirimycin
-3.2.1.114,118855,2-deoxy-2-fluoro-alpha-D-mannosyl fluoride
-3.2.1.114,87984,5-fluoro-beta-L-gulosyl fluoride
+3.2.1.114,1468,kifunensine
+3.2.1.114,109348,"1-phenyl-2-[(1S,2R,5R,8R,8aR)-1,2,8-trihydroxyoctahydroindolizin-5-yl]ethanone"
+3.2.1.114,118855,2-phenylethyl alpha-D-mannopyranosyl sulfone
+3.2.1.114,87984,5-thio-alpha-D-mannopyranosylamine
 3.2.1.114,49989,"(1R,2S,3R,4R,5R)-5-aminocyclopentane-1,2,3,4-tetraol"
 3.2.1.114,38600,"(1R,2R,3R,4S,5S)-1,2,3,4-tetrahydroxy-5-(N-(p-methoxy-benzyl)amino)cyclopentane"
 3.2.1.114,38601,"(1R,2R,3R,4S,5S)-1,2,3,4-tetrahydroxy-5-(N-(p-allyl ester benzyl)amino)cyclopentane"
-3.2.1.114,1069,more
+3.2.1.114,1069,p-Chloromercuriphenylsulfonate
 3.2.1.114,4730,"(2S,3R,4S)-2-([[(1R)-2-hydroxy-1-phenylethyl]amino]methyl)pyrrolidine-3,4-diol"
 3.2.1.114,4739,"(3R,4R,5S)-3,4-dihydroxy-5-([[(1R)-2-hydroxy-1-phenylethyl]amino]methyl)-1-methylpyrrolidin-2-one"
-3.2.1.114,1412,"8,8a-di-epi-swainsonine"
-3.2.1.114,87999,more
-3.2.1.114,191,kifunensine
-3.2.1.114,12589,Fe2+
-3.2.1.114,9716,kifunensine
+3.2.1.114,1412,8-epi-lentiginosine
+3.2.1.114,87999,N-[(R)-amino(phenyl)methyl]-5-thio-alpha-D-mannopyranosylamine
+3.2.1.114,191,mannose
+3.2.1.114,12589,gluco-hydroxyiminolactam
+3.2.1.114,9716,mannoimidazole
 3.2.1.114,526,swainsonine
-3.2.1.114,17466,"(3R,4R,5S)-5-[([(1R)-2-[(4-bromophenyl)(hydroxy)methoxy]-1-phenylethyl]amino)methyl]-3,4-dihydroxypyrrolidin-2-one"
-3.2.1.114,5683,2-phenylethyl alpha-D-mannopyranosyl sulfone
-3.2.1.114,12591,Mn2+
-3.2.1.114,17541,swainsonine
+3.2.1.114,83320,diastereomer of seleno-salacinol
+3.2.1.114,5683,5-fluoro-beta-L-gulosyl fluoride
+3.2.1.114,12591,N-octyl-6-epi-valienamine
+3.2.1.114,17541,"[[(3S,4S,5R,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)piperidin-2-ylidene]amino] N-(4-chlorophenyl)carbamate"
 3.2.1.114,3742,"1,4-Dideoxy-1,4-imino-D-mannitol"
 3.2.1.114,88231,"(1R,2S,8aS)-1,2-dihydroxyoctahydrothieno[1,2-a]thiopyranium chloride"
-3.2.1.114,83318,more
-3.2.1.114,83319,D-mannonolactam amidrazone
-3.2.1.114,7547,"1-phenyl-2-[(1S,2R,5R,8R,8aR)-1,2,8-trihydroxyoctahydroindolizin-5-yl]ethanone"
+3.2.1.114,83318,seleno-salacinol
+3.2.1.114,83319,diastereomer of salacinol
+3.2.1.114,7547,2-deoxy-2-fluoro-alpha-D-mannosyl fluoride
 3.2.1.114,17436,"(1R,2R,3R,4S,5R)-4-amino-5-methoxycyclopentane-1,2,3-triol"
-3.2.1.114,8056,Fe3+
+3.2.1.114,8056,glucoimidazole
 3.2.1.114,6839,"(3R,4R,5S)-3,4-dihydroxy-5-([[(1R)-2-hydroxy-1-phenylethyl]amino]methyl)pyrrolidin-2-one"
 3.2.1.114,6838,"(1S,2R,8R,8aR)-octahydroindolizine-1,2,8-triol"
-3.2.1.114,66,EDTA
-3.2.1.114,1907,more
-3.2.1.114,7158,Cu2+
+3.2.1.114,66,Fe3+
+3.2.1.114,1907,salacinol
+3.2.1.114,7158,D-mannonolactam amidrazone
 3.2.1.114,87927,"(1S,2R,6R,7R,8S,8aS)-octahydroindolizine-1,2,6,7,8-pentol"
-3.2.1.114,55310,"1-(4-tert-butylphenyl)-2-[(1S,2R,5R,8R,8aR)-1,2,8-trihydroxyoctahydroindolizin-5-yl]ethanone"
+3.2.1.114,55310,"1-(4-tert-butylphenyl)-2-[(1S,2R,5S,8R,8aR)-1,2,8-trihydroxyoctahydroindolizin-5-yl]ethanone"
 3.2.1.114,38594,"(1R,2R,3R,4R,5S)-1-(methylthio)-2,3,4-trihydroxy-5-(N-(p-bromo-benzyl)amino)cyclopentane"
 3.2.1.114,38595,"(1R,2R,3R,4R,5S)-1-(methylthio)-2,3,4-trihydroxy-5-(N-(p-methoxy-benzyl)amino)cyclopentane"
 3.2.1.114,38596,"(1R,2R,3R,4S,5S)-1,2,3,4-tetrahydroxy-5-(N-benzylamino)cyclopentane"
 3.2.1.114,38597,"(1R,2R,3R,4S,5S)-1,2,3,4-tetrahydroxy-5-(N-(p-fluoro-benzyl)amino)cyclopentane"
-3.2.1.114,38590,Fe2+
-3.2.1.114,38591,Mannostatin A
+3.2.1.114,38590,ghavamiol
+3.2.1.114,38591,meso-aminocyclopentitretrol
 3.2.1.114,38592,"(1R,2R,3R,4R,5S)-1-(methylthio)-2,3,4-trihydroxy-5-(N-(p-fluoro-benzyl)amino)cyclopentane"
 3.2.1.114,38593,"(1R,2R,3R,4R,5S)-1-(methylthio)-2,3,4-trihydroxy-5-(N-(p-chloro-benzyl)amino)cyclopentane"
 3.2.1.114,38598,"(1R,2R,3R,4S,5S)-1,2,3,4-tetrahydroxy-5-(N-(p-chloro-benzyl)amino)cyclopentane"
 3.2.1.114,38599,"(1R,2R,3R,4S,5S)-1,2,3,4-tetrahydroxy-5-(N-(p-bromo-benzyl)amino)cyclopentane"
-3.2.1.114,2589,Mannostatin A
-3.2.1.114,7929,more
-3.2.1.114,15546,1-deoxyaminocyclopentitetrol
-3.2.1.114,15544,D-mannonolactam amidrazone
-3.2.1.114,15545,8-epi-lentiginosine
-3.2.1.114,17526,Mannostatin A
+3.2.1.114,2589,mannostatin
+3.2.1.114,7929,noeuromycin
+3.2.1.114,15546,1-deoxyamino-cyclopentitetrol
+3.2.1.114,15544,di-epi-swainsonine
+3.2.1.114,15545,8a-epi-swainsonine
+3.2.1.114,17526,mannostatin B
 3.2.1.114,223,EDTA
-3.2.1.114,19,swainsonine
+3.2.1.114,19,Zn2+
 3.2.1.114,87931,"(2R,3R,4R,5R)-5-amino-2-(hydroxymethyl)piperidine-3,4-diol"
 3.2.1.114,87932,"(2R,3R,4S,5S)-6-amino-2-(hydroxymethyl)-2,3,4,5-tetrahydropyridine-3,4,5-triol"
 3.2.1.114,87936,"(2R,3S,4R)-2-[(1R)-1-hydroxyethyl]pyrrolidine-3,4-diol"
@@ -261,46 +300,46 @@ EC,group_id,name
 3.2.1.114,99004,"(2R,3R,4S)-2[[((1R)-2-hydroxy-1-[4-(2-thienyl)phenyl]ethyl)-amino]methyl]pyrrolidine-3,4-diol"
 3.2.1.114,50222,"(3S,4S,5R,6R,E)-3,4,5-trihydroxy-6-(hydroxymethyl)piperidin-2-one O-4-chlorophenylcarbamoyl oxime"
 3.2.1.114,38039,"(1R,6R,7R,8S)-7,8-dihydroxy-5-thia-1-thioniabicyclo[4.3.0]nonane chloride"
-3.2.1.114,38038,meso-aminocyclopentitretrol
+3.2.1.114,38038,N-benzyl-mannostatin
 3.2.1.114,87947,"(3R,4R)-4-aminopyrrolidin-3-ol"
 3.2.1.114,56489,"(1S,2R,5S,8R,8aR)-5-[2-(4-tert-butylphenyl)ethyl]octahydroindolizine-1,2,8-triol"
-3.2.1.114,894,Cu2+
+3.2.1.114,894,"(2R,3R,4R,5R)-2-(hydroxymethyl)piperidine-3,4,5-triol"
 3.2.1.114,83321,"(1R,2R,3R,4R,5S)-1-(methylthio)-2,3,4-trihydroxy-5-(N-(p-allyl-ester-benzyl)amino)cyclopentane"
-3.2.1.114,83320,deoxymannojirimycin
+3.2.1.114,17466,"(3R,4R,5S)-5-[([(1R)-2-[(4-bromophenyl)(hydroxy)methoxy]-1-phenylethyl]amino)methyl]-3,4-dihydroxypyrrolidin-2-one"
 3.2.1.114,17465,"(3R,4R,5S)-5-[([(1R)-2-[(4-bromophenyl)(hydroxy)methoxy]-1-phenylethyl]amino)methyl]-3,4-dihydroxy-1-methylpyrrolidin-2-one"
 3.2.1.114,17463,"(2S,3R,4S)-2-[([(1R)-2-[(4-bromophenyl)(hydroxy)methoxy]-1-phenylethyl]amino)methyl]pyrrolidine-3,4-diol"
 3.2.1.114,5203,"(3R,4R,5R)-3,4-dihydroxy-5-([[(1R)-2-hydroxy-1-phenylethyl]amino]methyl)pyrrolidin-2-one"
 3.2.1.114,5202,"(3R,4R,5R)-3,4-dihydroxy-5-([[(1R)-2-hydroxy-1-phenylethyl]amino]methyl)-1-methylpyrrolidin-2-one"
 3.2.1.114,42775,"(2R,3R,4S,5R)-2-([[(1R)-2-hydroxy-1-phenylethyl]amino]methyl)-5-methylpyrrolidine-3,4-diol"
 3.2.1.114,42774,"(2R,3R,4S)-2-([[(1S)-2-hydroxy-1-phenylethyl]amino]methyl)pyrrolidine-3,4-diol"
-3.2.1.114,87951,"(5R,6R,7S,8S)-5-(hydroxymethyl)-1,5,6,7,8,8a-hexahydroimidazo[1,2-a]pyridine-6,7,8-triol"
+3.2.1.114,804,guanidinium hydrochloride
 3.2.1.114,87950,"(5R,6R,7S,8R)-5-methyl-1,5,6,7,8,8a-hexahydrotetrazolo[1,5-a]pyridine-6,7,8-triol"
-3.2.1.114,804,ghavamiol
-2.4.99.1,846,N-acetyllactosamine
-2.4.99.1,26,Mn2+
-2.4.99.1,66158,Aflatoxins
-2.4.99.1,21,Co2+
-2.4.99.1,1283,cycloheximide
-2.4.99.1,132,Pb2+
-2.4.99.1,663,long chain fatty acids
-2.4.99.1,31,Hg2+
+3.2.1.114,87951,"(5R,6R,7S,8S)-5-(hydroxymethyl)-1,5,6,7,8,8a-hexahydroimidazo[1,2-a]pyridine-6,7,8-triol"
+2.4.99.1,846,Endogenous acidic peptide
+2.4.99.1,314,cycloheximide
 2.4.99.1,56,CTP
-2.4.99.1,28,Cu2+
-2.4.99.1,36,Ni2+
-2.4.99.1,40,PCMB
-2.4.99.1,314,cytidine
-2.4.99.1,25367,"CMP-4-O-[4-carboxy-2,2,6,6-tetramethylpiperidinine-1-oxyl]"
-2.4.99.1,61,UTP
-2.4.99.1,369,deoxycholate
+2.4.99.1,21,CMP
+2.4.99.1,1283,Cu2+
+2.4.99.1,61,Mn2+
+2.4.99.1,663,EDTA
+2.4.99.1,31,EDTA
+2.4.99.1,66158,Aflatoxins
+2.4.99.1,28,CTP
+2.4.99.1,26,endo F
+2.4.99.1,40,long chain fatty acids
+2.4.99.1,94,CDP
+2.4.99.1,132,Hg2+
+2.4.99.1,36,glycanase
+2.4.99.1,369,cytidine
+2.4.99.1,25367,CMP
+2.4.99.1,25366,CDP
+2.4.99.1,223,deoxycholate
 2.4.99.1,188,CDP
-2.4.99.1,25366,"CMP-4-O-[2,2,6,6-tetramethylpiperidine-1-oxyl]"
-2.4.99.1,223,EDTA
-2.4.99.1,94,CMP
-2.4.99.1,105,Ba2+
+2.4.99.1,105,Alkaline phosphatase
 2.4.99.3,18,Ca2+
-2.4.99.3,57,more
+2.4.99.3,57,Triton X-100
 2.4.99.3,56,CTP
-2.4.99.3,40,dithioerythritol
-2.4.99.3,475,CTP
-2.4.99.3,188,Ca2+
-2.4.99.3,94,CDP
+2.4.99.3,40,PCMB
+2.4.99.3,475,dithioerythritol
+2.4.99.3,188,CDP
+2.4.99.3,94,CMP

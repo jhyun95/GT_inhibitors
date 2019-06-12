@@ -13,11 +13,11 @@ def extract_ECs(EC_list_file):
     return relevant_ECs
 def search_Inhibitor_names(EC):
     endpointURL = "https://www.brenda-enzymes.org/soap/brenda_server.php"
-    password = hashlib.sha256("PASSWORD").hexdigest()
-    parameters = "EMAIL,"+password+",ecNumber*"+EC
+    password = hashlib.sha256("Asdf1234").hexdigest()
+    parameters = "jtsorren@eng.ucsd.edu,"+password+",ecNumber*"+EC
     client = SOAPProxy(endpointURL)
     resultString = client.getInhibitors(parameters)
-    inhibitors = [match.group(1) for match in re.finditer('#inhibitor\*(.*?)#', resultString)]
+    inhibitors = [match.group(1) for match in re.finditer('#inhibitor\*(.*?)#', resultString)] + [match.group(1) for match in re.finditer('#inhibitors\*(.*?)#', resultString)]
     inhibitor_structureIDs = [match.group(1) for match in re.finditer('#ligandStructureId\*(\d+)#', resultString)]
     d = dict(zip(inhibitor_structureIDs, inhibitors))
     return d
