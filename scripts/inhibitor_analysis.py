@@ -18,21 +18,22 @@ from rdkit.Chem.Descriptors import MolWt
 def main():
     ''' Load structures and compute MWs '''
     df = pd.read_csv('../data/inhibitor_merged.tsv', delimiter='\t')
+    df = blacklist(df)
+    df = merge_multiple_inhibitors(df)
     sm = df.loc[:,'SMILES'].values.tolist()
     mw = list(map(lambda s: MolWt(fingerprinting.mol_to_smiles(s)), sm))
     df.loc[:,'mw'] = mw
     df.loc[:,'log_mw'] = np.log(np.array(mw))
     
     ''' Compare structures '''
-    bs = fingerprinting.fingerprint_from_smiles(sm, method='topological')
+#    bs = fingerprinting.fingerprint_from_smiles(sm, num_bits=64, max_path=9, method='topological')
 #    bs = fingerprinting.fingerprint_from_smiles(sm, method='circular')
-    dff, bsf = blacklist(df,bs)
-    dfm, bsm = merge_multiple_inhibitors(dff,bsf)
-    
-    fingerprint_biplot(bsm, fp_groups=dfm.loc[:,'EC'])
-#    evaluate_global_separation(bsm, dfm.loc[:,'EC'], plot=True)
-    print(evaluate_local_separation(bsm, dfm.loc[:,'EC'], plot=True))
+#    fingerprint_biplot(bs, fp_groups=df.loc[:,'EC'])
+#    evaluate_global_separation(bs, dfm.loc[:,'EC'], plot=True)
+#    print(evaluate_local_separation(bs, df.loc[:,'EC'], plot=True))
    
+    ''' Grid search parameters for topological/circular '''
+    grid_search_parameters(df, mode='circular', agg='median')
     
     ''' Match SNG output existing tables '''
 #    df_sng = pd.read_csv('../data/scaffold_fingerprints_inhibitors.csv', index_col=0).T
@@ -50,7 +51,55 @@ def main():
 #    fingerprint_biplot(bs, fp_groups=df2.loc[:,'log_mw'])
 #    evaluate_global_separation(bs, df2.loc[:,'EC'], plot=True)
     
-def merge_multiple_inhibitors(df,bs):
+def grid_search_parameters(df, mode, bit_range=[6,7,8,9,10,11,12,13],
+                           radii=[1,2,3,4,5], path_range=[5,6,7,8,9,10],
+                           agg='median', output='../data/params/'):
+    ''' Computes average and global silhouette-like metrics for 
+        different parameterizations of the topological or circular
+        fingerprinting strategies '''
+    sm = df.loc[:,'SMILES'].values.tolist()
+    ec = df.loc[:,'EC'].values.tolist()
+    output1 = output + mode + '_perf_local_' + agg +'s.csv'
+    output2 = output + mode + '_perf_global_' + agg +'s.csv'
+    eval_function = np.median if agg=='median' else np.mean
+    
+    if mode == 'topological':
+        perf_local = np.zeros((len(bit_range), len(path_range)))
+        perf_global = np.zeros((len(bit_range), len(path_range)))
+        for i, bit_length in enumerate(bit_range):
+            n_bits = 2 ** bit_length
+            for j, max_path in enumerate(path_range):
+                print('Testing n_bits =', n_bits, '| max_path =', max_path)
+                bs = fingerprinting.fingerprint_from_smiles(sm, 
+                    method='topological', max_path=max_path, num_bits=n_bits)
+                local_vals = evaluate_local_separation(bs, ec, plot=False)
+                global_vals = evaluate_global_separation(bs, ec, plot=False)
+                perf_local[i,j] = eval_function(local_vals)
+                perf_global[i,j] = eval_function(global_vals)
+        df1 = pd.DataFrame(data=perf_local, index=2**np.array(bit_range), columns=path_range)
+        df2 = pd.DataFrame(data=perf_global, index=2**np.array(bit_range), columns=path_range)
+                
+    elif mode == 'circular':
+        perf_local = np.zeros((len(bit_range), len(radii)))
+        perf_global = np.zeros((len(bit_range), len(radii)))
+        for i, bit_length in enumerate(bit_range):
+            n_bits = 2 ** bit_length
+            for j, radius in enumerate(radii):
+                print('Testing n_bits =', n_bits, '| radius =', radius)
+                bs = fingerprinting.fingerprint_from_smiles(sm, 
+                    method='circular', radius=radius, num_bits=n_bits)
+                local_vals = evaluate_local_separation(bs, ec, plot=False)
+                global_vals = evaluate_global_separation(bs, ec, plot=False)
+                perf_local[i,j] = eval_function(local_vals)
+                perf_global[i,j] = eval_function(global_vals)
+        df1 = pd.DataFrame(data=perf_local, index=2**np.array(bit_range), columns=radii)
+        df2 = pd.DataFrame(data=perf_global, index=2**np.array(bit_range), columns=radii)
+    
+    df1.to_csv(output1)
+    df2.to_csv(output2)
+    
+    
+def merge_multiple_inhibitors(df, bs=None):
     ''' Re-labels EC# of inhibitors that inhibit muliple ECs as "multiple" '''
     unique_smiles = set(); multiple_ec_smiles = set()
     for entry in df.index: # identify multiple EC inhibitors
@@ -71,12 +120,14 @@ def merge_multiple_inhibitors(df,bs):
         else:
             unique_indices.append(i)
     dfm = df.drop(duplicate_instances)
-    bsm = bs[np.array(unique_indices),:]
-    print(dfm.shape, bsm.shape)
-    return dfm,bsm
+    if bs is None:
+        return dfm
+    else:
+        bsm = bs[np.array(unique_indices),:]
+        return dfm,bsm
         
     
-def blacklist(df, bs):
+def blacklist(df, bs=None):
     ''' Remove metabolites if they meet any of the criteria:
         - Is inorganic (check by looking for carbon) 
         - Is variable (check by looking for * in SMILES string) '''
@@ -95,14 +146,16 @@ def blacklist(df, bs):
                 remove.append(entry)
                 remove_indices.append(i)
                 print('Removed (inorganic):', smiles)
-
     n = df.shape[0]
     remove_indices = np.array(remove_indices)
     keep_indices = np.ones(n)
     np.put(keep_indices, remove_indices, 0)
     df_filt = df.drop(labels=remove)
-    bs_filt = bs[keep_indices.astype(bool),:]
-    return df_filt, bs_filt
+    if bs is None:
+        return df_filt
+    else:
+        bs_filt = bs[keep_indices.astype(bool),:]
+        return df_filt, bs_filt
     
 def evaluate_local_separation(fps, ecs, plot=False):
     ''' Evaluate local separation by computing the ratio of the distance 
@@ -110,8 +163,7 @@ def evaluate_local_separation(fps, ecs, plot=False):
         different EC#. '''
     distances = fingerprinting.fingerprint_jaccard_distances(fps)
     le = sklearn.preprocessing.LabelEncoder(); le.fit(ecs)
-    ec_labels = le.transform(ecs)
-    
+    ec_labels = le.transform(ecs) 
     cohesiveness = np.zeros(fps.shape[0])
     for i in range(fps.shape[0]):
         current_ec = ec_labels[i]
@@ -125,7 +177,11 @@ def evaluate_local_separation(fps, ecs, plot=False):
             dist_to_diff = distances[i,diff_ec_entries]
             nearest_same = np.min(dist_to_same)
             nearest_diff = np.min(dist_to_diff)
-            co = nearest_diff - nearest_same / max(nearest_diff, nearest_same)
+            max_diff = max(nearest_diff, nearest_same)
+            if max_diff == 0:
+                co = np.sign(nearest_diff - nearest_same)
+            else:
+                co = nearest_diff - nearest_same / max_diff
             cohesiveness[i] = co
     
     if plot: # generate silhouette plot
@@ -198,8 +254,8 @@ def plot_silhouette(silhouette_values, labels, group_label='EC Number',
     
     ax.set_xlabel(metric_label)
     ax.set_ylabel(group_label)
-    ax.axvline(x=np.mean(silhouette_values), color="red", linestyle="--")
-#        ax.text(silhouette_avg, y_lower + 1.5*y_shift, 'Average SC', ha='center')
+    ax.axvline(x=np.median(silhouette_values), color="red", linestyle="--")
+#        ax.text(silhouette_avg, y_lower + 1.5*y_shift, 'Median SC', ha='center')
     ax.set_yticks([])
     return ax
 
