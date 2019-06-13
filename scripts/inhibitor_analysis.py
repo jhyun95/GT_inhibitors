@@ -24,11 +24,15 @@ def main():
     df.loc[:,'log_mw'] = np.log(np.array(mw))
     
     ''' Compare structures '''
-#    bs = fingerprinting.fingerprint_from_smiles(sm, method='topological')
-    bs = fingerprinting.fingerprint_from_smiles(sm, method='circular')
-#    fingerprinting.fingerprint_biplot(bs, fp_groups=df.loc[:,'log_mw'])
-    evaluate_global_separation(bs, df.loc[:,'EC'], plot=True)
-#    print(evaluate_local_separation(bs, df.loc[:,'EC'], plot=True))
+    bs = fingerprinting.fingerprint_from_smiles(sm, method='topological')
+#    bs = fingerprinting.fingerprint_from_smiles(sm, method='circular')
+    dff, bsf = blacklist(df,bs)
+    dfm, bsm = merge_multiple_inhibitors(dff,bsf)
+    
+    fingerprint_biplot(bsm, fp_groups=dfm.loc[:,'EC'])
+#    evaluate_global_separation(bsm, dfm.loc[:,'EC'], plot=True)
+    print(evaluate_local_separation(bsm, dfm.loc[:,'EC'], plot=True))
+   
     
     ''' Match SNG output existing tables '''
 #    df_sng = pd.read_csv('../data/scaffold_fingerprints_inhibitors.csv', index_col=0).T
@@ -43,8 +47,62 @@ def main():
 #            df2.iloc[i,-sng_dim:] = df_sng.loc[gid,:].values
 #    df2 = df2.dropna(how='any')
 #    bs = df2.iloc[:,-sng_dim:].values
-#    fingerprinting.fingerprint_biplot(bs, fp_groups=df2.loc[:,'log_mw'])
+#    fingerprint_biplot(bs, fp_groups=df2.loc[:,'log_mw'])
 #    evaluate_global_separation(bs, df2.loc[:,'EC'], plot=True)
+    
+def merge_multiple_inhibitors(df,bs):
+    ''' Re-labels EC# of inhibitors that inhibit muliple ECs as "multiple" '''
+    unique_smiles = set(); multiple_ec_smiles = set()
+    for entry in df.index: # identify multiple EC inhibitors
+        smiles = df.loc[entry,'SMILES']
+        if smiles in unique_smiles: # multiple EC inhibitor
+            multiple_ec_smiles.add(smiles)
+        unique_smiles.add(smiles)
+    counted_smiles = set(); duplicate_instances = []; unique_indices = []
+    for i,entry in enumerate(df.index): # update EC field to say multiple
+        smiles = df.loc[entry,'SMILES']
+        if smiles in multiple_ec_smiles:
+            df.loc[entry,'EC'] = 'multiple'
+            if smiles in counted_smiles: # duplicate entry
+                duplicate_instances.append(entry)
+            else: # non-duplicate entry
+                unique_indices.append(i)
+            counted_smiles.add(smiles)
+        else:
+            unique_indices.append(i)
+    dfm = df.drop(duplicate_instances)
+    bsm = bs[np.array(unique_indices),:]
+    print(dfm.shape, bsm.shape)
+    return dfm,bsm
+        
+    
+def blacklist(df, bs):
+    ''' Remove metabolites if they meet any of the criteria:
+        - Is inorganic (check by looking for carbon) 
+        - Is variable (check by looking for * in SMILES string) '''
+    remove = []; remove_indices = []
+    for i, entry in enumerate(df.index):
+        smiles = df.loc[entry,'SMILES']
+        if '*' in smiles:
+            remove.append(entry)
+            remove_indices.append(i)
+            print('Removed (variable):', smiles)
+        else:
+            carbon = fingerprinting.mol_to_smiles("C")
+            mol = fingerprinting.mol_to_smiles(smiles)
+            n_carbon = len(mol.GetSubstructMatches(carbon))
+            if n_carbon == 0:
+                remove.append(entry)
+                remove_indices.append(i)
+                print('Removed (inorganic):', smiles)
+
+    n = df.shape[0]
+    remove_indices = np.array(remove_indices)
+    keep_indices = np.ones(n)
+    np.put(keep_indices, remove_indices, 0)
+    df_filt = df.drop(labels=remove)
+    bs_filt = bs[keep_indices.astype(bool),:]
+    return df_filt, bs_filt
     
 def evaluate_local_separation(fps, ecs, plot=False):
     ''' Evaluate local separation by computing the ratio of the distance 
@@ -83,6 +141,38 @@ def evaluate_global_separation(fps, ecs, plot=False):
     if plot: # generate silhouette plot
         ax = plot_silhouette(silhouette_values, ecs)
     return silhouette_values
+
+
+def fingerprint_biplot(fps, fp_groups=None, fp_labels=None):
+    ''' 
+    Visualize binary fingerprints in a biplot. Computes pairwise Jaccard 
+    distances between each element, applies PCA, and projects the results 
+    onto the top 2 PCs. Optionally, providing group labels will color-code
+    the biplot based on group (such as for inhibitors, corresponding EC) 
+    '''
+    data = fingerprinting.fingerprint_jaccard_distances(fps, None, None)
+    pca = sklearn.decomposition.PCA()
+    top2 = pca.fit_transform(data)[:,:2]
+    top2var = pca.explained_variance_ratio_[:2]
+    X = top2[:,0]; Y = top2[:,1]
+    
+    if fp_groups is None:
+        df = pd.DataFrame(data=[X,Y], index=['PC1','PC2']).T
+        sp = sns.scatterplot(data=df, x='PC1', y='PC2')
+    else:             
+        df = pd.DataFrame(data=[X,Y,fp_groups], index=['PC1','PC2','group']).T
+        sp = sns.scatterplot(data=df, x='PC1', y='PC2', hue='group')
+        
+    if not fp_labels is None:
+        df.loc[:,'label'] = fp_labels
+        xdiff = max(X) - min(X)
+        for line in range(0,df.shape[0]):
+            sp.text(df.loc[line,'PC1']+xdiff/100, df.loc[line,'PC2'], df.loc[line,'label'], 
+                    horizontalalignment='left', size='small', color='black')
+        
+    plt.xlabel('PC1 (' + str(round(100*top2var[0],1)) + '%)')
+    plt.ylabel('PC2 (' + str(round(100*top2var[1],1)) + '%)')
+    plt.tight_layout()
 
 
 def plot_silhouette(silhouette_values, labels, group_label='EC Number', 

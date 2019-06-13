@@ -114,38 +114,6 @@ def fingerprint_jaccard_distances(fps, fp_labels=None, visualize=None):
     elif visualize == 'heatmap': # or a heatmap
         sns.heatmap(df_dists, vmin=0.0, vmax=1.0)
     return distances
-
-
-def fingerprint_biplot(fps, fp_groups=None, fp_labels=None):
-    ''' 
-    Visualize binary fingerprints in a biplot. Computes pairwise Jaccard 
-    distances between each element, applies PCA, and projects the results 
-    onto the top 2 PCs. Optionally, providing group labels will color-code
-    the biplot based on group (such as for inhibitors, corresponding EC) 
-    '''
-    data = fingerprint_jaccard_distances(fps, None, None)
-    pca = sklearn.decomposition.PCA()
-    top2 = pca.fit_transform(data)[:,:2]
-    top2var = pca.explained_variance_ratio_[:2]
-    X = top2[:,0]; Y = top2[:,1]
-    
-    if fp_groups is None:
-        df = pd.DataFrame(data=[X,Y], index=['PC1','PC2']).T
-        sp = sns.scatterplot(data=df, x='PC1', y='PC2')
-    else:             
-        df = pd.DataFrame(data=[X,Y,fp_groups], index=['PC1','PC2','group']).T
-        sp = sns.scatterplot(data=df, x='PC1', y='PC2', hue='group')
-        
-    if not fp_labels is None:
-        df.loc[:,'label'] = fp_labels
-        xdiff = max(X) - min(X)
-        for line in range(0,df.shape[0]):
-            sp.text(df.loc[line,'PC1']+xdiff/100, df.loc[line,'PC2'], df.loc[line,'label'], 
-                    horizontalalignment='left', size='small', color='black')
-        
-    plt.xlabel('PC1 (' + str(round(100*top2var[0],1)) + '%)')
-    plt.ylabel('PC2 (' + str(round(100*top2var[1],1)) + '%)')
-    plt.tight_layout()
     
 
 def mol_to_smiles(smiles_str):
