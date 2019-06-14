@@ -18,22 +18,27 @@ from rdkit.Chem.Descriptors import MolWt
 def main():
     ''' Load structures and compute MWs '''
     df = pd.read_csv('../data/inhibitor_merged.tsv', delimiter='\t')
-    df = blacklist(df)
-    df = merge_multiple_inhibitors(df)
     sm = df.loc[:,'SMILES'].values.tolist()
     mw = list(map(lambda s: MolWt(fingerprinting.mol_to_smiles(s)), sm))
     df.loc[:,'mw'] = mw
     df.loc[:,'log_mw'] = np.log(np.array(mw))
+    df = blacklist(df)
+    df = merge_multiple_inhibitors(df)
+    sm = df.loc[:,'SMILES'].values.tolist()
+    print(df.shape)
     
     ''' Compare structures '''
-#    bs = fingerprinting.fingerprint_from_smiles(sm, num_bits=64, max_path=9, method='topological')
-#    bs = fingerprinting.fingerprint_from_smiles(sm, method='circular')
-#    fingerprint_biplot(bs, fp_groups=df.loc[:,'EC'])
-#    evaluate_global_separation(bs, dfm.loc[:,'EC'], plot=True)
-#    print(evaluate_local_separation(bs, df.loc[:,'EC'], plot=True))
+    bs = fingerprinting.fingerprint_from_smiles(sm, method='circular', radius=2, num_bits=2048)
+    evaluate_local_separation(bs, df.loc[:,'EC'], plot=True, title='Circular, radius=2, num_bits=2048')
+    bs = fingerprinting.fingerprint_from_smiles(sm, method='circular', radius=4, num_bits=4096)
+    evaluate_local_separation(bs, df.loc[:,'EC'], plot=True, title='Circular, radius=4, num_bits=4096')
    
     ''' Grid search parameters for topological/circular '''
-    grid_search_parameters(df, mode='circular', agg='median')
+#    grid_search_parameters(df, mode='topological', agg='mean')
+#    grid_search_parameters(df, mode='circular', agg='mean')
+#    grid_search_parameters(df, mode='topological', agg='median')
+#    grid_search_parameters(df, mode='circular', agg='median')
+#    generate_figures_grid_search()
     
     ''' Match SNG output existing tables '''
 #    df_sng = pd.read_csv('../data/scaffold_fingerprints_inhibitors.csv', index_col=0).T
@@ -43,16 +48,47 @@ def main():
 #    for col in df_sng.columns:
 #        df2[col] = np.nan
 #    for i in range(df2.shape[0]): # this loop is really slow 
-#        gid = df2.loc[i,'group_id']
+#        gid = df2.iloc[i,2]
 #        if gid in df_sng.index:
 #            df2.iloc[i,-sng_dim:] = df_sng.loc[gid,:].values
-#    df2 = df2.dropna(how='any')
-#    bs = df2.iloc[:,-sng_dim:].values
-#    fingerprint_biplot(bs, fp_groups=df2.loc[:,'log_mw'])
-#    evaluate_global_separation(bs, df2.loc[:,'EC'], plot=True)
     
-def grid_search_parameters(df, mode, bit_range=[6,7,8,9,10,11,12,13],
-                           radii=[1,2,3,4,5], path_range=[5,6,7,8,9,10],
+    ''' Approach 1: Ignore un-fingerprinted cases '''
+#    df2 = df2.dropna(how='any')
+    ''' Approach 2: Assign un-fingerprinted cases all 0s '''
+#    df2 = df2.fillna(0)
+#    
+#    bs = df2.iloc[:,-sng_dim:].values
+#    print(df2.shape, bs.shape, df.shape)
+#    fingerprint_biplot(bs, fp_groups=df2.loc[:,'EC'])
+#    scs = evaluate_global_separation(bs, df2.loc[:,'EC'], plot=True)
+#    lscs = evaluate_local_separation(bs, df2.loc[:,'EC'], plot=True)
+#    print(np.median(scs), np.median(lscs))
+    
+def generate_figures_grid_search():
+    ''' Generates figures for grid search optimization '''
+    fig, axs = plt.subplots(2,2,figsize=(6,5))
+    df_top1 = pd.read_csv('../data/params/topological_perf_global_medians.csv', index_col=0)
+    df_top2 = pd.read_csv('../data/params/topological_perf_local_medians.csv', index_col=0)
+    df_circ1 = pd.read_csv('../data/params/circular_perf_global_medians.csv', index_col=0)
+    df_circ2 = pd.read_csv('../data/params/circular_perf_local_medians.csv', index_col=0)
+    
+    sns.heatmap(df_top1, ax=axs[0,0], center=0)
+    sns.heatmap(df_top2, ax=axs[1,0], center=0)
+    sns.heatmap(df_circ1, ax=axs[0,1], center=0)
+    sns.heatmap(df_circ2, ax=axs[1,1], center=0)
+    axs[0,0].set_ylabel('num_bits')
+    axs[1,0].set_ylabel('num_bits')
+    axs[1,0].set_xlabel('max_path')
+    axs[1,1].set_xlabel('radius')
+    axs[0,0].set_title('Topological, Avg. SC')
+    axs[1,0].set_title('Topological, Avg. Local SC')
+    axs[0,1].set_title('Circular, Avg. SC')
+    axs[1,1].set_title('Circular, Avg. Local SC')
+    plt.tight_layout()
+    
+    
+def grid_search_parameters(df, mode, bit_range=[6,7,8,9,10,11,12,13,14],
+                           radii=[1,2,3,4,5,6], path_range=[5,6,7,8,9,10],
                            agg='median', output='../data/params/'):
     ''' Computes average and global silhouette-like metrics for 
         different parameterizations of the topological or circular
@@ -130,10 +166,12 @@ def merge_multiple_inhibitors(df, bs=None):
 def blacklist(df, bs=None):
     ''' Remove metabolites if they meet any of the criteria:
         - Is inorganic (check by looking for carbon) 
-        - Is variable (check by looking for * in SMILES string) '''
+        - Is variable (check by looking for * in SMILES string)
+        - Is very small (check if MW < 100) '''
     remove = []; remove_indices = []
     for i, entry in enumerate(df.index):
         smiles = df.loc[entry,'SMILES']
+        mw = df.loc[entry,'mw']
         if '*' in smiles:
             remove.append(entry)
             remove_indices.append(i)
@@ -146,6 +184,10 @@ def blacklist(df, bs=None):
                 remove.append(entry)
                 remove_indices.append(i)
                 print('Removed (inorganic):', smiles)
+            elif mw < 100:
+                remove.append(entry)
+                remove_indices.append(i)
+                print('Removed (MW < 100):', smiles)
     n = df.shape[0]
     remove_indices = np.array(remove_indices)
     keep_indices = np.ones(n)
@@ -157,7 +199,7 @@ def blacklist(df, bs=None):
         bs_filt = bs[keep_indices.astype(bool),:]
         return df_filt, bs_filt
     
-def evaluate_local_separation(fps, ecs, plot=False):
+def evaluate_local_separation(fps, ecs, plot=False, title=None):
     ''' Evaluate local separation by computing the ratio of the distance 
         to the nearest point in the same EC# vs. nearest point in a
         different EC#. '''
@@ -184,22 +226,38 @@ def evaluate_local_separation(fps, ecs, plot=False):
                 co = nearest_diff - nearest_same / max_diff
             cohesiveness[i] = co
     
-    if plot: # generate silhouette plot
-        ax = plot_silhouette(cohesiveness, ecs, metric_label='Local cohesiveness')
+    if plot: # generate silhouette plot and biplot
+        fig, axs = plt.subplots(1,2,figsize=(6,3.5))
+        plot_silhouette(cohesiveness, ecs, metric_label='Local SC', ax=axs[0])
+        fingerprint_biplot(fps, fp_groups=ecs, ax=axs[1], legend=False)
+        axs[0].set_title('Local SC Distribution')
+        axs[1].set_title('Fingerprint Projection')
+        plt.tight_layout()
+        if not title is None:
+            fig.suptitle(title)
+            plt.subplots_adjust(top=0.85)
     return cohesiveness
     
-def evaluate_global_separation(fps, ecs, plot=False):
+def evaluate_global_separation(fps, ecs, plot=False, title=None):
     ''' Evaluate global separating by computing silhouette coefficients, 
         treating EC#s as clusters '''
     distances = fingerprinting.fingerprint_jaccard_distances(fps)
     silhouette_values = sklearn.metrics.silhouette_samples(distances, ecs, metric='precomputed')
     silhouette_values[np.isnan(silhouette_values)] = -1.0 # replace nan with worst score
     if plot: # generate silhouette plot
-        ax = plot_silhouette(silhouette_values, ecs)
+        fig, axs = plt.subplots(1,2,figsize=(6,3.5))
+        plot_silhouette(silhouette_values, ecs, ax=axs[0])
+        fingerprint_biplot(fps, fp_groups=ecs, ax=axs[1], legend=False)
+        axs[0].set_title('SC Distribution')
+        axs[1].set_title('Fingerprint Projection')
+        plt.tight_layout()
+        if not title is None:
+            fig.suptitle(title)
+            plt.subplots_adjust(top=0.85)
     return silhouette_values
 
 
-def fingerprint_biplot(fps, fp_groups=None, fp_labels=None):
+def fingerprint_biplot(fps, fp_groups=None, fp_labels=None, ax=None, legend=True):
     ''' 
     Visualize binary fingerprints in a biplot. Computes pairwise Jaccard 
     distances between each element, applies PCA, and projects the results 
@@ -212,33 +270,38 @@ def fingerprint_biplot(fps, fp_groups=None, fp_labels=None):
     top2var = pca.explained_variance_ratio_[:2]
     X = top2[:,0]; Y = top2[:,1]
     
+    if ax == None:
+        fig, ax = plt.subplots(1,1)
     if fp_groups is None:
         df = pd.DataFrame(data=[X,Y], index=['PC1','PC2']).T
-        sp = sns.scatterplot(data=df, x='PC1', y='PC2')
+        ax = sns.scatterplot(data=df, x='PC1', y='PC2', ax=ax)
     else:             
         df = pd.DataFrame(data=[X,Y,fp_groups], index=['PC1','PC2','group']).T
-        sp = sns.scatterplot(data=df, x='PC1', y='PC2', hue='group')
+        df = df.sort_values(by='group')
+        ax = sns.scatterplot(data=df, x='PC1', y='PC2', hue='group', ax=ax, 
+                             palette='nipy_spectral', legend=legend)
         
     if not fp_labels is None:
         df.loc[:,'label'] = fp_labels
         xdiff = max(X) - min(X)
         for line in range(0,df.shape[0]):
-            sp.text(df.loc[line,'PC1']+xdiff/100, df.loc[line,'PC2'], df.loc[line,'label'], 
+            ax.text(df.loc[line,'PC1']+xdiff/100, df.loc[line,'PC2'], df.loc[line,'label'], 
                     horizontalalignment='left', size='small', color='black')
         
     plt.xlabel('PC1 (' + str(round(100*top2var[0],1)) + '%)')
     plt.ylabel('PC2 (' + str(round(100*top2var[1],1)) + '%)')
     plt.tight_layout()
-
+    return ax
 
 def plot_silhouette(silhouette_values, labels, group_label='EC Number', 
-                    metric_label="Silhouette Coefficient (SC)"):
+                    metric_label="Silhouette Coefficient (SC)", ax=None):
     # https://scikit-learn.org/stable/auto_examples/cluster/plot_kmeans_silhouette_analysis.html
     le = sklearn.preprocessing.LabelEncoder(); le.fit(labels)
     ec_labels = le.transform(labels)
     unique_ecs = list(le.classes_)
     
-    fig, ax = plt.subplots(1,1)
+    if ax is None:
+        fig, ax = plt.subplots(1,1)
     y_shift = 10; y_lower = y_shift
     for i in range(len(unique_ecs)):
         ith_cluster_silhouette_values = silhouette_values[ec_labels==i]
@@ -249,7 +312,7 @@ def plot_silhouette(silhouette_values, labels, group_label='EC Number',
         ax.fill_betweenx(np.arange(y_lower, y_upper),
                           0, ith_cluster_silhouette_values,
                           facecolor=color, edgecolor=color, alpha=0.7)
-        ax.text(-0.05, y_lower + 0.5 * size_cluster_i, unique_ecs[i])
+        ax.text(0.05, y_lower + 0.5 * size_cluster_i, unique_ecs[i])
         y_lower = y_upper + y_shift 
     
     ax.set_xlabel(metric_label)
