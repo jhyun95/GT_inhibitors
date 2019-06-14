@@ -2,6 +2,7 @@ import argparse
 import pandas as pd
 
 def jaccard_coefficient(search_compound, true_compound, search_compounds, true_compounds):
+    """ Generate jaccard similarity coefficient between two compounds """
     tempA = search_compounds.loc[search_compounds[search_compound] == 1]
     tempA_index = tempA.index
     tempB = true_compounds.loc[true_compounds[true_compound] == 1]
@@ -10,6 +11,7 @@ def jaccard_coefficient(search_compound, true_compound, search_compounds, true_c
     return float(similarity)
 
 def similarity_search(search_compounds, true_compounds):
+    """ Parallelize generation of jaccard similarity matrix """
     import multiprocessing as mp
     inputs = [(i, j, search_compounds, true_compounds) for i in search_compounds.columns for j in true_compounds.columns]
     pool = mp.Pool(mp.cpu_count())
@@ -38,6 +40,7 @@ def similarity_search(search_compounds, true_compounds):
     return matched_compounds, sorted_candidate_compounds
 
 if __name__ == '__main__':
+    """ Load two SMILES matrices and generate jaccard similarity coefficients between entries  """
     parser = argparse.ArgumentParser(description='Similarity search between two fingerprint matrices.')
     parser.add_argument('-s', type=str, help='path to search set')
     parser.add_argument('-t', type=str, help='path to true set')

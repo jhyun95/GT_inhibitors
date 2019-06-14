@@ -4,6 +4,7 @@ import re
 import pandas as pd
 
 def extract_ECs(EC_list_file):
+    """ Extract GT EC numbers from file """
     relevant_ECs = {}
     with open(EC_list_file, 'r+') as f:
         for line in f:
@@ -11,6 +12,7 @@ def extract_ECs(EC_list_file):
             relevant_ECs[enzyme] = EC
     return relevant_ECs
 def search_Inhibitors_and_Activators(EC):
+    """ BRENDA query """
     endpointURL = "https://www.brenda-enzymes.org/soap/brenda_server.php"
     password = hashlib.sha256("PASSWORD").hexdigest()
     parameters = "EMAIL,"+password+",ecNumber*"+EC
@@ -22,6 +24,7 @@ def search_Inhibitors_and_Activators(EC):
     return inhibitors, activators
 
 if __name__ == '__main__':
+    """ Load GT EC numbers, query BRENDA database for inhibitor ligand group IDs """
     ECs = extract_ECs('../data/GT_ECs.txt')
     d = {}
     g = {}

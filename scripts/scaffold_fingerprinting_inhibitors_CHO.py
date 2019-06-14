@@ -3,6 +3,7 @@ import subprocess
 import networkx as nx
 
 if __name__ == '__main__':
+    """ Load CHO metabolites and inhibitor SMILES, genertate underlying scaffold network, and fingerprint CHO metabolites and inhibitors """
     inhibitor_smiles = pd.read_csv('../data/inhibitor_smiles.tsv', sep='\t')
     inhibitor_smiles_processed = inhibitor_smiles[['SMILES', 'group_id']]
     inhibitor_smiles_processed.columns = ['SMILES', 'compound']

@@ -3,6 +3,7 @@ import subprocess
 import networkx as nx
 
 if __name__ == '__main__':
+    """ Load inhibitor SMILES, genertate underlying scaffold network, and fingerprint inhibitors """
     inhibitor_smiles = pd.read_csv('../data/inhibitor_smiles.tsv', sep='\t')
     inhibitor_smiles_processed = inhibitor_smiles[['SMILES', 'group_id']]
     inhibitor_smiles_processed.to_csv('../data/temp.smi', sep='\t', header=False, index=False)

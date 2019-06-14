@@ -3,6 +3,7 @@ cs = ChemSpider('<YOUR-API-KEY>')
 import pandas as pd
 
 def get_SMILES(compounds):
+    """ Query ChemSpider for SMILES """
     smiles = []
     for compound in compounds:
         try:
@@ -14,6 +15,7 @@ def get_SMILES(compounds):
     return smiles
 
 if __name__ == '__main__':
+    """ Load GT inhibitors/activators and query ChemSpider for SMILES """
     inhib_df = pd.read_csv('../data/inhibitors.csv')
     activ_df = pd.read_csv('../data/activators.csv')
     inhib_smiles_df = pd.DataFrame(columns=inhib_df.columns)

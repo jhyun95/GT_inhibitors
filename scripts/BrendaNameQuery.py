@@ -5,6 +5,7 @@ import pandas as pd
 import pickle
 
 def extract_ECs(EC_list_file):
+    """ Extract GT EC numbers from file """
     relevant_ECs = {}
     with open(EC_list_file, 'r+') as f:
         for line in f:
@@ -12,6 +13,7 @@ def extract_ECs(EC_list_file):
             relevant_ECs[enzyme] = EC
     return relevant_ECs
 def search_Inhibitor_names(EC):
+    """ BRENDA query """
     endpointURL = "https://www.brenda-enzymes.org/soap/brenda_server.php"
     password = hashlib.sha256("Asdf1234").hexdigest()
     parameters = "jtsorren@eng.ucsd.edu,"+password+",ecNumber*"+EC
@@ -23,6 +25,7 @@ def search_Inhibitor_names(EC):
     return d
 
 if __name__ == '__main__':
+    """ Load GT EC numbers, query BRENDA database for inhibitor names """
     inhib_name_df = pd.DataFrame(columns=['EC', 'group_id', 'name'])
     ECs = extract_ECs('../data/GT_ECs.txt')
     i = 0
