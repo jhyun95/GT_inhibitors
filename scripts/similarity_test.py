@@ -40,7 +40,7 @@ def similarity_search(search_compounds, true_compounds):
     return matched_compounds, sorted_candidate_compounds
 
 if __name__ == '__main__':
-    """ Load two SMILES matrices, generate jaccard similarity coefficients between entries, and format output files  """
+    """ Load two SMILES fingerprint matrices, generate jaccard similarity coefficients between entries, and format output files  """
     parser = argparse.ArgumentParser(description='Similarity search between two fingerprint matrices.')
     parser.add_argument('-s', type=str, help='path to search set')
     parser.add_argument('-t', type=str, help='path to true set')
